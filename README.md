@@ -2,21 +2,25 @@
 
 Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 
-## Ferramentas utilizadas
-
-## Conteúdo programático
-
-### Aula 1 (Introdução a linguagem Dart e Configuração do ambiente)
-
-Você pode montar seu ambiente de desenvolvimento e configurar seu emulador/dispositivo seguindo as instruções em 
-https://flutter.io/setup/ e https://developer.android.com/studio/run/managing-avds.html (conteúdo em inglês).
+## Referências
 
 * Dart (https://dart.dev/guides/language/language-tour)[https://dart.dev/guides/language/language-tour]
 * Curso gratuíto de Dart (https://www.udemy.com/curso-de-dart-lang-completo/)[https://www.udemy.com/curso-de-dart-lang-completo/]
+* Curso de Flutter (Udacity): (https://www.udacity.com/course/build-native-mobile-apps-with-flutter--ud905)[https://www.udacity.com/course/build-native-mobile-apps-with-flutter--ud905]
 * Documentação: (https://docs.flutter.io/)[https://docs.flutter.io/]
+* Pacotes para desenvolvedores: (https://pub.dev/packages/)[https://pub.dev/packages/]
 * Github: (https://github.com/flutter/flutter)[https://github.com/flutter/flutter]
 * StackOverflow: (https://stackoverflow.com/questions/tagged/flutter)[https://stackoverflow.com/questions/tagged/flutter]
 * Gitter: (https://gitter.im/flutter/flutter)[https://gitter.im/flutter/flutter]
+
+## Conteúdo programático
+
+### Aula 1 - Introdução a linguagem Dart e Configuração do ambiente
+
+* Configuração do ambiente: (https://flutter.io/setup/)[https://flutter.io/setup/]
+* Configuração do emulador: (https://developer.android.com/studio/run/managing-avds.html)[https://developer.android.com/studio/run/managing-avds.html]
+
+### Aula 2 - 
 
 ## Licença
 
