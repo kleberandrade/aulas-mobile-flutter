@@ -14,6 +14,7 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 ### Aula 2 - 
 
 * Catálogo de Widgets: https://flutter.dev/docs/development/ui/widgets
+* Exercício: criar um currículo: colocar uma foto, nome, email, telefone, breve descrição pessoal das suas habilidades
 
 ## Links Úteis
 
@@ -21,6 +22,8 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 * Codacy - Qualidade de código: https://codacy.com
 * Codemagic - Integração e entrega contínuas para projetos Flutter: https://codemagic.io/start/
 * Quicktype - Conversor de JSON em código: https://app.quicktype.io
+* Gerador de icones - https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html
+* Gerador de banners para Google Play - https://www.norio.be/android-feature-graphic-generator/
 
 ## Materiais Extra
 
