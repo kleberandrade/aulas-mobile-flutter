@@ -22,6 +22,8 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 
 ### Aula 2 - 
 
+* Catálogo de Widgets: https://flutter.dev/docs/development/ui/widgets
+
 ## Licença
 
     Copyright 2019 Kleber de Oliveira Andrade
