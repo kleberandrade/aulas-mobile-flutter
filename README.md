@@ -15,7 +15,14 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 
 * Catálogo de Widgets: https://flutter.dev/docs/development/ui/widgets
 
-## Materiais extras
+## Links Úteis
+
+* Gihub - Repositório de códigos: https://github.com/
+* Codacy - Qualidade de código: https://codacy.com
+* Codemagic - Integração e entrega contínuas para projetos Flutter: https://codemagic.io/start/
+* Quicktype - Conversor de JSON em código: https://app.quicktype.io
+
+## Materiais Extra
 
 * Documentação: https://docs.flutter.io/
 * Github: https://github.com/flutter/flutter
