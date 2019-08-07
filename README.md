@@ -6,15 +6,14 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 
 ### Aula 1 - Introdução a linguagem Dart e Configuração do ambiente
 
-* Configuração do ambiente: https://flutter.io/setup/
-* Configuração do emulador: https://developer.android.com/studio/run/managing-avds.html
-* Curso gratuíto de Dart: https://www.udemy.com/curso-de-dart-lang-completo/
-* Curso de Flutter (Udacity): https://www.udacity.com/course/build-native-mobile-apps-with-flutter--ud905
+* Introdução a linguagem de programação Dart: http://bit.ly/2KlP5iz
+* Programação Orientada à Objetos com Dart: http://bit.ly/31n2ufY
+* Código completo do roguelike em Dart: https://github.com/kleberandrade/roguelike-dart
 
 ### Aula 2 - 
 
+* Instalando e configurando Flutter no Windows: http://bit.ly/2Kw4Q5j
 * Catálogo de Widgets: https://flutter.dev/docs/development/ui/widgets
-* Exercício: criar um currículo: colocar uma foto, nome, email, telefone, breve descrição pessoal das suas habilidades
 
 ## Links Úteis
 
@@ -24,6 +23,15 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 * Quicktype - Conversor de JSON em código: https://app.quicktype.io
 * Gerador de icones - https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html
 * Gerador de banners para Google Play - https://www.norio.be/android-feature-graphic-generator/
+
+## Cursos gratuitos
+
+* Lógica de programação com Dart: https://balta.io/cursos/7183
+* Curso gratuíto de Dart: https://www.udemy.com/curso-de-dart-lang-completo/
+* Criando seu primeiro App com Flutter: https://balta.io/cursos/7184
+* Curso de Flutter (Udacity): https://www.udacity.com/course/build-native-mobile-apps-with-flutter--ud905
+* Dominando Layouts no Flutter: https://balta.io/cursos/7185
+* Criando Apps nativas escaláveis com Flutter, BloC e Provider: https://balta.io/cursos/7186
 
 ## Materiais Extra
 
