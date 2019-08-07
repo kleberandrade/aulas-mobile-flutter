@@ -4,16 +4,19 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 
 ## Conteúdo programático
 
-### Aula 1 - Introdução a linguagem Dart e Configuração do ambiente
+### Aula 1 - Introdução a linguagem de programação Dart
 
 * Introdução a linguagem de programação Dart: http://bit.ly/2KlP5iz
 * Programação Orientada à Objetos com Dart: http://bit.ly/31n2ufY
 * Código completo do roguelike em Dart: https://github.com/kleberandrade/roguelike-dart
 
-### Aula 2 - 
+### Aula 2 - Criando o primeiro applicativo com Flutter
 
 * Instalando e configurando Flutter no Windows: http://bit.ly/2Kw4Q5j
-* Catálogo de Widgets: https://flutter.dev/docs/development/ui/widgets
+* Criando meu primeiro aplicativo com Flutter: 
+* Desafio: 
+
+### Aula 3 - 
 
 ## Links Úteis
 
