@@ -9,12 +9,15 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 * Introdução a linguagem de programação Dart: http://bit.ly/2KlP5iz
 * Programação Orientada à Objetos com Dart: http://bit.ly/31n2ufY
 * Código completo do roguelike em Dart: https://github.com/kleberandrade/roguelike-dart
+* Lógica de programação com Dart: https://balta.io/cursos/7183
+* Curso gratuíto de Dart: https://www.udemy.com/curso-de-dart-lang-completo/
 
-### Aula 2 - Criando o primeiro applicativo com Flutter
+### Aula 2 - Criando o primeiro applicativo com Flutter (Calculadora de IMC)
 
 * Instalando e configurando Flutter no Windows: http://bit.ly/2Kw4Q5j
-* Criando meu primeiro aplicativo com Flutter: 
+* Criando meu primeiro aplicativo com Flutter: Em breve (ainda esta semana)
 * Código completo da calculadora de IMC: https://github.com/kleberandrade/calculadora-imc-aulas-flutter
+* Criando seu primeiro App com Flutter: https://balta.io/cursos/7184
 
 ### Aula 3 - 
 
@@ -29,9 +32,6 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 
 ## Cursos gratuitos
 
-* Lógica de programação com Dart: https://balta.io/cursos/7183
-* Curso gratuíto de Dart: https://www.udemy.com/curso-de-dart-lang-completo/
-* Criando seu primeiro App com Flutter: https://balta.io/cursos/7184
 * Curso de Flutter (Udacity): https://www.udacity.com/course/build-native-mobile-apps-with-flutter--ud905
 * Dominando Layouts no Flutter: https://balta.io/cursos/7185
 * Criando Apps nativas escaláveis com Flutter, BloC e Provider: https://balta.io/cursos/7186
