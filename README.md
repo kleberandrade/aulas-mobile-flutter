@@ -14,7 +14,7 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 
 * Instalando e configurando Flutter no Windows: http://bit.ly/2Kw4Q5j
 * Criando meu primeiro aplicativo com Flutter: 
-* Desafio: 
+* Código completo da calculadora de IMC: https://github.com/kleberandrade/calculadora-imc-aulas-flutter
 
 ### Aula 3 - 
 
