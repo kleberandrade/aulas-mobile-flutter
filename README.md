@@ -22,8 +22,7 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 ### Aula 3 - Criando um aplicativo para marcar pontos
 
 -   Criando um marcador de truco: 
--   Código completo do marcador de truco:
--   Entendendo mais sobre preferências compartilhadas
+-   Código completo do marcador de truco: https://github.com/kleberandrade/marcador-truco-aulas-flutter
 -   Curso de Flutter (Udacity): https://www.udacity.com/course/build-native-mobile-apps-with-flutter--ud905
 
 ### Aula 4 - Criando uma lista de tarefas
