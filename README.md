@@ -11,6 +11,7 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 -   Código completo do roguelike em Dart: https://github.com/kleberandrade/roguelike-dart
 -   Curso: Lógica de programação com Dart: https://balta.io/cursos/7183
 -   Curso: Linguagem de Programação Dart: https://www.udemy.com/curso-de-dart-lang-completo/
+-   Curso: Dart basics: https://www.raywenderlich.com/4482551-dart-basics
 
 ### Estudo de caso 2 - Criando o primeiro applicativo com Flutter (Calculadora de IMC)
 
