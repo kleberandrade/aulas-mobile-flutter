@@ -26,18 +26,18 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 -   Código completo do marcador de truco: https://github.com/kleberandrade/marcador-truco-aulas-flutter
 -   Curso: Flutter (Udacity): https://www.udacity.com/course/build-native-mobile-apps-with-flutter--ud905
 
-### Estudo de caso 4 - Consumindo uma API do Pokemon
-
--   Tutorial:
--   Código completo
-
-### Estudo de caso 5 - Criando uma lista de tarefas
+### Estudo de caso 4 - Criando uma lista de tarefas
 
 -   Tutorial: Criando uma lista de tarefas: 
 -   Código completo da lista de tarefas:
 -   Plugin: SharedPreferences: https://pub.dev/packages/shared_preferences
 -   Entendendo mais sobre SharedPreferences: https://www.youtube.com/watch?v=uyz0HrGUamc
 -   Dominando Layouts no Flutter: https://balta.io/cursos/7185
+
+### Estudo de caso 5 - Consumindo uma API de Filmes
+
+-   Tutorial:
+-   Código completo
 
 ### Estudo de caso 6 - Emprestando objetos
 
