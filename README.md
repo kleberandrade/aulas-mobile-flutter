@@ -30,8 +30,6 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 
 -   Tutorial: Criando uma lista de tarefas: 
 -   Código completo da lista de tarefas:
--   Plugin: SharedPreferences: https://pub.dev/packages/shared_preferences
--   Entendendo mais sobre SharedPreferences: https://www.youtube.com/watch?v=uyz0HrGUamc
 -   Dominando Layouts no Flutter: https://balta.io/cursos/7185
 
 ### Estudo de caso 5 - Consumindo uma API de Filmes
