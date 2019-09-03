@@ -28,8 +28,8 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 
 ### Estudo de caso 4 - Criando uma lista de tarefas
 
--   Tutorial: Criando uma lista de tarefas: 
--   Código completo da lista de tarefas:
+-   Tutorial: Criando uma lista de tarefas: http://bit.ly/2jXXU7Q
+-   Código completo da lista de tarefas: https://github.com/kleberandrade/todo-list-aulas-flutter
 -   Dominando Layouts no Flutter: https://balta.io/cursos/7185
 
 ### Estudo de caso 5 - Consumindo uma API de Filmes
