@@ -32,12 +32,17 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 -   Código completo da lista de tarefas: https://github.com/kleberandrade/todo-list-aulas-flutter
 -   Dominando Layouts no Flutter: https://balta.io/cursos/7185
 
-### Estudo de caso 5 - Consumindo uma API de Filmes
+### Estudo de caso 5 - Consumindo API (Consultas de CEP)
 
 -   Tutorial:
 -   Código completo
 
-### Estudo de caso 6 - Emprestando objetos
+### Estudo de caso 6 - Criando um Chatbot com DialogFlow
+
+-   Tutorial:
+-   Código completo
+
+### Estudo de caso 7 - Emprestando objetos
 
 -   Tutorial:
 -   Código completo
@@ -45,7 +50,12 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 -   Plugin: Acessando os seus contatos:
 -   Plugin: Fotos e câmera: 
 
-### Estudo de caso 7 - Criando um Chat com Firebase
+### Estudo de caso 8 - Criando um Chat com Firebase
+
+-   Tutorial:
+-   Código completo
+
+### Estudo de caso 9 - 
 
 -   Tutorial:
 -   Código completo
