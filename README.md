@@ -28,8 +28,8 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 
 ### Estudo de caso 4 - Consumindo API (Consultas de CEP)
 
--   Tutorial:
--   Código completo
+-   Tutorial: http://bit.ly/2kcGFQh
+-   Código completo: https://github.com/kleberandrade/search-cep-aulas-flutter
 
 ### Estudo de caso 5 - Criando um Chatbot com DialogFlow
 
