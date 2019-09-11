@@ -6,8 +6,8 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 
 ### Estudo de caso 1 - Introdução a linguagem de programação Dart
 
--   Tutorial: Introdução a linguagem de programação Dart: http://bit.ly/2KlP5iz
--   Tutorial: Programação Orientada à Objetos com Dart: http://bit.ly/31n2ufY
+-   Tutorial - Introdução a linguagem de programação Dart: http://bit.ly/2KlP5iz
+-   Tutorial - Programação Orientada à Objetos com Dart: http://bit.ly/31n2ufY
 -   Código completo do roguelike em Dart: https://github.com/kleberandrade/roguelike-dart
 -   Curso: Lógica de programação com Dart: https://balta.io/cursos/7183
 -   Curso: Linguagem de Programação Dart: https://www.udemy.com/curso-de-dart-lang-completo/
@@ -15,30 +15,30 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 
 ### Estudo de caso 2 - Criando o primeiro applicativo com Flutter (Calculadora de IMC)
 
--   Tutorial: Instalando e configurando Flutter no Windows: http://bit.ly/2Kw4Q5j
--   Tutorial: Criando meu primeiro aplicativo com Flutter: http://bit.ly/2Zry7Uh
+-   Tutorial - Instalando e configurando Flutter no Windows: http://bit.ly/2Kw4Q5j
+-   Tutorial - Criando meu primeiro aplicativo com Flutter: http://bit.ly/2Zry7Uh
 -   Código completo da calculadora de IMC: https://github.com/kleberandrade/calculadora-imc-aulas-flutter
 -   Curso: Criando seu primeiro App com Flutter: https://balta.io/cursos/7184
 
 ### Estudo de caso 3 - Criando um aplicativo para marcar pontos
 
--   Tutorial: Criando um marcador de truco: http://bit.ly/2MDO6ww
+-   Tutorial - Criando um marcador de truco: http://bit.ly/2MDO6ww
 -   Código completo do marcador de truco: https://github.com/kleberandrade/marcador-truco-aulas-flutter
 -   Curso: Flutter (Udacity): https://www.udacity.com/course/build-native-mobile-apps-with-flutter--ud905
 
 ### Estudo de caso 4 - Consumindo API (Consultas de CEP)
 
--   Tutorial: http://bit.ly/2kcGFQh
+-   Tutorial - Consultando CEPs com Flutter: http://bit.ly/2kcGFQh
 -   Código completo: https://github.com/kleberandrade/search-cep-aulas-flutter
 
 ### Estudo de caso 5 - Criando um Chatbot com DialogFlow
 
--   Tutorial:
+-   Tutorial -
 -   Código completo
 
 ### Estudo de caso 6 - Criando uma lista de tarefas
 
--   Tutorial: Criando uma lista de tarefas: http://bit.ly/2jXXU7Q
+-   Tutorial - Criando uma lista de tarefas: http://bit.ly/2jXXU7Q
 -   Código completo da lista de tarefas: https://github.com/kleberandrade/todo-list-aulas-flutter
 -   Dominando Layouts no Flutter: https://balta.io/cursos/7185
 
