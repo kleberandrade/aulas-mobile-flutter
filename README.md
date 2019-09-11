@@ -26,21 +26,21 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 -   Código completo do marcador de truco: https://github.com/kleberandrade/marcador-truco-aulas-flutter
 -   Curso: Flutter (Udacity): https://www.udacity.com/course/build-native-mobile-apps-with-flutter--ud905
 
-### Estudo de caso 4 - Criando uma lista de tarefas
+### Estudo de caso 4 - Consumindo API (Consultas de CEP)
+
+-   Tutorial:
+-   Código completo
+
+### Estudo de caso 5 - Criando um Chatbot com DialogFlow
+
+-   Tutorial:
+-   Código completo
+
+### Estudo de caso 6 - Criando uma lista de tarefas
 
 -   Tutorial: Criando uma lista de tarefas: http://bit.ly/2jXXU7Q
 -   Código completo da lista de tarefas: https://github.com/kleberandrade/todo-list-aulas-flutter
 -   Dominando Layouts no Flutter: https://balta.io/cursos/7185
-
-### Estudo de caso 5 - Consumindo API (Consultas de CEP)
-
--   Tutorial:
--   Código completo
-
-### Estudo de caso 6 - Criando um Chatbot com DialogFlow
-
--   Tutorial:
--   Código completo
 
 ### Estudo de caso 7 - Emprestando objetos
 
@@ -55,7 +55,7 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 -   Tutorial:
 -   Código completo
 
-### Estudo de caso 9 - 
+### Estudo de caso 9 - Internet das Coisas (IoT)
 
 -   Tutorial:
 -   Código completo
