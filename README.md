@@ -9,22 +9,17 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 -   Tutorial - Introdução a linguagem de programação Dart: http://bit.ly/2KlP5iz
 -   Tutorial - Programação Orientada à Objetos com Dart: http://bit.ly/31n2ufY
 -   Código completo do roguelike em Dart: https://github.com/kleberandrade/roguelike-dart
--   Curso: Lógica de programação com Dart: https://balta.io/cursos/7183
--   Curso: Linguagem de Programação Dart: https://www.udemy.com/curso-de-dart-lang-completo/
--   Curso: Dart basics: https://www.raywenderlich.com/4482551-dart-basics
 
 ### Estudo de caso 2 - Criando o primeiro applicativo com Flutter (Calculadora de IMC)
 
 -   Tutorial - Instalando e configurando Flutter no Windows: http://bit.ly/2Kw4Q5j
 -   Tutorial - Criando meu primeiro aplicativo com Flutter: http://bit.ly/2Zry7Uh
 -   Código completo da calculadora de IMC: https://github.com/kleberandrade/calculadora-imc-aulas-flutter
--   Curso: Criando seu primeiro App com Flutter: https://balta.io/cursos/7184
 
 ### Estudo de caso 3 - Criando um aplicativo para marcar pontos
 
 -   Tutorial - Criando um marcador de truco: http://bit.ly/2MDO6ww
 -   Código completo do marcador de truco: https://github.com/kleberandrade/marcador-truco-aulas-flutter
--   Curso: Flutter (Udacity): https://www.udacity.com/course/build-native-mobile-apps-with-flutter--ud905
 
 ### Estudo de caso 4 - Consumindo API (Consultas de CEP)
 
@@ -40,7 +35,6 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 
 -   Tutorial - Criando uma lista de tarefas: http://bit.ly/2jXXU7Q
 -   Código completo da lista de tarefas: https://github.com/kleberandrade/todo-list-aulas-flutter
--   Dominando Layouts no Flutter: https://balta.io/cursos/7185
 
 ### Estudo de caso 7 - Emprestando objetos
 
@@ -60,18 +54,32 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 -   Tutorial:
 -   Código completo
 
+## Cursos gratuitos
+
+-   Lógica de programação com Dart: https://balta.io/cursos/7183
+-   Linguagem de Programação Dart: https://www.udemy.com/curso-de-dart-lang-completo/
+-   Dart basics: https://www.raywenderlich.com/4482551-dart-basics
+-   Criando seu primeiro App com Flutter: https://balta.io/cursos/7184
+-   Curso: Flutter (Udacity): https://www.udacity.com/course/build-native-mobile-apps-with-flutter--ud905
+-   Criando Apps nativas escaláveis com Flutter, BloC e Provider: https://balta.io/cursos/7186
+-   Dominando Layouts no Flutter: https://balta.io/cursos/7185
+-   Curso gratuito de Git e Github para iniciantes: https://www.portalgsti.com.br/cursos/curso-gratuito-git-github-iniciantes/
+
 ## Links Úteis
 
+-   DartPad - Editor online de dart: https://dartpad.dartlang.org
 -   Gihub - Repositório de códigos: https://github.com/
 -   Codacy - Qualidade de código: https://codacy.com
 -   Codemagic - Integração e entrega contínuas para projetos Flutter: https://codemagic.io/start/
 -   Quicktype - Conversor de JSON em código: https://app.quicktype.io
+-   Panache - Editor de temas online: https://rxlabz.github.io/panache/#/
 -   Gerador de icones - https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html
 -   Gerador de banners para Google Play - https://www.norio.be/android-feature-graphic-generator/
 
-## Cursos gratuitos
+## Vídeos interessantes
 
--   Criando Apps nativas escaláveis com Flutter, BloC e Provider: https://balta.io/cursos/7186
+-   [Code beautiful UI with Flutter and Material Design (Google I/O '18)](https://www.youtube.com/watch?v=hA0hrpR-o8U)
+-   [Beyond Mobile: Material Design, Adaptable UIs, and Flutter (Google I/O'19)](https://www.youtube.com/watch?v=YSULAJf6R6M)
 
 ## Materiais Extra
 
