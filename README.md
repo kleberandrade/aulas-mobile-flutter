@@ -40,16 +40,13 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 
 -   Tutorial:
 -   Código completo
--   Plugin: SQLite
--   Plugin: Acessando os seus contatos:
--   Plugin: Fotos e câmera: 
 
 ### Estudo de caso 8 - Criando um Chat com Firebase
 
 -   Tutorial:
 -   Código completo
 
-### Estudo de caso 9 - Internet das Coisas (IoT)
+### Estudo de caso 9 - Internet das Coisas com MQTT
 
 -   Tutorial:
 -   Código completo
