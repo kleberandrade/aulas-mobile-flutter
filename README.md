@@ -31,22 +31,27 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 -   Tutorial -
 -   Código completo
 
-### Estudo de caso 6 - Criando uma lista de tarefas
+### Estudo de caso 6 - Internet das Coisas com MQTT
+
+-   Tutorial:
+-   Código completo
+
+### Estudo de caso 7 - Cade meu carro (GPS e Google Maps)
+
+-   Tutorial:
+-   Código completo
+
+### Estudo de caso 8 - Criando uma lista de tarefas
 
 -   Tutorial - Criando uma lista de tarefas: http://bit.ly/2jXXU7Q
 -   Código completo da lista de tarefas: https://github.com/kleberandrade/todo-list-aulas-flutter
 
-### Estudo de caso 7 - Emprestando objetos
+### Estudo de caso 9 - Emprestando objetos
 
 -   Tutorial:
 -   Código completo
 
-### Estudo de caso 8 - Criando um Chat com Firebase
-
--   Tutorial:
--   Código completo
-
-### Estudo de caso 9 - Internet das Coisas com MQTT
+### Estudo de caso 10 - Criando um Chat com Firebase
 
 -   Tutorial:
 -   Código completo
