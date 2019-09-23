@@ -28,8 +28,8 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 
 ### Estudo de caso 5 - Criando um Chatbot com DialogFlow
 
--   Tutorial -
--   Código completo
+-   Tutorial - Criando um Chatbot com Flutter e DialogFlow: http://bit.ly/2mDfTBB
+-   Código completo do chatbot: https://github.com/kleberandrade/chatbot-aulas-flutter
 
 ### Estudo de caso 6 - Internet das Coisas com MQTT
 
