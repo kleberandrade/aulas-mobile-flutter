@@ -13,6 +13,7 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 ### Estudo de caso 2 - Criando o primeiro applicativo com Flutter (Calculadora de IMC)
 
 -   Tutorial - Instalando e configurando Flutter no Windows: http://bit.ly/2Kw4Q5j
+-   Tutorial - Instalando e configurando Flutter no Ubuntu: http://bit.ly/2mHg3rm
 -   Tutorial - Criando meu primeiro aplicativo com Flutter: http://bit.ly/2Zry7Uh
 -   Código completo da calculadora de IMC: https://github.com/kleberandrade/calculadora-imc-aulas-flutter
 
