@@ -36,6 +36,7 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 
 -   Tutorial:
 -   Código completo
+-   Utilizando Bluetooth: http://bit.ly/2mtx7S8
 
 ### Estudo de caso 7 - Cade meu carro (GPS e Google Maps)
 
