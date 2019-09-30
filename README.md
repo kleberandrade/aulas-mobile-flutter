@@ -85,6 +85,13 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 -   [Code beautiful UI with Flutter and Material Design (Google I/O '18)](https://www.youtube.com/watch?v=hA0hrpR-o8U)
 -   [Beyond Mobile: Material Design, Adaptable UIs, and Flutter (Google I/O'19)](https://www.youtube.com/watch?v=YSULAJf6R6M)
 
+## Lista de APIs
+-   Coletânea de APIs publicas: https://github.com/public-apis/public-apis
+-   Hub público de APIs Brasileiras: https://99apis.com/home
+-   Diretório de APIs mais rico e antigo da Internet: https://www.programmableweb.com
+-   Marketplace de APIs: https://rapidapi.com
+-   Buscador de API: https://apis.io
+
 ## Materiais Extra
 
 -   Documentação: https://docs.flutter.io/
