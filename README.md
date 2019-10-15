@@ -53,10 +53,10 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 -   Tutorial:
 -   Código completo
 
-### Estudo de caso 10 - Criando um Chat com Firebase
+### Estudo de caso 10 - Achados e Perdidos
 
 -   Tutorial:
--   Código completo
+-   Código completo: https://github.com/kleberandrade/lost-and-found-aulas-flutter
 
 ## Cursos gratuitos
 
