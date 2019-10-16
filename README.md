@@ -48,12 +48,7 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 -   Tutorial - Criando uma lista de tarefas: http://bit.ly/2jXXU7Q
 -   Código completo da lista de tarefas: https://github.com/kleberandrade/todo-list-aulas-flutter
 
-### Estudo de caso 9 - Emprestando objetos
-
--   Tutorial:
--   Código completo
-
-### Estudo de caso 10 - Achados e Perdidos
+### Estudo de caso 9 - Achados e Perdidos
 
 -   Tutorial:
 -   Código completo: https://github.com/kleberandrade/lost-and-found-aulas-flutter
