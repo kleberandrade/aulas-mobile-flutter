@@ -32,26 +32,26 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 -   Tutorial - Criando um Chatbot com Flutter e DialogFlow: http://bit.ly/2mDfTBB
 -   Código completo do chatbot: https://github.com/kleberandrade/chatbot-aulas-flutter
 
-### Estudo de caso 6 - Internet das Coisas com MQTT
+### Estudo de caso 6 - Criando uma lista de tarefas
+
+-   Tutorial - Criando uma lista de tarefas: http://bit.ly/2jXXU7Q
+-   Código completo da lista de tarefas: https://github.com/kleberandrade/todo-list-aulas-flutter
+
+### Estudo de caso 7 - Achados e Perdidos
+
+-   Tutorial:
+-   Código completo: https://github.com/kleberandrade/lost-and-found-aulas-flutter
+
+### Estudo de caso 8 - Internet das Coisas com MQTT
 
 -   Tutorial:
 -   Código completo
 -   Utilizando Bluetooth: http://bit.ly/2mtx7S8
 
-### Estudo de caso 7 - Cade meu carro (GPS e Google Maps)
+### Estudo de caso 9 - Cade meu carro (GPS e Google Maps)
 
 -   Tutorial:
 -   Código completo
-
-### Estudo de caso 8 - Criando uma lista de tarefas
-
--   Tutorial - Criando uma lista de tarefas: http://bit.ly/2jXXU7Q
--   Código completo da lista de tarefas: https://github.com/kleberandrade/todo-list-aulas-flutter
-
-### Estudo de caso 9 - Achados e Perdidos
-
--   Tutorial:
--   Código completo: https://github.com/kleberandrade/lost-and-found-aulas-flutter
 
 ## Cursos gratuitos
 
