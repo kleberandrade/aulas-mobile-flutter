@@ -53,6 +53,14 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 -   Tutorial:
 -   Código completo
 
+## Boas práticas
+
+-   [O que é SOLID: O guia completo para você entender os 5 princípios da POO](https://medium.com/joaorobertopb/o-que-é-solid-o-guia-completo-para-você-entender-os-5-princípios-da-poo-2b937b3fc530)
+-   [Clean Code: O que é? Porque usar?](https://medium.com/joaorobertopb/1-clean-code-o-que-é-porque-usar-1e4f9f4454c6)
+-   [Clean Code: Boas práticas para escrever códigos impecáveis!](https://medium.com/joaorobertopb/2-clean-code-boas-práticas-para-escrever-códigos-impecáveis-361997b3c8b5)
+-   [Padrões de Projetos em Dart: Template Methods](https://medium.com/flutterando/padrões-de-projetos-em-dart-template-methods-be6b23ceb6b4)
+-   [Padrões de Projetos em Dart — Strategy e Chain of Responsibility](https://medium.com/flutterando/implementando-padrões-de-projetos-em-dart-parte-1-d604f6038460)
+
 ## Cursos gratuitos
 
 -   Lógica de programação com Dart: https://balta.io/cursos/7183
