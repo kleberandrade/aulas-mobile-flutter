@@ -18,39 +18,23 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 
 ### Estudo de caso 3 - Criando um aplicativo para marcar pontos
 
--   Tutorial - Criando um marcador de truco: http://bit.ly/2MDO6ww
--   Código completo do marcador de truco: https://github.com/kleberandrade/marcador-truco-aulas-flutter
+*   [Tutorial 2019 - Criando um marcador de truco](http://bit.ly/2MDO6ww)
 
-### Estudo de caso 4 - Consumindo API (Consultas de CEP)
+### Estudo de caso 4 - Banco de dados local
 
--   Tutorial - Consultando CEPs com Flutter: http://bit.ly/2kcGFQh
--   Código completo: https://github.com/kleberandrade/search-cep-aulas-flutter
+*   [Tutorial 2019 - Criando uma lista de tarefas](http://bit.ly/2jXXU7Q)
 
-### Estudo de caso 5 - Criando um Chatbot com DialogFlow
+### Estudo de caso 5 - Consumindo APIs
 
--   Tutorial - Criando um Chatbot com Flutter e DialogFlow: http://bit.ly/2mDfTBB
--   Código completo do chatbot: https://github.com/kleberandrade/chatbot-aulas-flutter
+*   [Tutorial 2019 - Consultando CEPs com Flutter](http://bit.ly/2kcGFQh)
 
-### Estudo de caso 6 - Criando uma lista de tarefas
+### Estudo de caso 6 - Chatbot
 
--   Tutorial - Criando uma lista de tarefas: http://bit.ly/2jXXU7Q
--   Código completo da lista de tarefas: https://github.com/kleberandrade/todo-list-aulas-flutter
+*   [Tutorial 2019 - Criando um Chatbot com Flutter e DialogFlow](http://bit.ly/2mDfTBB)
 
-### Estudo de caso 7 - Achados e Perdidos
+### Estudo de caso 7 - Firebase
 
--   Tutorial:
--   Código completo: https://github.com/kleberandrade/lost-and-found-aulas-flutter
-
-### Estudo de caso 8 - Internet das Coisas com MQTT
-
--   Tutorial:
--   Código completo
--   Utilizando Bluetooth: http://bit.ly/2mtx7S8
-
-### Estudo de caso 9 - Cade meu carro (GPS e Google Maps)
-
--   Tutorial:
--   Código completo
+*   Tutorial 2019 - Criando um aplicativo de Achados e Perdidos
 
 ## Boas práticas
 
