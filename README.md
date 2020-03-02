@@ -13,28 +13,34 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 
 *   [Tutorial - Instalando e configurando Flutter no Windows](http://bit.ly/2Kw4Q5j)
 *   [Tutorial - Instalando e configurando Flutter no Ubuntu](http://bit.ly/2mHg3rm)
-*   [Tutorial 2019 - Criando meu primeiro aplicativo com Flutter](http://bit.ly/2Zry7Uh)
+*   [Tutorial 2019 - Criando um marcador de truco](http://bit.ly/2MDO6ww)
 *   [Tutorial 2020 - Criando uma calculadora simples com Flutter](https://medium.com/@kleberandrade/desenvolvimento-de-uma-calculadora-simples-com-flutter-56106baae51)
 
 ### Estudo de caso 3 - Criando um aplicativo para marcar pontos
 
-*   [Tutorial 2019 - Criando um marcador de truco](http://bit.ly/2MDO6ww)
+*   [Tutorial 2019 - Criando uma calculadora de IMC](http://bit.ly/2Zry7Uh)
+*   Tutorial 2020 - Calculadora de juros para boleto vencido
 
 ### Estudo de caso 4 - Banco de dados local
 
 *   [Tutorial 2019 - Criando uma lista de tarefas](http://bit.ly/2jXXU7Q)
+*   Tutorial 2020 - xxxxxxxxxxxxxxxxxx
 
 ### Estudo de caso 5 - Consumindo APIs
 
+*   [Tutorial - ]
 *   [Tutorial 2019 - Consultando CEPs com Flutter](http://bit.ly/2kcGFQh)
+*   Tutorial 2020 - xxxxxxxxxxxxxxxxxx
 
 ### Estudo de caso 6 - Chatbot
 
 *   [Tutorial 2019 - Criando um Chatbot com Flutter e DialogFlow](http://bit.ly/2mDfTBB)
+*   Tutorial 2020 - xxxxxxxxxxxxxxxxxx
 
 ### Estudo de caso 7 - Firebase
 
 *   Tutorial 2019 - Criando um aplicativo de Achados e Perdidos
+*   Tutorial 2020 - xxxxxxxxxxxxxxxxxx
 
 ## Boas práticas
 
