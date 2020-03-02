@@ -28,7 +28,6 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 
 ### Estudo de caso 5 - Consumindo APIs
 
-*   [Tutorial - ]
 *   [Tutorial 2019 - Consultando CEPs com Flutter](http://bit.ly/2kcGFQh)
 *   Tutorial 2020 - xxxxxxxxxxxxxxxxxx
 
@@ -60,6 +59,7 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 -   Criando Apps nativas escaláveis com Flutter, BloC e Provider: https://balta.io/cursos/7186
 -   Dominando Layouts no Flutter: https://balta.io/cursos/7185
 -   Curso gratuito de Git e Github para iniciantes: https://www.portalgsti.com.br/cursos/curso-gratuito-git-github-iniciantes/
+-   Criando uma pokedex: https://www.youtube.com/watch?v=3xUsD0XRa04&list=PLHAtJbrQ17AVj0LJEc955109XpX925Pt1
 
 ## Links Úteis
 
@@ -114,7 +114,7 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 
 ## Licença
 
-    Copyright 2019 Kleber de Oliveira Andrade
+    Copyright 2019-2020 Kleber de Oliveira Andrade
     
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
