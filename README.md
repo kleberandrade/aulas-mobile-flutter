@@ -4,6 +4,11 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 
 ## Conteúdo programático
 
+### Configurações
+
+*   [Tutorial - Instalando e configurando Flutter no Windows](http://bit.ly/2Kw4Q5j)
+*   [Tutorial - Instalando e configurando Flutter no Ubuntu](http://bit.ly/2mHg3rm)
+
 ### Estudo de caso 1 - Introdução a linguagem de programação Dart
 
 *   [Tutorial - Introdução a linguagem de programação Dart](http://bit.ly/2KlP5iz)
@@ -11,8 +16,6 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 
 ### Estudo de caso 2 - Criando o primeiro aplicativo em Flutter
 
-*   [Tutorial - Instalando e configurando Flutter no Windows](http://bit.ly/2Kw4Q5j)
-*   [Tutorial - Instalando e configurando Flutter no Ubuntu](http://bit.ly/2mHg3rm)
 *   [Tutorial 2019 - Criando um marcador de truco](http://bit.ly/2MDO6ww)
 *   [Tutorial 2020 - Criando uma calculadora simples com Flutter](https://medium.com/@kleberandrade/desenvolvimento-de-uma-calculadora-simples-com-flutter-56106baae51)
 
