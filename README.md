@@ -26,8 +26,8 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 
 ### Estudo de caso 4 - Utilizando banco de dados local
 
-*   [Tutorial 2019 - Criando uma lista de tarefas](http://bit.ly/2jXXU7Q)
-*   Tutorial 2020 - xxxxxxxxxxxxxxxxxx
+*   [Tutorial 2019 - Criando uma lista de tarefas com SQLite](http://bit.ly/2jXXU7Q)
+*   Tutorial 2020 - Lembrando dos objetos emprestados com HIVE
 
 ### Estudo de caso 5 - Consumindo APIs
 
