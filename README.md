@@ -9,17 +9,17 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 *   [Tutorial - Introdução a linguagem de programação Dart](http://bit.ly/2KlP5iz)
 *   [Tutorial - Programação Orientada à Objetos com Dart](http://bit.ly/31n2ufY)
 
-### Estudo de caso 2 - Criando o primeiro applicativo com Flutter
+### Estudo de caso 2 - Criando o primeiro aplicativo em Flutter
 
 *   [Tutorial - Instalando e configurando Flutter no Windows](http://bit.ly/2Kw4Q5j)
 *   [Tutorial - Instalando e configurando Flutter no Ubuntu](http://bit.ly/2mHg3rm)
 *   [Tutorial 2019 - Criando um marcador de truco](http://bit.ly/2MDO6ww)
 *   [Tutorial 2020 - Criando uma calculadora simples com Flutter](https://medium.com/@kleberandrade/desenvolvimento-de-uma-calculadora-simples-com-flutter-56106baae51)
 
-### Estudo de caso 3 - Criando um aplicativo para marcar pontos
+### Estudo de caso 3 - Utilizando formulários e fazendo cálculos
 
 *   [Tutorial 2019 - Criando uma calculadora de IMC](http://bit.ly/2Zry7Uh)
-*   Tutorial 2020 - Calculadora de juros para boleto vencido
+*   [Tutorial 2020 - Calculadora de juros para boleto vencido](https://medium.com/flutter-comunidade-br/desenvolvimento-de-uma-calculadora-de-juros-para-boletos-vencidos-44ab70fcf0cd)
 
 ### Estudo de caso 4 - Banco de dados local
 
