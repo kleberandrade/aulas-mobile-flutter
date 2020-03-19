@@ -2,12 +2,12 @@
 
 Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 
-## Conteúdo programático
-
-### Configurações
+## Preparação do ambiente de desenvolvimento
 
 *   [Tutorial - Instalando e configurando Flutter no Windows](http://bit.ly/2Kw4Q5j)
 *   [Tutorial - Instalando e configurando Flutter no Ubuntu](http://bit.ly/2mHg3rm)
+
+## Conteúdo programático
 
 ### Estudo de caso 1 - Introdução a linguagem de programação Dart
 
@@ -24,7 +24,7 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 *   [Tutorial 2019 - Criando uma calculadora de IMC](http://bit.ly/2Zry7Uh)
 *   [Tutorial 2020 - Calculadora de juros para boleto vencido](https://medium.com/flutter-comunidade-br/desenvolvimento-de-uma-calculadora-de-juros-para-boletos-vencidos-44ab70fcf0cd)
 
-### Estudo de caso 4 - Banco de dados local
+### Estudo de caso 4 - Utilizando banco de dados local
 
 *   [Tutorial 2019 - Criando uma lista de tarefas](http://bit.ly/2jXXU7Q)
 *   Tutorial 2020 - xxxxxxxxxxxxxxxxxx
@@ -39,9 +39,19 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 *   [Tutorial 2019 - Criando um Chatbot com Flutter e DialogFlow](http://bit.ly/2mDfTBB)
 *   Tutorial 2020 - xxxxxxxxxxxxxxxxxx
 
-### Estudo de caso 7 - Firebase
+### Estudo de caso 7 - Utilizando Firebase
 
 *   Tutorial 2019 - Criando um aplicativo de Achados e Perdidos
+*   Tutorial 2020 - xxxxxxxxxxxxxxxxxx
+
+### Estudo de caso 8 - Fazendo um jogo
+
+*   Tutorial 2019 - xxxxxxxxxxxxxxxxxx
+*   Tutorial 2020 - xxxxxxxxxxxxxxxxxx
+
+### Estudo de caso 9 - Brincando com Internet das Coisas
+
+*   Tutorial 2019 - xxxxxxxxxxxxxxxxxx
 *   Tutorial 2020 - xxxxxxxxxxxxxxxxxx
 
 ## Boas práticas
