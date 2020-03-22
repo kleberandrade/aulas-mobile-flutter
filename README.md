@@ -27,7 +27,7 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 ### Estudo de caso 4 - Utilizando banco de dados local
 
 *   [Tutorial 2019 - Criando uma lista de tarefas com SQLite](http://bit.ly/2jXXU7Q)
-*   Tutorial 2020 - Lembrando dos objetos emprestados com HIVE
+*   [Tutorial 2020 - Lembrando dos objetos emprestados com Sembast](https://github.com/kleberandrade/borrowed-stuff-flutter)
 
 ### Estudo de caso 5 - Consumindo APIs
 
