@@ -44,12 +44,7 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 *   Tutorial 2019 - Criando um aplicativo de Achados e Perdidos com Firebase
 *   Tutorial 2020 - Criando um aplicativo Financeiro com Firebase
 
-### Estudo de caso 8 - Jogos
-
-*   Tutorial 2019 - Desenvolvendo um Jogo da Velha
-*   Tutorial 2020 - Desenvolvendo um Campo Minado
-
-### Estudo de caso 9 - Internet das Coisas (IoT)
+### Estudo de caso 8 - Internet das Coisas (IoT)
 
 *   Tutorial 2019 - Criando uma interface para IoT com Mqtt
 *   Tutorial 2020 - Criando um controle remoto com Bluetooth e Arduino
