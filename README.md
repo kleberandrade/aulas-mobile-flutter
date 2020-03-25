@@ -32,7 +32,7 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 ### Estudo de caso 5 - Consumindo APIs
 
 *   [Tutorial 2019 - Consultando CEPs com Flutter](http://bit.ly/2kcGFQh)
-*   Tutorial 2020 - xxxxxxxxxxxxxxxxxx
+*   [Tutorial 2020 - Desenvolvendo um Quiz com Flutter e Google Sheets](https://medium.com/@kleberandrade/desenvolvendo-um-quiz-com-flutter-e-google-sheets-414656cb89a2)
 
 ### Estudo de caso 6 - Chatbot
 
@@ -41,18 +41,18 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 
 ### Estudo de caso 7 - Utilizando Firebase
 
-*   Tutorial 2019 - Criando um aplicativo de Achados e Perdidos
-*   Tutorial 2020 - xxxxxxxxxxxxxxxxxx
+*   Tutorial 2019 - Criando um aplicativo de Achados e Perdidos com Firebase
+*   Tutorial 2020 - Criando um aplicativo Financeiro com Firebase
 
 ### Estudo de caso 8 - Fazendo um jogo
 
-*   Tutorial 2019 - xxxxxxxxxxxxxxxxxx
-*   Tutorial 2020 - xxxxxxxxxxxxxxxxxx
+*   Tutorial 2019 - Desenvolvendo um Campo Minado
+*   Tutorial 2020 - Desenvolvendo um Roguelike
 
 ### Estudo de caso 9 - Brincando com Internet das Coisas
 
-*   Tutorial 2019 - xxxxxxxxxxxxxxxxxx
-*   Tutorial 2020 - xxxxxxxxxxxxxxxxxx
+*   Tutorial 2019 - Criando um controle remoto com Bluetooth e Arduino
+*   Tutorial 2020 - Criando uma interface para IoT com Mqtt
 
 ## Boas práticas
 
