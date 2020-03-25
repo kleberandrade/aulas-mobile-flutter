@@ -14,45 +14,45 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 *   [Tutorial - Introdução a linguagem de programação Dart](http://bit.ly/2KlP5iz)
 *   [Tutorial - Programação Orientada à Objetos com Dart](http://bit.ly/31n2ufY)
 
-### Estudo de caso 2 - Criando o primeiro aplicativo em Flutter
+### Estudo de caso 2 - Primeiro aplicativo
 
 *   [Tutorial 2019 - Criando um marcador de truco](http://bit.ly/2MDO6ww)
 *   [Tutorial 2020 - Criando uma calculadora simples com Flutter](https://medium.com/@kleberandrade/desenvolvimento-de-uma-calculadora-simples-com-flutter-56106baae51)
 
-### Estudo de caso 3 - Utilizando formulários e fazendo cálculos
+### Estudo de caso 3 - Formulários
 
 *   [Tutorial 2019 - Criando uma calculadora de IMC](http://bit.ly/2Zry7Uh)
 *   [Tutorial 2020 - Calculadora de juros para boleto vencido](https://medium.com/flutter-comunidade-br/desenvolvimento-de-uma-calculadora-de-juros-para-boletos-vencidos-44ab70fcf0cd)
 
-### Estudo de caso 4 - Utilizando banco de dados local
-
-*   [Tutorial 2019 - Criando uma lista de tarefas com SQLite](http://bit.ly/2jXXU7Q)
-*   [Tutorial 2020 - Lembrando dos objetos emprestados com Sembast](https://github.com/kleberandrade/borrowed-stuff-flutter)
-
-### Estudo de caso 5 - Consumindo APIs
+### Estudo de caso 4 - APIs
 
 *   [Tutorial 2019 - Consultando CEPs com Flutter](http://bit.ly/2kcGFQh)
 *   [Tutorial 2020 - Desenvolvendo um Quiz com Flutter e Google Sheets](https://medium.com/@kleberandrade/desenvolvendo-um-quiz-com-flutter-e-google-sheets-414656cb89a2)
 
-### Estudo de caso 6 - Chatbot
+### Estudo de caso 5 - Persistência local de dados
+
+*   [Tutorial 2019 - Criando uma lista de tarefas com SQLite](http://bit.ly/2jXXU7Q)
+*   [Tutorial 2020 - Lembrando dos objetos emprestados com Sembast](https://github.com/kleberandrade/borrowed-stuff-flutter)
+
+### Estudo de caso 6 - Serviços diversos
 
 *   [Tutorial 2019 - Criando um Chatbot com Flutter e DialogFlow](http://bit.ly/2mDfTBB)
-*   Tutorial 2020 - xxxxxxxxxxxxxxxxxx
+*   Tutorial 2020 - Criando um aplicativo em Flutter com Machine Learning
 
-### Estudo de caso 7 - Utilizando Firebase
+### Estudo de caso 7 - Firebase
 
 *   Tutorial 2019 - Criando um aplicativo de Achados e Perdidos com Firebase
 *   Tutorial 2020 - Criando um aplicativo Financeiro com Firebase
 
-### Estudo de caso 8 - Fazendo um jogo
+### Estudo de caso 8 - Jogos
 
-*   Tutorial 2019 - Desenvolvendo um Campo Minado
-*   Tutorial 2020 - Desenvolvendo um Roguelike
+*   Tutorial 2019 - Desenvolvendo um Jogo da Velha
+*   Tutorial 2020 - Desenvolvendo um Campo Minado
 
-### Estudo de caso 9 - Brincando com Internet das Coisas
+### Estudo de caso 9 - Internet das Coisas (IoT)
 
-*   Tutorial 2019 - Criando um controle remoto com Bluetooth e Arduino
-*   Tutorial 2020 - Criando uma interface para IoT com Mqtt
+*   Tutorial 2019 - Criando uma interface para IoT com Mqtt
+*   Tutorial 2020 - Criando um controle remoto com Bluetooth e Arduino
 
 ## Boas práticas
 
