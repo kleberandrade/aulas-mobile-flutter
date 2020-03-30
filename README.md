@@ -37,7 +37,7 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 ### Estudo de caso 6 - Serviços diversos
 
 *   [Tutorial 2019 - Criando um Chatbot com Flutter e DialogFlow](http://bit.ly/2mDfTBB)
-*   Tutorial 2020 - Criando um aplicativo em Flutter com Machine Learning
+*   [Tutorial 2020 - Criando um aplicativo para classificar imagens com Flutter e Teachable Machine](https://medium.com/@kleberandrade/criando-um-aplicativo-em-flutter-para-classificar-imagens-gato-e-cachorro-com-teachable-machine-be35c604c780)
 
 ### Estudo de caso 7 - Firebase
 
