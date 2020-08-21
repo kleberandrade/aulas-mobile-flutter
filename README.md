@@ -16,38 +16,45 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 
 ### Estudo de caso 2 - Primeiro aplicativo
 
-*   [Tutorial 2019 - Criando um marcador de truco](http://bit.ly/2MDO6ww)
-*   [Tutorial 2020 - Criando uma calculadora simples com Flutter](https://medium.com/@kleberandrade/desenvolvimento-de-uma-calculadora-simples-com-flutter-56106baae51)
+*   [Tutorial 2019/2 - Criando um marcador de truco](http://bit.ly/2MDO6ww)
+*   [Tutorial 2020/1 - Criando uma calculadora simples com Flutter](https://medium.com/@kleberandrade/desenvolvimento-de-uma-calculadora-simples-com-flutter-56106baae51)
+*   Tutorial 2020/2 - Criando um TicTacToe (jogo da velha)
 
 ### Estudo de caso 3 - Formulários
 
-*   [Tutorial 2019 - Criando uma calculadora de IMC](http://bit.ly/2Zry7Uh)
-*   [Tutorial 2020 - Calculadora de juros para boleto vencido](https://medium.com/flutter-comunidade-br/desenvolvimento-de-uma-calculadora-de-juros-para-boletos-vencidos-44ab70fcf0cd)
+*   [Tutorial 2019/2 - Criando uma calculadora de IMC](http://bit.ly/2Zry7Uh)
+*   [Tutorial 2020/1 - Calculadora de juros para boleto vencido](https://medium.com/flutter-comunidade-br/desenvolvimento-de-uma-calculadora-de-juros-para-boletos-vencidos-44ab70fcf0cd)
+*   Tutorial 2020/2 - Criando um aplicativo para calcular se vale a pena a usar Etanol ou Gasolina
 
 ### Estudo de caso 4 - APIs
 
-*   [Tutorial 2019 - Consultando CEPs com Flutter](http://bit.ly/2kcGFQh)
-*   [Tutorial 2020 - Desenvolvendo um Quiz com Flutter e Google Sheets](https://medium.com/@kleberandrade/desenvolvendo-um-quiz-com-flutter-e-google-sheets-414656cb89a2)
+*   [Tutorial 2019/2 - Consultando CEPs com Flutter](http://bit.ly/2kcGFQh)
+*   [Tutorial 2020/1 - Desenvolvendo um Quiz com Flutter e Google Sheets](https://medium.com/@kleberandrade/desenvolvendo-um-quiz-com-flutter-e-google-sheets-414656cb89a2)
+*   Tutorial 2020/2 - Consumindo uma API de Filmes
 
 ### Estudo de caso 5 - Persistência local de dados
 
-*   [Tutorial 2019 - Criando uma lista de tarefas com SQLite](http://bit.ly/2jXXU7Q)
-*   [Tutorial 2020 - Lembrando dos objetos emprestados com Sembast](https://github.com/kleberandrade/borrowed-stuff-flutter)
+*   [Tutorial 2019/2 - Criando uma lista de tarefas com SQLite](http://bit.ly/2jXXU7Q)
+*   [Tutorial 2020/1 - Lembrando dos objetos emprestados com Sembast](https://github.com/kleberandrade/borrowed-stuff-flutter)
+*   Tutorial 2020/2 - Criando um aplicativo para lembrar dos remédios que precisa tomar
 
 ### Estudo de caso 6 - Serviços diversos
 
-*   [Tutorial 2019 - Criando um Chatbot com Flutter e DialogFlow](http://bit.ly/2mDfTBB)
-*   [Tutorial 2020 - Criando um aplicativo para classificar imagens com Flutter e Teachable Machine](https://medium.com/@kleberandrade/criando-um-aplicativo-em-flutter-para-classificar-imagens-gato-e-cachorro-com-teachable-machine-be35c604c780)
+*   [Tutorial 2019/2 - Criando um Chatbot com Flutter e DialogFlow](http://bit.ly/2mDfTBB)
+*   [Tutorial 2020/1 - Criando um aplicativo para classificar imagens com Flutter e Teachable Machine](https://medium.com/@kleberandrade/criando-um-aplicativo-em-flutter-para-classificar-imagens-gato-e-cachorro-com-teachable-machine-be35c604c780)
+*   Tutorial 2020/2 - Identificador de Textos usando OCR / ML Kit
 
 ### Estudo de caso 7 - Firebase
 
-*   Tutorial 2019 - Criando um aplicativo de Achados e Perdidos com Firebase
-*   Tutorial 2020 - Criando um aplicativo Financeiro com Firebase
+*   Tutorial 2019/2 - Criando um aplicativo de Achados e Perdidos com Firebase (login por email e senha)
+*   Tutorial 2020/1 - Criando um aplicativo Financeiro com Firebase (login por conta google)
+*   Tutorial 2020/2 - Criando um aplicativo para Adoção de animais com Firebase (login por telefone)
 
 ### Estudo de caso 8 - Internet das Coisas (IoT)
 
-*   Tutorial 2019 - Criando uma interface para IoT com Mqtt
-*   Tutorial 2020 - Criando um controle remoto com Bluetooth e Arduino
+*   Tutorial 2019/2 - Criando uma interface para IoT com Mqtt
+*   Tutorial 2020/1 - Criando um controle remoto com Bluetooth e Arduino
+*   Tutorial 2020/2 - Criando um para enviar SMS através de plataformas IoT e Twilio
 
 ## Boas práticas
 
