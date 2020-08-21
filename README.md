@@ -11,7 +11,8 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 
 ### Estudo de caso 1 - Introdução a linguagem de programação Dart
 
-*   [Tutorial - Introdução a linguagem de programação Dart](http://bit.ly/2KlP5iz)
+*   [Tutorial - Introdução a linguagem de programação Dart - Parte 1](http://bit.ly/2KlP5iz)
+*   Tutorial - Introdução a linguagem de programação Dart - Parte 2
 *   [Tutorial - Programação Orientada à Objetos com Dart](http://bit.ly/31n2ufY)
 
 ### Estudo de caso 2 - Primeiro aplicativo
@@ -55,6 +56,10 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 *   Tutorial 2019/2 - Criando uma interface para IoT com Mqtt
 *   Tutorial 2020/1 - Criando um controle remoto com Bluetooth e Arduino
 *   Tutorial 2020/2 - Criando um para enviar SMS através de plataformas IoT e Twilio
+
+### Estudo de caso 9 - Projetos completos e publicados
+
+*   Tutorial 2020/2 - Aplicativo para doação de sangue
 
 ## Boas práticas
 
