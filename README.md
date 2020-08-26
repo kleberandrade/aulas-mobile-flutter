@@ -1,6 +1,6 @@
 # Programação para Dispositivos Móveis (Flutter)
 
-Conteúdo da disciplina de desenvolvimento de aplicativos móveis
+Conteúdo da disciplina de desenvolvimento de aplicativos móveis ministrada pelo Prof. Kleber de Oliveira Andrade, no curso de Análise e Desenvolvimento de Sistemas da Faculdade de Tecnologia de Americana.
 
 ## Preparação do ambiente de desenvolvimento
 
