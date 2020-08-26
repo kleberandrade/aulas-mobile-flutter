@@ -127,7 +127,7 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis, ministrada pe
 -   Observatório de Dart: https://dart-lang.github.io/observatory/
 -   Widgets do Flutter: https://flutter.io/widgets/
 -   Código do aplicativo de galeria do Flutter: https://github.com/flutter/flutter/tree/master/examples/flutter_gallery
--   Aplicativo de galeria do Flutter para Android: https://play.google.com/store/apps/details?id=io.flutter.gallery
+-   Aplicativo de galeria do Flutter para Android: https://play.google.com/store/apps/details?id=io.flutter.demo.gallery&hl=pt_BR
 -   Layout do Flutter: https://flutter.io/tutorials/layout/
 -   Material: https://material.io
 -   Ícones: https://thenounproject.com
