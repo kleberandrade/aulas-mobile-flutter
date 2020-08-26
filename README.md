@@ -15,10 +15,10 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 *   Tutorial - Introdução a linguagem de programação Dart - Collections
 *   Tutorial - Introdução a linguagem de programação Dart - Boas práticas
 *   [Tutorial - Programação Orientada à Objetos com Dart](http://bit.ly/31n2ufY)
-*   Tutorial - Introdução a linguagem de programação Dart - Padrões de criação
-*   Tutorial - Introdução a linguagem de programação Dart - Padrões estruturais
-*   Tutorial - Introdução a linguagem de programação Dart - Padrões comportamentais
-*   Tutorial - Introdução a linguagem de programação Dart - Princípios SOLID
+*   Tutorial - Programação Orientada à Objetos com Dart - Padrões de criação
+*   Tutorial - Programação Orientada à Objetos com Dart - Padrões estruturais
+*   Tutorial - Programação Orientada à Objetos com Dart - Padrões comportamentais
+*   Tutorial - Programação Orientada à Objetos com Dart - Princípios SOLID
 
 ### Estudo de caso 2 - Primeiro aplicativo
 
