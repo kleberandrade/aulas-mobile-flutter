@@ -11,9 +11,14 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 
 ### Estudo de caso 1 - Introdução a linguagem de programação Dart
 
-*   [Tutorial - Introdução a linguagem de programação Dart - Parte 1](http://bit.ly/2KlP5iz)
-*   Tutorial - Introdução a linguagem de programação Dart - Parte 2
+*   [Tutorial - Introdução a linguagem de programação Dart - Básico](http://bit.ly/2KlP5iz)
+*   Tutorial - Introdução a linguagem de programação Dart - Collections
+*   Tutorial - Introdução a linguagem de programação Dart - Boas práticas
 *   [Tutorial - Programação Orientada à Objetos com Dart](http://bit.ly/31n2ufY)
+*   Tutorial - Introdução a linguagem de programação Dart - Padrões de criação
+*   Tutorial - Introdução a linguagem de programação Dart - Padrões estruturais
+*   Tutorial - Introdução a linguagem de programação Dart - Padrões comportamentais
+*   Tutorial - Introdução a linguagem de programação Dart - Princípios SOLID
 
 ### Estudo de caso 2 - Primeiro aplicativo
 
@@ -43,7 +48,7 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis
 
 *   [Tutorial 2019/2 - Criando um Chatbot com Flutter e DialogFlow](http://bit.ly/2mDfTBB)
 *   [Tutorial 2020/1 - Criando um aplicativo para classificar imagens com Flutter e Teachable Machine](https://medium.com/@kleberandrade/criando-um-aplicativo-em-flutter-para-classificar-imagens-gato-e-cachorro-com-teachable-machine-be35c604c780)
-*   Tutorial 2020/2 - Identificador de Textos usando OCR / ML Kit
+*   Tutorial 2020/2 - Identificador de Textos em documentos usando OCR / ML Kit
 
 ### Estudo de caso 7 - Firebase
 
