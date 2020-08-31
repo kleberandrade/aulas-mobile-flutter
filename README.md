@@ -1,6 +1,6 @@
 # Programação para Dispositivos Móveis (Flutter)
 
-Conteúdo da disciplina de desenvolvimento de aplicativos móveis, ministrada pelo Prof. Kleber de Oliveira Andrade, no curso de Análise e Desenvolvimento de Sistemas da Faculdade de Tecnologia de Americana.
+Conteúdo da disciplina de desenvolvimento de aplicativos móveis, ministrada pelo Prof. Kleber de Oliveira Andrade, no curso de Análise e Desenvolvimento de Sistemas da [Faculdade de Tecnologia de Americana](http://www.fatec.edu.br/).
 
 ## Preparação do ambiente de desenvolvimento
 
@@ -62,7 +62,14 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis, ministrada pe
 *   Tutorial 2020/1 - Criando um controle remoto com Bluetooth e Arduino
 *   Tutorial 2020/2 - Criando um para enviar SMS através de plataformas IoT e Twilio
 
-### Estudo de caso 9 - Projetos completos e publicados
+### Estudo de caso 9 - Padrões de arquiteturas
+
+*   Tutorial - Padrões de arquitetura - MVC
+*   Tutorial - Padrões de arquitetura - MVVM
+*   Tutorial - Padrões de arquitetura - MVP
+*   Tutorial - Padrões de arquitetura - Clean Architecture
+
+### Estudo de caso 10 - Projetos completos e públicos
 
 *   Tutorial 2020/2 - Aplicativo para doação de sangue
 
