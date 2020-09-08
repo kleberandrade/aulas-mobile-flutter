@@ -26,7 +26,7 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis, ministrada pe
 *   [Tutorial 2020/1 - Calculadora de juros para boleto vencido](https://medium.com/flutter-comunidade-br/desenvolvimento-de-uma-calculadora-de-juros-para-boletos-vencidos-44ab70fcf0cd)
 *   [Tutorial 2020/2 - Criando uma calculadora de pisos e revestimentos](https://github.com/kleberandrade/floor-calculator-flutter)
 
-### Estudo de caso 3 - Primeiro aplicativo
+### Estudo de caso 3 - Layouts
 
 *   [Tutorial 2019/2 - Criando um marcador de truco](http://bit.ly/2MDO6ww)
 *   [Tutorial 2020/1 - Criando uma calculadora simples com Flutter](https://medium.com/@kleberandrade/desenvolvimento-de-uma-calculadora-simples-com-flutter-56106baae51)
