@@ -34,9 +34,9 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis, ministrada pe
 
 ### Estudo de caso 4 - APIs
 
-*   [Tutorial 2019/2 - Consultando CEPs com Flutter](http://bit.ly/2kcGFQh)
+*   [Tutorial 2019/2 - Consultando CEPs com Flutter e HTTP](http://bit.ly/2kcGFQh)
 *   [Tutorial 2020/1 - Desenvolvendo um Quiz com Flutter e Google Sheets](https://medium.com/@kleberandrade/desenvolvendo-um-quiz-com-flutter-e-google-sheets-414656cb89a2)
-*   Tutorial 2020/2 - Consumindo uma API de Filmes
+*   Tutorial 2020/2 - Consumindo uma API de Super Heróis com DIO
 
 ### Estudo de caso 5 - Persistência local de dados
 
