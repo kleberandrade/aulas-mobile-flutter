@@ -24,7 +24,7 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis, ministrada pe
 
 *   [Tutorial 2019/2 - Criando uma calculadora de IMC](http://bit.ly/2Zry7Uh)
 *   [Tutorial 2020/1 - Calculadora de juros para boleto vencido](https://medium.com/flutter-comunidade-br/desenvolvimento-de-uma-calculadora-de-juros-para-boletos-vencidos-44ab70fcf0cd)
-*   [Tutorial 2020/2 - Criando uma calculadora de pisos e revestimentos](https://github.com/kleberandrade/floor-calculator-flutter)
+*   [Tutorial 2020/2 - Criando uma calculadora de pisos e revestimentos](https://medium.com/flutter-comunidade-br/criando-um-aplicativo-em-flutter-para-calcular-a-quantidade-de-pisos-por-m%C2%B2-dac30b5b5027)
 
 ### Estudo de caso 3 - Layouts
 
@@ -41,7 +41,7 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis, ministrada pe
 ### Estudo de caso 5 - Persistência local de dados
 
 *   [Tutorial 2019/2 - Criando uma lista de tarefas com SQLite](http://bit.ly/2jXXU7Q)
-*   [Tutorial 2020/1 - Lembrando dos objetos emprestados com Sembast](https://github.com/kleberandrade/borrowed-stuff-flutter)
+*   [Tutorial 2020/1 - Lembrando dos objetos emprestados com Sembast](https://medium.com/flutter-comunidade-br/criando-um-aplicativo-para-lembrar-dos-objetos-emprestados-com-flutter-e-sembast-6dbf350a7a56)
 *   Tutorial 2020/2 - Criando um aplicativo para lembrar dos remédios que precisa tomar
 
 ### Estudo de caso 6 - Serviços diversos
