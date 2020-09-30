@@ -30,7 +30,7 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis, ministrada pe
 
 *   [Tutorial 2019/2 - Criando um marcador de truco](http://bit.ly/2MDO6ww)
 *   [Tutorial 2020/1 - Criando uma calculadora simples com Flutter](https://medium.com/@kleberandrade/desenvolvimento-de-uma-calculadora-simples-com-flutter-56106baae51)
-*   Tutorial 2020/2 - Criando um TicTacToe (jogo da velha)
+*   [Tutorial 2020/2 - Criando um TicTacToe (jogo da velha)](https://medium.com/@kleberandrade/criando-um-jogo-da-velha-em-flutter-50347537c926)
 
 ### Estudo de caso 4 - APIs
 
