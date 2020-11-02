@@ -36,13 +36,13 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis, ministrada pe
 
 *   [Tutorial 2019/2 - Consultando CEPs com Flutter e HTTP](http://bit.ly/2kcGFQh)
 *   [Tutorial 2020/1 - Desenvolvendo um Quiz com Flutter e Google Sheets](https://medium.com/@kleberandrade/desenvolvendo-um-quiz-com-flutter-e-google-sheets-414656cb89a2)
-*   Tutorial 2020/2 - Consumindo uma API de Super Heróis com DIO
+*   [Tutorial 2020/2 - Consumindo uma API de Filmes com DIO](https://kleberandrade.medium.com/criando-um-aplicativo-em-flutter-para-consumir-uma-api-de-filmes-tmdb-2b5a9982bfcd)
 
 ### Estudo de caso 5 - Persistência local de dados
 
 *   [Tutorial 2019/2 - Criando uma lista de tarefas com SQLite](http://bit.ly/2jXXU7Q)
 *   [Tutorial 2020/1 - Lembrando dos objetos emprestados com Sembast](https://medium.com/flutter-comunidade-br/criando-um-aplicativo-para-lembrar-dos-objetos-emprestados-com-flutter-e-sembast-6dbf350a7a56)
-*   Tutorial 2020/2 - Criando um aplicativo para lembrar dos remédios que precisa tomar
+*   Tutorial 2020/2 - Criando um aplicativo para controlar as finanças pessoal com Hive
 
 ### Estudo de caso 6 - Serviços diversos
 
@@ -53,7 +53,7 @@ Conteúdo da disciplina de desenvolvimento de aplicativos móveis, ministrada pe
 ### Estudo de caso 7 - Firebase
 
 *   Tutorial 2019/2 - Criando um aplicativo de Achados e Perdidos com Firebase (login por email e senha)
-*   Tutorial 2020/1 - Criando um aplicativo Financeiro com Firebase (login por conta google)
+*   Tutorial 2020/1 - Criando um aplicativo para Empregos (login por conta google)
 *   Tutorial 2020/2 - Criando um aplicativo para Adoção de animais com Firebase (login por telefone)
 
 ### Estudo de caso 8 - Internet das Coisas (IoT)
