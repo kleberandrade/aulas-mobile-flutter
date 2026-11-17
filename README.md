@@ -1,3 +1,29 @@
+# Flutter Mobile Programming Course
+
+![Course: Flutter](https://img.shields.io/badge/Course-Flutter-02569B)
+![Language: Dart](https://img.shields.io/badge/Language-Dart-0175C2)
+[![License: MIT](https://img.shields.io/badge/License-MIT-555555)](https://github.com/kleberandrade/aulas-mobile-flutter/blob/master/LICENSE)
+
+Flutter and Dart course index linking lessons, tutorials and classroom app repositories.
+
+## Getting started
+
+- Use the lesson index below to choose a topic, then follow the linked application repository for its own source, dependencies and setup.
+
+- This repository is a course index; it does not contain a standalone Flutter app.
+
+## Validation status
+
+This update documents the tracked source and project metadata. It does not certify a successful build, device test or compatibility with a current toolchain. Follow any project-specific validation instructions in the original material.
+
+## License and attribution
+
+See [LICENSE](https://github.com/kleberandrade/aulas-mobile-flutter/blob/master/LICENSE) and any notices accompanying third-party code and assets. This documentation update does not change licensing or authorship.
+
+---
+
+## Original project material
+
 # Programação para Dispositivos Móveis (Flutter)
 
 Conteúdo da disciplina de desenvolvimento de aplicativos móveis, ministrada pelo Prof. Kleber de Oliveira Andrade, no curso de Análise e Desenvolvimento de Sistemas da [Faculdade de Tecnologia de Americana](http://www.fatec.edu.br/).
