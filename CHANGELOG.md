@@ -1,5 +1,11 @@
 # Changelog
 
+## Complete Masmorra trilogy
+
+- Added the official covers and author-page links for Masmorra volumes II and III alongside volume I.
+- Added English/Portuguese reading suggestions for the related modules; the catalog now includes eleven books.
+
+
 ## Container, covers and illustrative content
 
 - Unified header, page and footer container width at 1280 px with responsive gutters.

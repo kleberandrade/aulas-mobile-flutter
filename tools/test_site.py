@@ -159,17 +159,27 @@ class SiteTests(unittest.TestCase):
             self.assertIn('projects/', footer)
             self.assertIn('LICENSE', footer)
 
-    def test_books_show_nine_official_local_covers_in_both_languages(self):
+    def test_books_show_eleven_official_local_covers_in_both_languages(self):
         import json
         books = json.loads((ROOT / 'site/content/books.json').read_text())['books']
-        self.assertEqual(len(books), 9)
+        self.assertEqual(len(books), 11)
         for prefix in ['', 'en/']:
             text = (OUTPUT / prefix / 'books/index.html').read_text()
-            self.assertEqual(text.count('class="book-card"'), 9)
+            self.assertEqual(text.count('class="book-card"'), 11)
             for book in books:
                 self.assertTrue(book['image'] in text, book['title'])
                 self.assertTrue(book['url'] in text, book['title'])
             self.assertIn('loading="lazy"', text)
+
+    def test_masmorra_trilogy_has_three_distinct_volumes_and_covers(self):
+        import json
+        books = json.loads((ROOT / 'site/content/books.json').read_text())['books']
+        volumes = [book for book in books if book['id'].startswith('masmorra-ascii')]
+        self.assertEqual(len(volumes), 3)
+        self.assertEqual(len({book['url'] for book in volumes}), 3)
+        self.assertEqual(len({book['image'] for book in volumes}), 3)
+        self.assertIn('Livro II — A Masmorra Desperta', volumes[1]['title'])
+        self.assertIn('Livro III — A Forja dos Monstros', volumes[2]['title'])
 
     def test_representative_images_and_reduced_motion_support_are_present(self):
         for prefix in ['', 'en/']:

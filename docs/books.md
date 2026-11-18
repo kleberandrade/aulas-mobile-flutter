@@ -17,6 +17,14 @@ Conexões sugeridas:
 
 O jogo é uma atividade de terminal. Compare conceitos e regras antes de adaptá-los para a interface Flutter; esta reorganização não executa nem republica o código do site.
 
+## A trilogia Masmorra ASCII
+
+- [Livro I — A Primeira Tocha](https://kleberandrade.dev/books/masmorra-ascii): fundamentos de Dart e orientação a objetos, como apoio ao módulo 1.
+- [Livro II — A Masmorra Desperta](https://kleberandrade.dev/books/masmorra-ascii-livro-ii): mapas, exploração e progressão no terminal; compare a organização visual no módulo 3 e componha um projeto no módulo 10.
+- [Livro III — A Forja dos Monstros](https://kleberandrade.dev/books/masmorra-ascii-livro-iii): testes, refatoração, assincronia, persistência e padrões, como apoio aos módulos 5, 9 e 10.
+
+O catálogo do site apresenta a capa oficial de cada volume. A trilha online do Masmorra continua como recurso complementar separado.
+
 ## Código, padrões e arquitetura
 
 - [A Ordem do Código Limpo](https://kleberandrade.dev/books/ordem-codigo-limpo): leitura para discutir clareza e manutenção nos módulos 2, 3 e 9. [Site da série](https://fantasia-tecnica.vercel.app/).

@@ -17,6 +17,41 @@
       }
     },
     {
+      "id": "masmorra-ascii-livro-ii",
+      "title": "Masmorra ASCII · Livro II — A Masmorra Desperta",
+      "url": "https://kleberandrade.dev/books/masmorra-ascii-livro-ii",
+      "cover_source": "https://kleberandrade.dev/assets/books/masmorra-ascii-livro-2-publicacao-2026.webp",
+      "image": "books/masmorra-ascii-livro-ii.webp",
+      "width": 600,
+      "height": 891,
+      "modules": [
+        "03-layouts",
+        "10-final-project"
+      ],
+      "description": {
+        "pt": "Pratique mapas, exploração e progressão em Dart no terminal. Compare a organização visual do jogo com layouts e planeje um projeto final.",
+        "en": "Practice maps, exploration and progression in Dart in the terminal. Compare the game’s visual organization with layouts and plan a final project."
+      }
+    },
+    {
+      "id": "masmorra-ascii-livro-iii",
+      "title": "Masmorra ASCII · Livro III — A Forja dos Monstros",
+      "url": "https://kleberandrade.dev/books/masmorra-ascii-livro-iii",
+      "cover_source": "https://kleberandrade.dev/assets/books/masmorra-ascii-livro-3-publicacao-2026.webp",
+      "image": "books/masmorra-ascii-livro-iii.webp",
+      "width": 600,
+      "height": 891,
+      "modules": [
+        "05-local-data",
+        "09-architecture",
+        "10-final-project"
+      ],
+      "description": {
+        "pt": "Aprofunde refatoração, testes, assincronia, persistência JSON e padrões de projeto em Dart. Leitura para os módulos de dados, arquitetura e entrega.",
+        "en": "Explore refactoring, tests, asynchronous code, JSON persistence and design patterns in Dart. A companion for the data, architecture and delivery modules."
+      }
+    },
+    {
       "id": "ordem-codigo-limpo",
       "title": "A Ordem do Código Limpo",
       "url": "https://kleberandrade.dev/books/ordem-codigo-limpo",

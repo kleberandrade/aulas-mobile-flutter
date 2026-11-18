@@ -41,6 +41,6 @@ Generated output is ignored by Git. Pages and asset links are relative, supporti
 
 ## Images and motion
 
-The books page uses local copies of official cover assets with their original aspect ratios and source attribution. Masmorra’s cover represents the first volume; the broader learning site remains linked separately. Original screenshots of the flooring calculator, calculator and tic-tac-toe studies illustrate the home page. Their source links and MIT notices are recorded in the [image attribution guide](../docs/images-attribution.md).
+The books page uses local copies of official cover assets with their original aspect ratios and source attribution. The three Masmorra covers represent volumes I, II and III; the broader learning site remains linked separately. Original screenshots of the flooring calculator, calculator and tic-tac-toe studies illustrate the home page. Their source links and MIT notices are recorded in the [image attribution guide](../docs/images-attribution.md).
 
 Assets have content-versioned URLs, so changes to the stylesheet, scripts, logo and images load together after deployment. Containers use a shared maximum width and gutter; reading text retains a shorter comfortable line length. Entrance, menu and hover animations are brief and disabled by `prefers-reduced-motion`.

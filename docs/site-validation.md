@@ -43,3 +43,9 @@ Portuguese lesson updates are reflected by the generator. English translations i
 - In the browser at 1600px, header, book heading and cover collection all measured 1280px and shared the same left edge. At 390px the nine covers and translated book page had no horizontal overflow.
 - Verified the three case-study images loaded in the English home page. Animated entrance and hover effects remain optional under the reduced-motion media rule.
 - Added content-versioned asset URLs for coherent stylesheet/script/image updates.
+
+## Complete Masmorra trilogy
+
+- Identified volumes II and III from the current official author catalog, verified their printed cover titles and recorded their source URLs.
+- Added both 600×891 WebP covers and bilingual curriculum recommendations.
+- Expanded checks to fourteen, including all three distinct Masmorra titles, destinations and covers and eleven book cards per language.
