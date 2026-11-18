@@ -22,6 +22,10 @@ Use a versão atual do repositório escolhido, dados sintéticos e os passos de 
 
 [A Agência Holística de Depuração](../../docs/books.md): use a leitura como ponto de partida para investigar falhas de integração.
 
+[Agência Holística · Volume II — Tudo Tem Memória](https://kleberandrade.dev/books/agencia-vol-2): Use a leitura para investigar uma falha de integração com logs e uma sequência reproduzível.
+
+[Agência Holística · Volume III — A Conta Que Ficou](https://kleberandrade.dev/books/agencia-vol-3): Discuta tentativas repetidas e idempotência: um teste com cliente simulado deve verificar se a repetição duplica um efeito.
+
 ## Estudos de caso e referências
 
 - [search-cep-aulas-flutter](https://github.com/kleberandrade/search-cep-aulas-flutter) — consulte o README e o código atuais.

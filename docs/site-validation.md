@@ -49,3 +49,10 @@ Portuguese lesson updates are reflected by the generator. English translations i
 - Identified volumes II and III from the current official author catalog, verified their printed cover titles and recorded their source URLs.
 - Added both 600×891 WebP covers and bilingual curriculum recommendations.
 - Expanded checks to fourteen, including all three distinct Masmorra titles, destinations and covers and eleven book cards per language.
+
+## Complete Agência Holística de Depuração trilogy
+
+- Verified the official titles and printed covers for Tudo Tem Memória (Volume II) and A Conta Que Ficou (Volume III).
+- Recorded each cover’s original source URL and 600×892 dimensions, and added curriculum recommendations in both languages.
+- Added volume-specific reading activities directly to the five relevant module guides and their English translations.
+- Expanded checks to fifteen, covering all three distinct Agência volumes, thirteen cover cards per language, the related module readings and the existing Masmorra trilogy.

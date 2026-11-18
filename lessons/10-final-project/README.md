@@ -22,6 +22,8 @@ Use a versão atual do repositório escolhido, dados sintéticos e os passos de 
 
 [Fantasia Ágil e catálogo do autor](../../docs/books.md): use as leituras para discutir escopo, critérios de aceitação e responsabilidade pela entrega.
 
+[Agência Holística · Volume III — A Conta Que Ficou](https://kleberandrade.dev/books/agencia-vol-3): Inclua um critério de confiabilidade na entrega: uma falha reproduzível, recuperação de dados ou rejeição de operação duplicada.
+
 ## Estudos de caso e referências
 
 - [my-blood-flutter](https://github.com/kleberandrade/my-blood-flutter) — consulte o README e o código atuais.

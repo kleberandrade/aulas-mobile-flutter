@@ -111,7 +111,7 @@
       "objectives": "Consume external data, parse JSON at the boundary and distinguish loading, empty, success and error states.",
       "activity": "Choose a query and implement a reproducible error response. Use a replaceable client in tests so they do not depend on an external network.",
       "note": "The current application implementation determines the API and libraries in use. An old article title does not establish that DIO or Google Sheets remains the active integration. Use the current version of the chosen repository, synthetic data and its documented validation steps. Record the environment and distinguish real execution, emulation and a local demonstration. These activities are proposals for your own study repository.",
-      "reading": "A Agência Holística de Depuração: use the reading as a starting point for investigating integration failures.",
+      "reading": "A Agência Holística de Depuração: use the reading as a starting point for investigating integration failures.\n\n[Agência Holística · Volume II — Tudo Tem Memória](https://kleberandrade.dev/books/agencia-vol-2): Use the reading to investigate an integration failure with logs and a reproducible sequence.\n\n[Agência Holística · Volume III — A Conta Que Ficou](https://kleberandrade.dev/books/agencia-vol-3): Discuss retries and idempotency: a test with a simulated client should check whether a retry duplicates an effect.",
       "exercises": [
         {
           "title": "States",
@@ -146,7 +146,7 @@
       "objectives": "Persist data, reconstruct state after restarting and handle changes to the stored format.",
       "activity": "Create a record, close the application and open it again. Document the storage mechanism actually used by the current version.",
       "note": "SQLite, Sembast and Hive appear in historical article titles. The current README and code determine the storage mechanism and platform compatibility. Use the current version of the chosen repository, synthetic data and its documented validation steps. Record the environment and distinguish real execution, emulation and a local demonstration. These activities are proposals for your own study repository.",
-      "reading": "Masmorra ASCII and A Agência Holística de Depuração: compare persistence and failure investigation with the chosen application.",
+      "reading": "Masmorra ASCII and A Agência Holística de Depuração: compare persistence and failure investigation with the chosen application.\n\n[Agência Holística · Volume II — Tudo Tem Memória](https://kleberandrade.dev/books/agencia-vol-2): Compare displayed state with stored state and record how to detect an inconsistency.\n\n[Agência Holística · Volume III — A Conta Que Ficou](https://kleberandrade.dev/books/agencia-vol-3): Connect the reading to a restoration test: recover a sample and check its data, rather than only the existence of a file.",
       "exercises": [
         {
           "title": "Reopening",
@@ -181,7 +181,7 @@
       "objectives": "Separate the interface from the integration. Communicate configuration requirements, failures and prediction limits.",
       "activity": "Run a case study in its documented mode and identify real integration, fixtures and demonstration mode.",
       "note": "OCR/ML Kit remains a historical topic without a linked tutorial in this course. A classifier does not by itself establish use of a particular service or model. Use the current version of the chosen repository, synthetic data and its documented validation steps. Record the environment and distinguish real execution, emulation and a local demonstration. These activities are proposals for your own study repository.",
-      "reading": "O Último Sprint da Humanidade: discuss who validates results and code produced with automation.",
+      "reading": "O Último Sprint da Humanidade: discuss who validates results and code produced with automation.\n\n[Agência Holística · Volume III — A Conta Que Ficou](https://kleberandrade.dev/books/agencia-vol-3): Discuss model drift and input validation when comparing the results of an integration or classifier.",
       "exercises": [
         {
           "title": "Configuration",
@@ -286,7 +286,7 @@
       "objectives": "Set boundaries between domain, interface and infrastructure. Choose abstractions based on the required behavior.",
       "activity": "Use an application from an earlier module to isolate a rule from the interface. Compare it with a design pattern only when the problem justifies doing so.",
       "note": "O Grimório dos Padrões provides TypeScript examples: study the concepts and implement your activity in Dart. MVC, MVVM, MVP and Clean Architecture are study alternatives, not guaranteed code modules in this index. Use the current version of the chosen repository, synthetic data and its documented validation steps. Record the environment and distinguish real execution, emulation and a local demonstration. These activities are proposals for your own study repository.",
-      "reading": "O Grimório dos Padrões, Fantasia Técnica and Masmorra ASCII: compare concepts and apply only those needed by the case study.",
+      "reading": "O Grimório dos Padrões, Fantasia Técnica and Masmorra ASCII: compare concepts and apply only those needed by the case study.\n\n[Agência Holística · Volume II — Tudo Tem Memória](https://kleberandrade.dev/books/agencia-vol-2): Use a reading case to discuss flaky tests, observability and the boundaries where a failure should be investigated.",
       "exercises": [
         {
           "title": "Responsibilities",
@@ -321,7 +321,7 @@
       "objectives": "Integrate the interface, data, tests, documentation and execution evidence within an achievable scope.",
       "activity": "Choose a domain, define a small workflow and deliver a reproducible version with synthetic data. The module 7 applications are additional options.",
       "note": "The goal is a verifiable delivery. Health information or production formulas require sources and domain limits; an academic demonstration is not clinical or chemical validation. Use the current version of the chosen repository, synthetic data and its documented validation steps. Record the environment and distinguish real execution, emulation and a local demonstration. These activities are proposals for your own study repository.",
-      "reading": "Fantasia Ágil and the author’s catalog: use the readings to discuss scope, acceptance criteria and responsibility for delivery.",
+      "reading": "Fantasia Ágil and the author’s catalog: use the readings to discuss scope, acceptance criteria and responsibility for delivery.\n\n[Agência Holística · Volume III — A Conta Que Ficou](https://kleberandrade.dev/books/agencia-vol-3): Include a reliability acceptance criterion in the delivery: a reproducible failure, data recovery or rejection of a duplicate operation.",
       "exercises": [
         {
           "title": "Scope",
@@ -513,6 +513,16 @@
             "title": "A Agência Holística de Depuração — Tudo está conectado",
             "url": "https://kleberandrade.dev/books/agencia-vol-1",
             "description": "A complementary reading for investigating failures and their connections."
+          },
+          {
+            "title": "A Agência Holística de Depuração — Tudo Tem Memória (Volume II)",
+            "url": "https://kleberandrade.dev/books/agencia-vol-2",
+            "description": "Investigate silent failures, logs, alerts, flaky tests and data consistency. A companion for APIs, persistence and maintainability."
+          },
+          {
+            "title": "A Agência Holística de Depuração — A Conta Que Ficou (Volume III)",
+            "url": "https://kleberandrade.dev/books/agencia-vol-3",
+            "description": "Discuss idempotency, data recovery and model drift. Connect the cases to services, persistence and the reliability of your final project."
           }
         ]
       },

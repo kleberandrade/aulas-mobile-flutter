@@ -1,5 +1,11 @@
 # Changelog
 
+## Complete Agência Holística de Depuração trilogy
+
+- Added volumes II and III with official covers, author links and bilingual reading suggestions for APIs, data, services, architecture and final-project reliability.
+- Kept the three volumes together in the catalog, now containing thirteen books.
+
+
 ## Complete Masmorra trilogy
 
 - Added the official covers and author-page links for Masmorra volumes II and III alongside volume I.

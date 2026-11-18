@@ -22,6 +22,8 @@ Use a versão atual do repositório escolhido, dados sintéticos e os passos de 
 
 [O Último Sprint da Humanidade](../../docs/books.md): discuta quem valida resultados e código produzidos com automação.
 
+[Agência Holística · Volume III — A Conta Que Ficou](https://kleberandrade.dev/books/agencia-vol-3): Discuta deriva de modelos e validação de entradas ao comparar resultados de uma integração ou classificador.
+
 ## Estudos de caso e referências
 
 - [chatbot-aulas-flutter](https://github.com/kleberandrade/chatbot-aulas-flutter) — consulte o README e o código atuais.

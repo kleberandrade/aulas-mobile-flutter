@@ -22,6 +22,10 @@ Use a versão atual do repositório escolhido, dados sintéticos e os passos de 
 
 [Masmorra ASCII e Agência Holística](../../docs/books.md): compare persistência e investigação de falhas com o aplicativo escolhido.
 
+[Agência Holística · Volume II — Tudo Tem Memória](https://kleberandrade.dev/books/agencia-vol-2): Compare o estado exibido com o estado armazenado e registre como detectar uma inconsistência.
+
+[Agência Holística · Volume III — A Conta Que Ficou](https://kleberandrade.dev/books/agencia-vol-3): Relacione a leitura a um teste de restauração: recupere uma amostra e confira seus dados, além da existência do arquivo.
+
 ## Estudos de caso e referências
 
 - [todo-list-aulas-flutter](https://github.com/kleberandrade/todo-list-aulas-flutter) — consulte o README e o código atuais.

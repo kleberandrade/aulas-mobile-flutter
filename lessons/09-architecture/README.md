@@ -22,6 +22,8 @@ Use a versão atual do repositório escolhido, dados sintéticos e os passos de 
 
 [O Grimório dos Padrões, Fantasia Técnica e Masmorra ASCII](../../docs/books.md): compare conceitos e aplique apenas os necessários ao caso.
 
+[Agência Holística · Volume II — Tudo Tem Memória](https://kleberandrade.dev/books/agencia-vol-2): Use um caso de leitura para discutir testes instáveis, observabilidade e as fronteiras onde uma falha deve ser investigada.
+
 ## Estudos de caso e referências
 
 - [o-grimorio-dos-padroes](https://github.com/kleberandrade/o-grimorio-dos-padroes) — consulte o README e o código atuais.

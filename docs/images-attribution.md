@@ -2,9 +2,11 @@
 
 ## Official book covers
 
-The eleven cover files under `site/assets/books/` were obtained from the author’s official book pages at the user’s request. [The book catalog](../site/content/books.json) records each source page, original image URL, intrinsic dimensions and attribution. Covers and books retain their own rights; they are not relicensed by this repository’s MIT license.
+The thirteen cover files under `site/assets/books/` were obtained from the author’s official book pages at the user’s request. [The book catalog](../site/content/books.json) records each source page, original image URL, intrinsic dimensions and attribution. Covers and books retain their own rights; they are not relicensed by this repository’s MIT license.
 
 The three Masmorra covers identify **Livro I — A Primeira Tocha**, **Livro II — A Masmorra Desperta** and **Livro III — A Forja dos Monstros**. The full Masmorra learning website is linked as a separate resource.
+
+The three Agência Holística de Depuração covers identify volumes I, II and III. Their official page and original image sources are recorded in the catalog.
 
 ## Actual application screenshots
 

@@ -41,7 +41,13 @@ O catálogo do site apresenta a capa oficial de cada volume. A trilha online do 
 
 ## Depuração e discussão de sistemas
 
-[A Agência Holística de Depuração — Tudo está conectado](https://kleberandrade.dev/books/agencia-vol-1) é uma indicação complementar para discutir investigação de falhas e suas conexões nos módulos 4, 5 e 9. Compare uma situação de leitura com uma falha reproduzível do seu estudo de caso, sem presumir correspondência com uma API específica.
+A trilogia **A Agência Holística de Depuração** oferece leituras para discutir investigação e confiabilidade de sistemas:
+
+- [Volume I — Tudo está conectado](https://kleberandrade.dev/books/agencia-vol-1): investigue conexões entre falhas de integração, persistência e arquitetura nos módulos 4, 5 e 9.
+- [Volume II — Tudo Tem Memória](https://kleberandrade.dev/books/agencia-vol-2): discuta logs, alertas, testes instáveis e consistência nos módulos 4, 5 e 9.
+- [Volume III — A Conta Que Ficou](https://kleberandrade.dev/books/agencia-vol-3): relacione idempotência, recuperação de dados e deriva de modelos aos módulos 4, 5 e 6 e à confiabilidade do trabalho final, no módulo 10.
+
+Compare uma situação de leitura com uma falha reproduzível do seu estudo de caso, sem presumir correspondência com uma API específica. O catálogo do site apresenta as três capas oficiais e seus links.
 
 ## Outros títulos e créditos
 

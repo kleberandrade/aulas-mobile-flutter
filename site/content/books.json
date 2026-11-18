@@ -184,6 +184,43 @@
         "pt": "Compare a investigação de falhas da leitura com um erro reproduzível de integração, persistência ou arquitetura.",
         "en": "Compare the reading’s failure investigations with a reproducible integration, persistence or architecture error."
       }
+    },
+    {
+      "id": "agencia-vol-2",
+      "title": "A Agência Holística de Depuração — Tudo Tem Memória (Volume II)",
+      "url": "https://kleberandrade.dev/books/agencia-vol-2",
+      "cover_source": "https://kleberandrade.dev/assets/books/book-20.webp",
+      "image": "books/agencia-vol-2.webp",
+      "width": 600,
+      "height": 892,
+      "modules": [
+        "04-apis",
+        "05-local-data",
+        "09-architecture"
+      ],
+      "description": {
+        "pt": "Investigue falhas silenciosas, logs, alertas, testes instáveis e consistência de dados. Leitura para APIs, persistência e manutenção.",
+        "en": "Investigate silent failures, logs, alerts, flaky tests and data consistency. A companion for APIs, persistence and maintainability."
+      }
+    },
+    {
+      "id": "agencia-vol-3",
+      "title": "A Agência Holística de Depuração — A Conta Que Ficou (Volume III)",
+      "url": "https://kleberandrade.dev/books/agencia-vol-3",
+      "cover_source": "https://kleberandrade.dev/assets/books/book-21.webp",
+      "image": "books/agencia-vol-3.webp",
+      "width": 600,
+      "height": 892,
+      "modules": [
+        "04-apis",
+        "05-local-data",
+        "06-services",
+        "10-final-project"
+      ],
+      "description": {
+        "pt": "Discuta idempotência, recuperação de dados e deriva de modelos. Relacione os casos aos serviços, à persistência e à confiabilidade do projeto final.",
+        "en": "Discuss idempotency, data recovery and model drift. Connect the cases to services, persistence and the reliability of your final project."
+      }
     }
   ],
   "attribution": {

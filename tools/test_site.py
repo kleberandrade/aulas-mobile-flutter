@@ -159,13 +159,13 @@ class SiteTests(unittest.TestCase):
             self.assertIn('projects/', footer)
             self.assertIn('LICENSE', footer)
 
-    def test_books_show_eleven_official_local_covers_in_both_languages(self):
+    def test_books_show_the_complete_official_cover_catalog_in_both_languages(self):
         import json
         books = json.loads((ROOT / 'site/content/books.json').read_text())['books']
-        self.assertEqual(len(books), 11)
+        self.assertEqual(len(books), 13)
         for prefix in ['', 'en/']:
             text = (OUTPUT / prefix / 'books/index.html').read_text()
-            self.assertEqual(text.count('class="book-card"'), 11)
+            self.assertEqual(text.count('class="book-card"'), 13)
             for book in books:
                 self.assertTrue(book['image'] in text, book['title'])
                 self.assertTrue(book['url'] in text, book['title'])
@@ -180,6 +180,24 @@ class SiteTests(unittest.TestCase):
         self.assertEqual(len({book['image'] for book in volumes}), 3)
         self.assertIn('Livro II — A Masmorra Desperta', volumes[1]['title'])
         self.assertIn('Livro III — A Forja dos Monstros', volumes[2]['title'])
+
+    def test_holistic_debugging_trilogy_has_all_volumes_and_module_suggestions(self):
+        import json
+        books = json.loads((ROOT / 'site/content/books.json').read_text())['books']
+        volumes = [book for book in books if book['id'].startswith('agencia-vol-')]
+        self.assertEqual([book['id'] for book in volumes], ['agencia-vol-1', 'agencia-vol-2', 'agencia-vol-3'])
+        self.assertEqual(len({book['image'] for book in volumes}), 3)
+        self.assertIn('Tudo Tem Memória', volumes[1]['title'])
+        self.assertIn('A Conta Que Ficou', volumes[2]['title'])
+        for book in volumes:
+            self.assertTrue(book['modules'])
+            self.assertTrue(book['description']['pt'])
+            self.assertTrue(book['description']['en'])
+        for book, title in [(volumes[1], 'Tudo Tem Memória'), (volumes[2], 'A Conta Que Ficou')]:
+            for prefix in ['', 'en/']:
+                for slug in book['modules']:
+                    text = (OUTPUT / prefix / 'modules' / slug / 'index.html').read_text()
+                    self.assertTrue(title in text, f'{prefix}{slug}: missing volume reading')
 
     def test_representative_images_and_reduced_motion_support_are_present(self):
         for prefix in ['', 'en/']:
