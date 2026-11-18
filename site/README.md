@@ -19,8 +19,9 @@ Open `http://localhost:8000/`. The test command builds the site and verifies eve
 ## Content sources
 
 - Portuguese modules: `lessons/*/README.md`.
-- Portuguese books, guide and resources: their corresponding files in `docs/`.
+- Portuguese study guide and resources: their corresponding files in `docs/`. The full reading guide is preserved in `docs/books.md`.
 - English teaching content and all fifty translated exercises: `site/content/en.json`.
+- Bilingual book cards, official cover catalog, dimensions and attribution: `site/content/books.json` and `site/assets/books/`.
 - Laboratory/package catalog and bilingual module suggestions: `site/content/labs.json`.
 - Shared project destinations and article links: `docs/repository-snapshot.json`.
 - Navigation, localized interface labels and layout: `tools/build_site.py`.
@@ -37,3 +38,9 @@ The site works as ordinary static links when JavaScript is unavailable. JavaScri
 The documentation workflow builds and tests before uploading `site/dist/` as the Pages artifact. Deployment runs only for the default `master` branch, after checks pass. Pull requests run checks without deployment. GitHub Pages must use GitHub Actions as its build source.
 
 Generated output is ignored by Git. Pages and asset links are relative, supporting the `/aulas-mobile-flutter/` project prefix and direct navigation to nested modules. Canonical and alternate-language URLs use the public address above; update `PUBLIC` in the generator if the repository or domain moves.
+
+## Images and motion
+
+The books page uses local copies of official cover assets with their original aspect ratios and source attribution. Masmorra’s cover represents the first volume; the broader learning site remains linked separately. Original screenshots of the flooring calculator, calculator and tic-tac-toe studies illustrate the home page. Their source links and MIT notices are recorded in the [image attribution guide](../docs/images-attribution.md).
+
+Assets have content-versioned URLs, so changes to the stylesheet, scripts, logo and images load together after deployment. Containers use a shared maximum width and gutter; reading text retains a shorter comfortable line length. Entrance, menu and hover animations are brief and disabled by `prefers-reduced-motion`.

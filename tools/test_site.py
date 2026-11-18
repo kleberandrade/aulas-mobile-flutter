@@ -159,6 +159,26 @@ class SiteTests(unittest.TestCase):
             self.assertIn('projects/', footer)
             self.assertIn('LICENSE', footer)
 
+    def test_books_show_nine_official_local_covers_in_both_languages(self):
+        import json
+        books = json.loads((ROOT / 'site/content/books.json').read_text())['books']
+        self.assertEqual(len(books), 9)
+        for prefix in ['', 'en/']:
+            text = (OUTPUT / prefix / 'books/index.html').read_text()
+            self.assertEqual(text.count('class="book-card"'), 9)
+            for book in books:
+                self.assertTrue(book['image'] in text, book['title'])
+                self.assertTrue(book['url'] in text, book['title'])
+            self.assertIn('loading="lazy"', text)
+
+    def test_representative_images_and_reduced_motion_support_are_present(self):
+        for prefix in ['', 'en/']:
+            text = (OUTPUT / prefix / 'index.html').read_text()
+            self.assertEqual(text.count('class="showcase-item"'), 3)
+        css = (ROOT / 'site/assets/site.css').read_text()
+        self.assertIn('--container: 1280px', css)
+        self.assertRegex(css, r'prefers-reduced-motion\s*:\s*reduce')
+
 
 if __name__ == '__main__':
     unittest.main()

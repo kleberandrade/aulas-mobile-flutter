@@ -33,3 +33,13 @@ Portuguese lesson updates are reflected by the generator. English translations i
 - Expanded automated checks to eleven, including all seven package/lab destinations, per-module suggestions, removal of arrow glyphs, grouped footer and single current-flag disclosure.
 - Inspected desktop, 390px and 320px layouts in the browser. The module language switch retained `#labs`; the active in-page tab matched the section and the inspected pages had no horizontal overflow.
 - Verified the language disclosure opens with Enter, hides the inactive language when closed and closes with Escape while returning focus to its trigger. Inspected the grouped footer at 320px.
+
+## Covers, imagery and container revision
+
+- Added nine visually verified official book covers, with intrinsic dimensions, original source URLs, author attribution and module recommendations.
+- Preserved the distinction between Masmorra’s first-volume cover and the wider Masmorra learning website.
+- Added three actual application screenshots with their original MIT notices and source attribution.
+- Expanded automated checks to thirteen: cover presence in both languages, representative images, shared container configuration and reduced-motion styling are included.
+- In the browser at 1600px, header, book heading and cover collection all measured 1280px and shared the same left edge. At 390px the nine covers and translated book page had no horizontal overflow.
+- Verified the three case-study images loaded in the English home page. Animated entrance and hover effects remain optional under the reduced-motion media rule.
+- Added content-versioned asset URLs for coherent stylesheet/script/image updates.

@@ -1,0 +1,158 @@
+{
+  "books": [
+    {
+      "id": "masmorra-ascii",
+      "title": "Masmorra ASCII · Livro I — A Primeira Tocha",
+      "url": "https://kleberandrade.dev/books/masmorra-ascii",
+      "cover_source": "https://kleberandrade.dev/assets/books/masmorra-ascii-livro-1-publicacao-2026.webp",
+      "image": "books/masmorra-ascii.webp",
+      "width": 600,
+      "height": 891,
+      "modules": [
+        "01-dart"
+      ],
+      "description": {
+        "pt": "Pratique fundamentos de Dart com o primeiro volume da jornada no terminal. Leitura de apoio ao módulo inicial.",
+        "en": "Practice Dart foundations with the first volume of the terminal journey. A companion reading for the opening module."
+      }
+    },
+    {
+      "id": "ordem-codigo-limpo",
+      "title": "A Ordem do Código Limpo",
+      "url": "https://kleberandrade.dev/books/ordem-codigo-limpo",
+      "cover_source": "https://kleberandrade.dev/assets/books/book-11-revisao-2026.webp",
+      "image": "books/ordem-codigo-limpo.webp",
+      "width": 600,
+      "height": 853,
+      "modules": [
+        "02-forms",
+        "03-layouts",
+        "09-architecture"
+      ],
+      "description": {
+        "pt": "Discuta clareza, nomes e manutenção ao revisar formulários, interfaces e responsabilidades do código.",
+        "en": "Discuss clarity, naming and maintainability while reviewing forms, interfaces and code responsibilities."
+      }
+    },
+    {
+      "id": "grimorio",
+      "title": "Os Padrões Arcanos de Projeto",
+      "url": "https://kleberandrade.dev/books/grimorio",
+      "cover_source": "https://kleberandrade.dev/assets/books/book-9-revisao-2026.webp",
+      "image": "books/grimorio.webp",
+      "width": 600,
+      "height": 853,
+      "modules": [
+        "09-architecture"
+      ],
+      "description": {
+        "pt": "Apoio narrativo para discutir padrões de projeto e justificar quando uma abstração ajuda o caso escolhido.",
+        "en": "A narrative companion for discussing design patterns and explaining when an abstraction helps the chosen case study."
+      }
+    },
+    {
+      "id": "cinco-codigos",
+      "title": "A Guerra das Arquiteturas",
+      "url": "https://kleberandrade.dev/books/cinco-codigos",
+      "cover_source": "https://kleberandrade.dev/assets/books/book-10-revisao-2026.webp",
+      "image": "books/cinco-codigos.webp",
+      "width": 600,
+      "height": 854,
+      "modules": [
+        "09-architecture",
+        "10-final-project"
+      ],
+      "description": {
+        "pt": "Leitura para debater limites, dependências e consequências das decisões de arquitetura no trabalho final.",
+        "en": "A reading for discussing boundaries, dependencies and the consequences of architectural decisions in the final assignment."
+      }
+    },
+    {
+      "id": "grimorio-dos-padroes",
+      "title": "O Grimório dos Padrões",
+      "url": "https://kleberandrade.dev/books/grimorio-dos-padroes",
+      "cover_source": "https://kleberandrade.dev/assets/books/book-23-publicacao-2026.webp",
+      "image": "books/grimorio-dos-padroes.webp",
+      "width": 600,
+      "height": 851,
+      "modules": [
+        "09-architecture"
+      ],
+      "description": {
+        "pt": "Relacione as histórias aos exemplos em TypeScript do site do livro e proponha uma adaptação justificada em Dart.",
+        "en": "Connect the stories to the study site’s TypeScript examples and propose a justified adaptation in Dart."
+      }
+    },
+    {
+      "id": "mestre-magos",
+      "title": "O Mestre dos Magos da Agilidade",
+      "url": "https://kleberandrade.dev/books/mestre-magos",
+      "cover_source": "https://kleberandrade.dev/assets/books/book-1-revisao-2026.webp",
+      "image": "books/mestre-magos.webp",
+      "width": 600,
+      "height": 851,
+      "modules": [
+        "10-final-project"
+      ],
+      "description": {
+        "pt": "Use a leitura para conversar sobre planejamento, colaboração e conclusão de pequenas entregas.",
+        "en": "Use the reading to discuss planning, collaboration and completing small, verifiable deliveries."
+      }
+    },
+    {
+      "id": "ordem-po",
+      "title": "A Ordem dos Product Owners Perdidos",
+      "url": "https://kleberandrade.dev/books/ordem-po",
+      "cover_source": "https://kleberandrade.dev/assets/books/book-2-revisao-2026.webp",
+      "image": "books/ordem-po.webp",
+      "width": 600,
+      "height": 851,
+      "modules": [
+        "10-final-project"
+      ],
+      "description": {
+        "pt": "Discuta prioridade, escopo e critérios de aceitação antes de implementar a jornada do trabalho final.",
+        "en": "Discuss priorities, scope and acceptance criteria before implementing the final assignment’s user journey."
+      }
+    },
+    {
+      "id": "ultimo-sprint",
+      "title": "O Último Sprint da Humanidade",
+      "url": "https://kleberandrade.dev/books/ultimo-sprint",
+      "cover_source": "https://kleberandrade.dev/assets/books/book-3-revisao-2026.webp",
+      "image": "books/ultimo-sprint.webp",
+      "width": 600,
+      "height": 851,
+      "modules": [
+        "06-services",
+        "10-final-project"
+      ],
+      "description": {
+        "pt": "Uma indicação para discutir responsabilidade pela validação de resultados e pelo uso de automação na entrega.",
+        "en": "A suggested reading for discussing responsibility for validating results and using automation in a delivery."
+      }
+    },
+    {
+      "id": "agencia-vol-1",
+      "title": "A Agência Holística de Depuração - Tudo está conectado (Volume I)",
+      "url": "https://kleberandrade.dev/books/agencia-vol-1",
+      "cover_source": "https://kleberandrade.dev/assets/books/book-19.webp",
+      "image": "books/agencia-vol-1.webp",
+      "width": 600,
+      "height": 892,
+      "modules": [
+        "04-apis",
+        "05-local-data",
+        "09-architecture"
+      ],
+      "description": {
+        "pt": "Compare a investigação de falhas da leitura com um erro reproduzível de integração, persistência ou arquitetura.",
+        "en": "Compare the reading’s failure investigations with a reproducible integration, persistence or architecture error."
+      }
+    }
+  ],
+  "attribution": {
+    "pt": "Capas oficiais obtidas nas páginas dos livros de Kleber de Oliveira Andrade e reproduzidas a pedido do autor para indicação das obras. As capas e os livros mantêm seus próprios direitos; a licença MIT do repositório não os relicencia.",
+    "en": "Official covers obtained from Kleber de Oliveira Andrade’s book pages and reproduced at the author’s request to present the works. Covers and books retain their own rights; the repository’s MIT license does not relicense them."
+  }
+}

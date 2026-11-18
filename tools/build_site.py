@@ -1,6 +1,7 @@
 """Build the bilingual course as dependency-free, deep-linkable static pages."""
 from pathlib import Path
 import html
+import hashlib
 import json
 import os
 import re
@@ -19,10 +20,13 @@ TEXT['pt'].update(labs='Laboratórios', labs_title='Explore, entenda e leve para
 TEXT['en'].update(labs='Labs & packages', labs_title='Explore, understand, build it into your app.', labs_intro='Seven interactive laboratories and seven Dart packages for experimenting with concepts and turning learning into code.', open_lab='Open laboratory', package='Package on pub.dev', source_code='Source code', lab_modules='Use in these modules', lab_practice='Labs for this module', lab_explore='Explore in the browser', lab_integrate='Apply in your course project', lab_outcome='What to check', lab_context='These activities connect each laboratory to the lesson. Integration suggestions are adaptations for your own project.', sections='In this module', lab_heading='Experiment before you integrate.', lab_home_note='Explore in the browser, read the examples and use the Dart packages in your own projects.', lab_home_cta='Explore the laboratories', lab_count='7 laboratories · 7 Dart packages', package_version='Version checked on pub.dev')
 TEXT['pt'].update(footer_rights='Obras externas mantêm seus próprios direitos.',footer_learn='Aprender',footer_explore='Explorar',footer_about='Sobre o curso',footer_repo='Repositório',footer_history='Histórico das aulas',footer_books='Livros do autor',footer_license='Licença MIT',change_language='Alterar idioma',current_language='Atual')
 TEXT['en'].update(footer_rights='External works retain their own rights.',footer_learn='Learn',footer_explore='Explore',footer_about='About the course',footer_repo='Repository',footer_history='Course history',footer_books="Author’s books",footer_license='MIT license',change_language='Change language',current_language='Current')
+TEXT['pt'].update(books_title='Leituras para acompanhar sua jornada.',books_intro='Capas oficiais e sugestões para aprofundar os temas de cada módulo.',book_cover='Capa de',book_catalog='Explorar o catálogo completo',reading_resources='Continue a leitura',showcase_title='Veja o que você vai construir.',showcase_intro='Capturas reais dos estudos de caso do curso. Explore a interface e depois acompanhe o código no repositório.',view_case='Ver estudo de caso')
+TEXT['en'].update(books_title='Readings for your learning journey.',books_intro='Official covers and suggestions for exploring each module in more depth.',book_cover='Cover of',book_catalog='Explore the full catalog',reading_resources='Keep reading',showcase_title='See what you can build.',showcase_intro='Actual screenshots from the course case studies. Explore the interface, then follow the source in its repository.',view_case='View case study')
 SLUGS = [p.parent.name for p in sorted((ROOT / 'lessons').glob('*/README.md'))]
 EN = {}
 SNAPSHOT = {}
 LABS = {}
+BOOKS = {}
 
 
 def esc(value):
@@ -37,6 +41,11 @@ def route(locale, key='home'):
 def link_from(current, target):
     base = OUT / current
     return os.path.relpath(OUT / target, base).replace(os.sep, '/') + ('/' if target.endswith('/') or not target else '')
+
+
+def asset(current,name):
+    digest=hashlib.sha256((ROOT/'site/assets'/name).read_bytes()).hexdigest()[:12]
+    return link_from(current,'assets/'+name)+'?v='+digest
 
 
 def href(current, locale, key='home', anchor=''):
@@ -159,8 +168,8 @@ def language_links(current,key,locale):
     for lang,label,flag in [('pt','Português brasileiro','br'),('en','English','uk')]:
         selected=' aria-current="true"' if lang==locale else ''
         status=f'<small>{t["current_language"]}</small>' if lang==locale else ''
-        options.append(f'<a class="language-option" data-language-link="{lang}" href="{href(current,lang,key)}" hreflang="{TEXT[lang]["lang"]}" lang="{TEXT[lang]["lang"]}" aria-label="{label}"{selected}><img src="{link_from(current,"assets/"+flag+".svg")}" alt="" width="24" height="24"><span>{label}</span>{status}</a>')
-    return f'<div class="languages"><details class="language-picker"><summary class="language-trigger" role="button" aria-label="{t["language"]}: {active_name}" title="{t["change_language"]}"><img src="{link_from(current,"assets/"+active_flag+".svg")}" alt="" width="25" height="25"></summary><div class="language-menu" role="group" aria-label="{t["language"]}">{"".join(options)}</div></details></div>'
+        options.append(f'<a class="language-option" data-language-link="{lang}" href="{href(current,lang,key)}" hreflang="{TEXT[lang]["lang"]}" lang="{TEXT[lang]["lang"]}" aria-label="{label}"{selected}><img src="{asset(current,flag+".svg")}" alt="" width="24" height="24"><span>{label}</span>{status}</a>')
+    return f'<div class="languages"><details class="language-picker"><summary class="language-trigger" role="button" aria-label="{t["language"]}: {active_name}" title="{t["change_language"]}"><img src="{asset(current,active_flag+".svg")}" alt="" width="25" height="25"></summary><div class="language-menu" role="group" aria-label="{t["language"]}">{"".join(options)}</div></details></div>'
 
 
 def footer(locale,current):
@@ -171,16 +180,16 @@ def footer(locale,current):
         (t['footer_about'],[(t['footer_repo'],REPO),(t['footer_history'],REPO+'/blob/master/docs/history/README-2019-2020.md'),(t['footer_books'],'https://kleberandrade.dev/#books')])
     ]
     navigation=''.join('<section class="footer-group"><h2>'+title+'</h2>'+''.join('<a href="'+url+'">'+label+'</a>' for label,url in links)+'</section>' for title,links in groups)
-    return f'<footer class="site-footer"><div class="footer-intro"><a class="brand" href="{href(current,locale)}"><img src="{link_from(current,"assets/logo.svg")}" alt="" width="38" height="38"><span>{t["course"]}<small>DART & FLUTTER</small></span></a><p>{t["footer"]}</p><a class="footer-author" href="https://kleberandrade.dev/">Kleber de Oliveira Andrade</a></div><div class="footer-links">{navigation}</div><div class="footer-bottom"><span>{t["author"]}</span><span><a href="{REPO}/blob/master/LICENSE">{t["footer_license"]}</a> · {t["footer_rights"]}</span></div></footer>'
+    return f'<footer class="site-footer"><div class="footer-intro"><a class="brand" href="{href(current,locale)}"><img src="{asset(current,"logo.svg")}" alt="" width="38" height="38"><span>{t["course"]}<small>DART & FLUTTER</small></span></a><p>{t["footer"]}</p><a class="footer-author" href="https://kleberandrade.dev/">Kleber de Oliveira Andrade</a></div><div class="footer-links">{navigation}</div><div class="footer-bottom"><span>{t["author"]}</span><span><a href="{REPO}/blob/master/LICENSE">{t["footer_license"]}</a> · {t["footer_rights"]}</span></div></footer>'
 
 
 def shell(locale, key, title, body, description=None):
     t = TEXT[locale]; current = route(locale, key)
-    logo = link_from(current, 'assets/logo.svg')
+    logo = asset(current,'logo.svg')
     navigation = ''.join(f'<a href="{href(current,locale,k,a)}"' + (' aria-current="page"' if key == k and k != 'home' else '') + f'>{t[label]}</a>' for label,k,a in [('modules','home','modules'),('labs','labs',''),('books','books',''),('projects','projects',''),('guide','guide','')])
     fulltitle = title + ' · Dart & Flutter'
     document = f'''<!doctype html>
-<html lang="{t['lang']}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="{esc(description or t['intro'])}"><meta name="theme-color" content="#02569b"><title>{esc(fulltitle)}</title><link rel="canonical" href="{PUBLIC+current}"><link rel="alternate" hreflang="pt-BR" href="{PUBLIC+route('pt',key)}"><link rel="alternate" hreflang="en" href="{PUBLIC+route('en',key)}"><link rel="icon" href="{logo}" type="image/svg+xml"><link rel="stylesheet" href="{link_from(current,'assets/site.css')}"><script src="{link_from(current,'assets/site.js')}" defer></script></head>
+<html lang="{t['lang']}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="{esc(description or t['intro'])}"><meta name="theme-color" content="#02569b"><title>{esc(fulltitle)}</title><link rel="canonical" href="{PUBLIC+current}"><link rel="alternate" hreflang="pt-BR" href="{PUBLIC+route('pt',key)}"><link rel="alternate" hreflang="en" href="{PUBLIC+route('en',key)}"><link rel="icon" href="{logo}" type="image/svg+xml"><link rel="stylesheet" href="{asset(current,'site.css')}"><script src="{asset(current,'site.js')}" defer></script></head>
 <body data-locale="{locale}" data-page="{key}" data-found="{t['found']}"><a class="skip-link" href="#main">{t['skip']}</a>
 <header class="site-header"><div class="header-inner"><a class="brand" aria-label="{t['course']} · Dart and Flutter" href="{href(current,locale)}"><img src="{logo}" alt="" width="40" height="40"><span>{t['course']}<small>DART & FLUTTER</small></span></a><button class="menu-toggle" aria-label="{t['menu']}" data-open-label="{t['menu']}" data-close-label="{t['close']}" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span></button><nav id="primary-nav" aria-label="{t['modules_label']}">{navigation}<a class="nav-github" href="{REPO}">GitHub </a></nav>{language_links(current,key,locale)}</div></header>
 <noscript><style>.menu-toggle{{display:none}}.header-inner{{flex-wrap:wrap}}.header-inner>nav{{display:flex;position:static;flex-wrap:wrap;order:3;width:100%}}</style></noscript><main id="main">{body}</main>{footer(locale,current)}</body></html>'''
@@ -207,9 +216,10 @@ def module_cards(locale, practice=False):
 def home(locale):
     t=TEXT[locale]; current=route(locale)
     stages=''.join(f'<div class="path-stage"><span>0{i}</span><div><h3>{t[title]}</h3><p>{t[note]}</p></div></div>' for i,title,note in [(1,'foundations','foundations_note'),(2,'data','data_note'),(3,'delivery','delivery_note')])
-    body=f'''<section class="hero wrap"><div class="hero-copy"><p class="eyebrow"><span></span>{t['hub']} · FATEC AMERICANA</p><h1>{t['title']}</h1><p class="hero-description">{t['intro']}</p><div class="actions"><a class="button" href="{href(current,locale,'modules/'+SLUGS[0])}">{t['start']} </a><a class="text-link" href="{href(current,locale,'labs')}">{t['lab_home_cta']}</a></div><div class="hero-stats"><span><b>10</b>{t['modules']}</span><span><b>50</b>{t['exercises']}</span><span><b>7</b>{t['labs']}</span><span><b>23</b>{t['projects']}</span></div></div><div class="path-note"><div class="note-top"><span>{t['path']}</span></div>{stages}<div class="note-bottom"><span>Dart · Flutter · Apps</span><span aria-hidden="true">✦</span></div></div></section>
+    body=f'''<section class="hero wrap"><div class="hero-copy"><p class="eyebrow"><span></span>{t['hub']} · FATEC AMERICANA</p><h1>{t['title']}</h1><p class="hero-description">{t['intro']}</p><div class="actions"><a class="button" href="{href(current,locale,'modules/'+SLUGS[0])}">{t['start']} </a><a class="text-link" href="{href(current,locale,'labs')}">{t['lab_home_cta']}</a></div><div class="hero-stats"><span><b>10</b>{t['modules']}</span><span><b>50</b>{t['exercises']}</span><span><b>7</b>{t['labs']}</span><span><b>23</b>{t['projects']}</span></div></div><div class="path-note"><div class="note-top"><h2>{t['path']}</h2></div>{stages}<div class="note-bottom"><span>Dart · Flutter · Apps</span><span aria-hidden="true">✦</span></div></div></section>
 <section class="wrap lab-callout"><div><span class="lab-tag">{t['lab_count']}</span><h2>{t['lab_heading']}</h2><p>{t['lab_home_note']}</p></div><a class="button" href="{href(current,locale,'labs')}">{t['lab_home_cta']}</a></section>
 <section id="modules" class="section wrap"><div class="section-heading"><div><p class="eyebrow">01 / {t['modules'].upper()}</p><h2>{t['path_title']}</h2><p>{t['path_note']}</p></div><div class="search-box"><label for="module-search">{t['search']}</label><input id="module-search" type="search" autocomplete="off" placeholder="Dart, API, neural…"><p id="search-status" role="status" aria-live="polite"></p></div></div><div class="module-grid">{module_cards(locale)}</div><p id="search-empty" hidden>{t['empty']}</p></section>
+{course_showcase(locale,current)}
 <section id="practice" class="practice-section"><div class="wrap practice-layout"><div><p class="eyebrow">02 / {t['exercises'].upper()}</p><h2>{t['exercise_title']}</h2><p>{t['exercise_note']}</p><a class="text-link" href="{href(current,locale,'guide')}">{t['guide']} </a></div><div class="practice-list">{module_cards(locale,True)}</div></div></section>
 <section class="wrap explore-section"><p class="eyebrow">03 / {t['learn_more'].upper()}</p><div class="explore-grid"><a href="{href(current,locale,'books')}"><span aria-hidden="true">✦</span><h2>{t['books']}</h2><p>Masmorra ASCII · O Grimório dos Padrões · Fantasia Técnica</p></a><a href="{href(current,locale,'projects')}"><span aria-hidden="true">&lt;/&gt;</span><h2>{t['projects']}</h2><p>{t['no_app']}</p></a></div></section>'''
     shell(locale,'home',t['course'],body)
@@ -261,6 +271,32 @@ def projects(locale):
     shell(locale,'projects',t['projects'],body)
 
 
+def course_showcase(locale,current):
+    t=TEXT[locale]
+    cases=[
+        ('floor','floor-calculator-flutter',('Formulários e medidas','Forms and measurements'),('Entradas e unidades no planejador de pisos e revestimentos.','Inputs and units in the flooring and tile planner.')),
+        ('calculator','calculadora-flutter',('Layouts e operações','Layouts and operations'),('Estado da interface, operações e feedback na calculadora.','Interface state, operations and feedback in the calculator.')),
+        ('tic-tac-toe','tic-tac-toe-flutter',('Interação e regras de jogo','Interaction and game rules'),('Turnos e feedback visual em uma partida de jogo da velha.','Turns and visual feedback in a tic-tac-toe match.'))
+    ]
+    cards=[]
+    index=0 if locale=='pt' else 1
+    for image_name,repo,titles,descriptions in cases:
+        title=titles[index]
+        cards.append(f'<figure class="showcase-item"><a href="https://github.com/kleberandrade/{repo}"><img src="{asset(current,"showcase/"+image_name+".jpg")}" alt="{esc(title)}" width="390" height="844" loading="lazy" decoding="async"></a><figcaption><strong>{title}</strong><p>{descriptions[index]}</p><a href="https://github.com/kleberandrade/{repo}">{t["view_case"]}</a></figcaption></figure>')
+    return f'<section class="wrap course-showcase"><h2>{t["showcase_title"]}</h2><p>{t["showcase_intro"]}</p><div class="showcase-grid">{"".join(cards)}</div></section>'
+
+
+def books_page(locale):
+    t=TEXT[locale];current=route(locale,'books');cards=[]
+    for book in BOOKS['books']:
+        links=''.join(f'<a href="{href(current,locale,"modules/"+slug)}">{esc(module(locale,slug)["title"])}</a>' for slug in book['modules'])
+        cards.append(f'<article class="book-card"><a class="book-cover" href="{book["url"]}"><img src="{asset(current,book["image"])}" alt="{t["book_cover"]} {esc(book["title"])}" width="{book["width"]}" height="{book["height"]}" loading="lazy" decoding="async"></a><div class="book-info"><h3><a href="{book["url"]}">{esc(book["title"])}</a></h3><p>{esc(book["description"][locale])}</p><div class="book-module-links">{links}</div></div></article>')
+    resources=[('Masmorra ASCII','https://masmorra.io/'),('Masmorra · '+('Sumário' if locale=='pt' else 'Contents'),'https://masmorra.io/livro'),('Masmorra · '+('Código por capítulo' if locale=='pt' else 'Code by chapter'),'https://masmorra.io/codigo'),('O Grimório dos Padrões','https://o-grimorio-dos-padroes.vercel.app/'),('Fantasia Técnica','https://fantasia-tecnica.vercel.app/'),('Fantasia Ágil','https://fantasia-agil.vercel.app/')]
+    more=''.join('<li><a href="'+url+'">'+label+'</a></li>' for label,url in resources)
+    body=f'<section class="wrap document-heading"><p class="eyebrow">DART & FLUTTER / {t["books"].upper()}</p><h1>{t["books_title"]}</h1><p>{t["books_intro"]}</p></section><section class="wrap book-collection"><h2 class="sr-only">{t["books"]}</h2><div class="book-grid">{"".join(cards)}</div><p class="image-attribution">{esc(BOOKS["attribution"][locale])}</p></section><section class="wrap document-layout"><div class="prose"><h2>{t["reading_resources"]}</h2><ul>{more}</ul><p><a href="https://kleberandrade.dev/#books">{t["book_catalog"]}</a></p></div></section>'
+    shell(locale,'books',t['books'],body)
+
+
 def lab_actions(lab,locale,primary=False):
     t=TEXT[locale]
     style=' class="button"' if primary else ''
@@ -306,10 +342,11 @@ def validate_labs():
 
 
 def main():
-    global EN,SNAPSHOT,LABS
+    global EN,SNAPSHOT,LABS,BOOKS
     EN=json.loads((ROOT/'site/content/en.json').read_text())
     SNAPSHOT=json.loads((ROOT/'docs/repository-snapshot.json').read_text())
     LABS=json.loads((ROOT/'site/content/labs.json').read_text())
+    BOOKS=json.loads((ROOT/'site/content/books.json').read_text())
     validate_labs()
     if set(EN['modules'])!=set(SLUGS):raise ValueError('English module coverage is incomplete')
     for slug in SLUGS:
@@ -319,7 +356,8 @@ def main():
     for locale in ['pt','en']:
         home(locale)
         for i,slug in enumerate(SLUGS):module_page(locale,slug,i)
-        for key,filename in [('books','books.md'),('guide','study-guide.md'),('resources','resources.md')]:document_page(locale,key,filename)
+        for key,filename in [('guide','study-guide.md'),('resources','resources.md')]:document_page(locale,key,filename)
+        books_page(locale)
         projects(locale)
         laboratories(locale)
     (OUT/'.nojekyll').write_text('')

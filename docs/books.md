@@ -39,4 +39,4 @@ O jogo é uma atividade de terminal. Compare conceitos e regras antes de adaptá
 
 Consulte o [catálogo completo do autor](https://kleberandrade.dev/#books) para as demais obras e seus estados de publicação. Títulos anunciados como futuros não são materiais obrigatórios ou já disponíveis por suposição.
 
-Autor: **Kleber de Oliveira Andrade**. Os links apontam às páginas oficiais; esta seleção não redistribui os livros, capas ou conteúdos pagos. A licença MIT deste índice não altera os direitos das obras externas.
+Autor: **Kleber de Oliveira Andrade**. Os links apontam às páginas oficiais; o site apresenta as capas oficiais a pedido do autor, com fontes registradas em `site/content/books.json`. Os livros e conteúdos pagos não são redistribuídos. A licença MIT deste índice não altera os direitos das obras externas.

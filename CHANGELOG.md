@@ -1,5 +1,14 @@
 # Changelog
 
+## Container, covers and illustrative content
+
+- Unified header, page and footer container width at 1280 px with responsive gutters.
+- Added nine official book covers with attribution and module suggestions.
+- Added three actual case-study screenshots and preserved their source notices.
+- Added brief entrance, menu and hover animations with reduced-motion support.
+- Versioned static asset URLs to keep the deployed interface consistent across updates.
+
+
 ## Labs, packages and navigation refresh
 
 - Added seven verified live laboratories and published Dart packages, with twenty-one bilingual suggestions across all ten modules.
