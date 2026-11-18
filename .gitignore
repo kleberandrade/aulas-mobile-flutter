@@ -5,3 +5,10 @@
 # Python documentation-check cache
 __pycache__/
 *.pyc
+
+# Generated GitHub Pages output
+site/dist/
+
+# Local quality-tool reports
+.metrics/
+target/

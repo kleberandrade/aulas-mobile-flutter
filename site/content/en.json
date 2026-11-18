@@ -1,0 +1,619 @@
+{
+  "modules": {
+    "01-dart": {
+      "title": "Dart foundations and object-oriented programming",
+      "prerequisites": "Programming logic, functions and control flow.",
+      "objectives": "Work with types, null safety, collections, functions and classes. Model rules independently of the user interface.",
+      "activity": "Build a small terminal inventory in your own study repository. Separate data from commands and handle invalid input.",
+      "note": "Use Masmorra ASCII as a parallel learning path: study foundations and object-oriented programming before the advanced stages. The game uses a terminal rather than Flutter widgets. Use the current version of the chosen repository, synthetic data and its documented validation steps. Record the environment and distinguish real execution, emulation and a local demonstration. These activities are proposals for your own study repository.",
+      "reading": "Masmorra ASCII: start with the foundations and object-oriented programming in the terminal.",
+      "exercises": [
+        {
+          "title": "Types and validation",
+          "objective": "Accept an item name and quantity.",
+          "criteria": "Reject an empty name and a negative quantity without terminating the program."
+        },
+        {
+          "title": "Collections",
+          "objective": "Add items and look them up by name.",
+          "criteria": "Demonstrate an empty collection, a successful search and a search with no result."
+        },
+        {
+          "title": "Classes",
+          "objective": "Represent an item as a typed value.",
+          "criteria": "Make invalid construction impossible or reject it explicitly."
+        },
+        {
+          "title": "Null safety",
+          "objective": "Model a lookup that might not find an item.",
+          "criteria": "Handle absence without using a non-null assertion to ignore it."
+        },
+        {
+          "title": "Tests",
+          "objective": "Verify the inventory rules.",
+          "criteria": "Provide independent tests for adding items, looking them up and rejecting invalid data."
+        }
+      ]
+    },
+    "02-forms": {
+      "title": "Forms and validation",
+      "prerequisites": "Module 1 and basic widget state.",
+      "objectives": "Separate fields, input conversion and calculation rules. Provide useful messages and reproducible results.",
+      "activity": "Choose a calculator, run its current workflow and add a validation case with a test. Use the rules and units documented by the chosen case study.",
+      "note": "The calculators represent different domains. Do not transfer a formula or rounding rule from one to another without a reason. Use the current version of the chosen repository, synthetic data and its documented validation steps. Record the environment and distinguish real execution, emulation and a local demonstration. These activities are proposals for your own study repository.",
+      "reading": "A Ordem do Código Limpo: discuss understandable names and rules when reviewing the form.",
+      "exercises": [
+        {
+          "title": "Required fields",
+          "objective": "Validate an empty form.",
+          "criteria": "Display errors next to the fields without producing a fabricated result."
+        },
+        {
+          "title": "Conversion",
+          "objective": "Define the accepted numeric input.",
+          "criteria": "Demonstrate the decimal separator, invalid text and the documented behavior."
+        },
+        {
+          "title": "Units",
+          "objective": "Make the quantities and units explicit.",
+          "criteria": "Use consistent labels and results, with a test based on an independently calculated value."
+        },
+        {
+          "title": "An isolated rule",
+          "objective": "Extract a calculation from the interface.",
+          "criteria": "Test the rule without initializing widgets."
+        },
+        {
+          "title": "Interaction",
+          "objective": "Verify the complete form.",
+          "criteria": "Provide a widget test that fills the fields, calculates a result and covers at least one correction after an error."
+        }
+      ]
+    },
+    "03-layouts": {
+      "title": "Layouts and interaction",
+      "prerequisites": "Modules 1 and 2.",
+      "objectives": "Build a visual hierarchy, interaction states and adaptive layouts. Keep business rules separate from presentation.",
+      "activity": "Choose a case study and review its workflow on a narrow screen, a wide screen and with keyboard navigation.",
+      "note": "Game rules and mathematical operations belong to the domain. Visual changes should preserve existing results. Use the current version of the chosen repository, synthetic data and its documented validation steps. Record the environment and distinguish real execution, emulation and a local demonstration. These activities are proposals for your own study repository.",
+      "reading": "A Ordem do Código Limpo: relate implementation clarity to interaction decisions.",
+      "exercises": [
+        {
+          "title": "Responsive layouts",
+          "objective": "Adapt a screen to two widths.",
+          "criteria": "Keep every essential action accessible and avoid clipped content."
+        },
+        {
+          "title": "Semantics",
+          "objective": "Identify controls for assistive technologies.",
+          "criteria": "Give actions useful names instead of using unlabeled icons."
+        },
+        {
+          "title": "Focus",
+          "objective": "Complete a workflow using the keyboard.",
+          "criteria": "Provide a predictable focus order and visible activation."
+        },
+        {
+          "title": "State",
+          "objective": "Preserve a game or calculation when the layout changes.",
+          "criteria": "Demonstrate in a test that the data remains available."
+        },
+        {
+          "title": "Feedback",
+          "objective": "Communicate an invalid action.",
+          "criteria": "Show an understandable message and leave the interface ready for another attempt."
+        }
+      ]
+    },
+    "04-apis": {
+      "title": "HTTP APIs and asynchronous state",
+      "prerequisites": "Modules 1 through 3, Future and async/await.",
+      "objectives": "Consume external data, parse JSON at the boundary and distinguish loading, empty, success and error states.",
+      "activity": "Choose a query and implement a reproducible error response. Use a replaceable client in tests so they do not depend on an external network.",
+      "note": "The current application implementation determines the API and libraries in use. An old article title does not establish that DIO or Google Sheets remains the active integration. Use the current version of the chosen repository, synthetic data and its documented validation steps. Record the environment and distinguish real execution, emulation and a local demonstration. These activities are proposals for your own study repository.",
+      "reading": "A Agência Holística de Depuração: use the reading as a starting point for investigating integration failures.",
+      "exercises": [
+        {
+          "title": "States",
+          "objective": "Represent loading, an empty response and a result.",
+          "criteria": "Demonstrate each state with controlled data."
+        },
+        {
+          "title": "Parsing",
+          "objective": "Validate an unexpected response.",
+          "criteria": "Handle invalid JSON or a missing field as a controlled error."
+        },
+        {
+          "title": "Failures",
+          "objective": "Handle a timeout or an unavailable service.",
+          "criteria": "Show a message and allow another attempt without inventing successful data."
+        },
+        {
+          "title": "Concurrency",
+          "objective": "Prevent an old result from replacing the latest query.",
+          "criteria": "Provide a test that controls the order of two responses."
+        },
+        {
+          "title": "A contract",
+          "objective": "Document a query.",
+          "criteria": "Describe its input, output and limits, and run tests with synthetic fixtures."
+        }
+      ]
+    },
+    "05-local-data": {
+      "title": "Local persistence",
+      "prerequisites": "Modules 1 through 4.",
+      "objectives": "Persist data, reconstruct state after restarting and handle changes to the stored format.",
+      "activity": "Create a record, close the application and open it again. Document the storage mechanism actually used by the current version.",
+      "note": "SQLite, Sembast and Hive appear in historical article titles. The current README and code determine the storage mechanism and platform compatibility. Use the current version of the chosen repository, synthetic data and its documented validation steps. Record the environment and distinguish real execution, emulation and a local demonstration. These activities are proposals for your own study repository.",
+      "reading": "Masmorra ASCII and A Agência Holística de Depuração: compare persistence and failure investigation with the chosen application.",
+      "exercises": [
+        {
+          "title": "Reopening",
+          "objective": "Preserve a record between sessions.",
+          "criteria": "Demonstrate creation, restarting and reading the same content."
+        },
+        {
+          "title": "Updating",
+          "objective": "Edit and delete a record.",
+          "criteria": "Keep the changes correct after reopening the application."
+        },
+        {
+          "title": "The format",
+          "objective": "Define behavior for invalid stored data.",
+          "criteria": "Reproduce the case in a test and avoid silent data loss."
+        },
+        {
+          "title": "Evolution",
+          "objective": "Change the schema using an explicit strategy.",
+          "criteria": "Keep a sample of the earlier format readable or apply a tested migration."
+        },
+        {
+          "title": "Isolation",
+          "objective": "Test the repository with temporary storage.",
+          "criteria": "Ensure that two runs do not accidentally share data."
+        }
+      ]
+    },
+    "06-services": {
+      "title": "External services and machine learning",
+      "prerequisites": "Module 4 and an understanding of asynchronous operations.",
+      "objectives": "Separate the interface from the integration. Communicate configuration requirements, failures and prediction limits.",
+      "activity": "Run a case study in its documented mode and identify real integration, fixtures and demonstration mode.",
+      "note": "OCR/ML Kit remains a historical topic without a linked tutorial in this course. A classifier does not by itself establish use of a particular service or model. Use the current version of the chosen repository, synthetic data and its documented validation steps. Record the environment and distinguish real execution, emulation and a local demonstration. These activities are proposals for your own study repository.",
+      "reading": "O Último Sprint da Humanidade: discuss who validates results and code produced with automation.",
+      "exercises": [
+        {
+          "title": "Configuration",
+          "objective": "Separate public parameters from secrets.",
+          "criteria": "Document a test run without committing credentials."
+        },
+        {
+          "title": "An adapter",
+          "objective": "Replace the service with a test double.",
+          "criteria": "Test the interface workflow without a real service call."
+        },
+        {
+          "title": "External failure",
+          "objective": "Handle an unavailable service.",
+          "criteria": "Report the failure without presenting a simulated response as a real one."
+        },
+        {
+          "title": "Limits",
+          "objective": "Explain the integration output.",
+          "criteria": "Distinguish the response, confidence when available and cases outside the scope."
+        },
+        {
+          "title": "Evidence",
+          "objective": "Record a reproducible run.",
+          "criteria": "Identify the synthetic input, execution mode, result and observed limitations."
+        }
+      ]
+    },
+    "07-firebase": {
+      "title": "Firebase and authentication",
+      "prerequisites": "Modules 4 and 5, and separation of data interfaces.",
+      "objectives": "Understand sessions, authorization, remote persistence and access-rule testing.",
+      "activity": "Choose an application and identify its documented local and Firebase workflows. Use emulators when configured; production accounts are not prerequisites for the interface exercises.",
+      "note": "The sign-in methods in the 2019–2020 index provide historical context. Phone, Google or password sign-in should only be presented as available when the current version implements and documents it. Use the current version of the chosen repository, synthetic data and its documented validation steps. Record the environment and distinguish real execution, emulation and a local demonstration. These activities are proposals for your own study repository.",
+      "reading": "A Guerra das Arquiteturas: discuss boundaries between identity, access rules and storage.",
+      "exercises": [
+        {
+          "title": "Sessions",
+          "objective": "Model signing in, signing out and an expired session.",
+          "criteria": "Cover all three states in tests using test data."
+        },
+        {
+          "title": "Authorization",
+          "objective": "Define who may edit a record.",
+          "criteria": "Provide a rule or policy test that denies access to a different user."
+        },
+        {
+          "title": "Persistence",
+          "objective": "Separate local and remote implementations.",
+          "criteria": "Provide a common contract and identify the execution mode in the interface or documentation."
+        },
+        {
+          "title": "Errors",
+          "objective": "Handle a failed write.",
+          "criteria": "Report the error and avoid confirming success prematurely."
+        },
+        {
+          "title": "Configuration",
+          "objective": "Reproduce the test environment.",
+          "criteria": "Provide instructions without secrets and evidence of executed tests, distinguishing the emulator from production."
+        }
+      ]
+    },
+    "08-iot": {
+      "title": "Internet of Things",
+      "prerequisites": "Module 4 and basic messaging and connection concepts.",
+      "objectives": "Understand protocols, serialization, connection state and the boundary between simulation and hardware.",
+      "activity": "Explore a documented MQTT or Bluetooth workflow. Start with a simulated transport and only test hardware when its specific requirements are met.",
+      "note": "Bluetooth and Arduino require a compatible platform and equipment. The old Twilio/SMS topic has no linked tutorial here and does not authorize sending messages. Use the current version of the chosen repository, synthetic data and its documented validation steps. Record the environment and distinguish real execution, emulation and a local demonstration. These activities are proposals for your own study repository.",
+      "reading": "A Guerra das Arquiteturas: discuss responsibilities across the application, transport and device.",
+      "exercises": [
+        {
+          "title": "Messages",
+          "objective": "Define a command contract.",
+          "criteria": "Document the unit, range and rejection of invalid messages."
+        },
+        {
+          "title": "Connections",
+          "objective": "Represent disconnection and reconnection.",
+          "criteria": "Demonstrate transitions in a test without claiming a connection that does not exist."
+        },
+        {
+          "title": "Simulation",
+          "objective": "Replace the transport.",
+          "criteria": "Run a command in a hardware-free test and label that execution mode."
+        },
+        {
+          "title": "Limits",
+          "objective": "Handle commands outside the allowed range or without authorization.",
+          "criteria": "Demonstrate rejection at the relevant boundary in a test."
+        },
+        {
+          "title": "Platforms",
+          "objective": "Document a run.",
+          "criteria": "List the equipment, operating system and protocol actually tested, without treating a web test as proof of real radio operation."
+        }
+      ]
+    },
+    "09-architecture": {
+      "title": "Architecture and maintenance",
+      "prerequisites": "Modules 1 through 5 and a case study already run.",
+      "objectives": "Set boundaries between domain, interface and infrastructure. Choose abstractions based on the required behavior.",
+      "activity": "Use an application from an earlier module to isolate a rule from the interface. Compare it with a design pattern only when the problem justifies doing so.",
+      "note": "O Grimório dos Padrões provides TypeScript examples: study the concepts and implement your activity in Dart. MVC, MVVM, MVP and Clean Architecture are study alternatives, not guaranteed code modules in this index. Use the current version of the chosen repository, synthetic data and its documented validation steps. Record the environment and distinguish real execution, emulation and a local demonstration. These activities are proposals for your own study repository.",
+      "reading": "O Grimório dos Padrões, Fantasia Técnica and Masmorra ASCII: compare concepts and apply only those needed by the case study.",
+      "exercises": [
+        {
+          "title": "Responsibilities",
+          "objective": "Draw a dependency map for the chosen case study.",
+          "criteria": "Explain which modules know about the interface, domain and storage."
+        },
+        {
+          "title": "A rule",
+          "objective": "Isolate a business decision.",
+          "criteria": "Call the rule in tests without a UI framework."
+        },
+        {
+          "title": "Infrastructure",
+          "objective": "Replace data access through a contract.",
+          "criteria": "Use an alternative implementation in a test without changing the rule."
+        },
+        {
+          "title": "Refactoring",
+          "objective": "Improve the structure while preserving behavior.",
+          "criteria": "Show tests before and after the change and explain the reduction in complexity."
+        },
+        {
+          "title": "A decision",
+          "objective": "Record an architectural choice.",
+          "criteria": "Compare an alternative and make the context, consequences and limits of the decision explicit."
+        }
+      ]
+    },
+    "10-final-project": {
+      "title": "Complete applications and final assignment",
+      "prerequisites": "Earlier modules relevant to the chosen domain.",
+      "objectives": "Integrate the interface, data, tests, documentation and execution evidence within an achievable scope.",
+      "activity": "Choose a domain, define a small workflow and deliver a reproducible version with synthetic data. The module 7 applications are additional options.",
+      "note": "The goal is a verifiable delivery. Health information or production formulas require sources and domain limits; an academic demonstration is not clinical or chemical validation. Use the current version of the chosen repository, synthetic data and its documented validation steps. Record the environment and distinguish real execution, emulation and a local demonstration. These activities are proposals for your own study repository.",
+      "reading": "Fantasia Ágil and the author’s catalog: use the readings to discuss scope, acceptance criteria and responsibility for delivery.",
+      "exercises": [
+        {
+          "title": "Scope",
+          "objective": "Define a user journey and acceptance criteria.",
+          "criteria": "List the main workflow, one relevant error and what is outside the delivery scope."
+        },
+        {
+          "title": "Implementation",
+          "objective": "Complete the journey with synthetic data.",
+          "criteria": "Demonstrate the interface and persistence or an identified integration from end to end."
+        },
+        {
+          "title": "Quality",
+          "objective": "Verify critical decisions and interactions.",
+          "criteria": "Pass relevant tests and provide instructions for reproducing them."
+        },
+        {
+          "title": "Documentation",
+          "objective": "Prepare the delivery README.",
+          "criteria": "Include configuration, versions, licensing and credits, real screenshots and observed limits."
+        },
+        {
+          "title": "Demonstration",
+          "objective": "Reproduce the delivery in a clean environment.",
+          "criteria": "Run the documented steps and record the outcome, remaining work and a retrospective."
+        }
+      ]
+    }
+  },
+  "guide": {
+    "title": "Study guide",
+    "intro": "Course by Prof. Kleber de Oliveira Andrade, Fatec Americana, for the Systems Analysis and Development program. Start with Dart, follow the modules and build on the current case-study repositories.",
+    "sections": [
+      {
+        "title": "Prepare your environment",
+        "paragraphs": [
+          "Programming logic, functions, conditions and loops help you follow the course. Start with Dart before moving to Flutter interfaces.",
+          "Use the [official Flutter installation guide](https://docs.flutter.dev/install) for your operating system and target platform, together with the [initial learning path](https://docs.flutter.dev/learn/pathway). Identify your environment with `flutter --version`, `dart --version` and `flutter doctor -v`.",
+          "These commands do not install dependencies for this course index. Address the requirements of your chosen platform. License acceptance and account setup remain decisions for the person preparing the environment.",
+          "Open the repository of your chosen case study and follow its current README. Check `pubspec.yaml`, the lockfile, test commands and supported platforms. Do not run `flutter pub get` at the root of this course index or replace a modernized project’s versions with those from historical tutorials."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Follow the learning path",
+        "paragraphs": [
+          "Follow the ten modules: Dart; forms; layouts; APIs; local data; services; Firebase; IoT; architecture; and the final assignment. Revisit architecture throughout the activities rather than leaving it until the end.",
+          "[Masmorra ASCII](https://masmorra.io/) provides a parallel path for practicing Dart in the terminal. The suggested books connect this path with the course topics.",
+          "This repository does not define an official timetable or number of teaching hours. The instructor adapts the activities and service or hardware requirements to the class."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Work through each module",
+        "paragraphs": [
+          "Read the objectives, run a documented workflow in a case study and record your environment. Make a small change using synthetic data and verify the result. Every module ends with five exercises: their criteria describe expected evidence, not an answer key or an automated grading service.",
+          "In your own delivery repository, record what changed, why, the tests executed and the remaining limitations. Include real screenshots and credit authors and sources. Do not upload passwords, tokens, service-account files or personal data."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Completion criteria",
+        "paragraphs": [
+          "A browser test does not prove Bluetooth or camera operation or publication in an application store. Local modes in modernized projects should not be confused with production integrations. Use documented configuration and emulators to test external services."
+        ],
+        "bullets": [
+          "Demonstrate the main workflow and at least one invalid case.",
+          "Separate rules from the interface and test relevant decisions.",
+          "Explain loading, error and empty-data states when applicable.",
+          "Record versions and real steps for reproducing the run.",
+          "Identify fixtures, simulations, emulators and real integrations."
+        ]
+      }
+    ]
+  },
+  "books": {
+    "title": "Books and learning sites",
+    "intro": "Suggested readings by Kleber de Oliveira Andrade, connected to the course modules. These are teaching suggestions rather than required purchases. Narrative books support discussion; the technical documentation remains the reference for APIs. Use the official pages for availability and formats.",
+    "sections": [
+      {
+        "title": "Masmorra ASCII · practice Dart",
+        "paragraphs": [
+          "Masmorra ASCII teaches Dart through a terminal roguelike, with 37 chapters and code for each stage. Start with the beginner guide, then explore the contents, chapter examples and concept map.",
+          "Suggested connections: module 1 for foundations, null safety, collections and object-oriented programming; module 5 for comparing the game’s JSON persistence with application storage; module 9 for organization, tests, patterns and state machines; and module 10 for planning small, verifiable deliveries.",
+          "The game is a terminal activity. Compare concepts and rules before adapting them to a Flutter interface; this course site does not execute or republish the game code."
+        ],
+        "links": [
+          {
+            "title": "Masmorra ASCII",
+            "url": "https://masmorra.io/",
+            "description": "The book and its learning environment."
+          },
+          {
+            "title": "Beginner guide",
+            "url": "https://masmorra.io/iniciante",
+            "description": "A starting point before the main chapters."
+          },
+          {
+            "title": "Book contents",
+            "url": "https://masmorra.io/livro",
+            "description": "Explore the chapter sequence."
+          },
+          {
+            "title": "Code by chapter",
+            "url": "https://masmorra.io/codigo",
+            "description": "Compare the game at different stages."
+          },
+          {
+            "title": "Concept map",
+            "url": "https://masmorra.io/conceitos",
+            "description": "Find connections between learning topics."
+          }
+        ]
+      },
+      {
+        "title": "Code, patterns and architecture",
+        "paragraphs": [],
+        "links": [
+          {
+            "title": "A Ordem do Código Limpo",
+            "url": "https://kleberandrade.dev/books/ordem-codigo-limpo",
+            "description": "Discuss clarity and maintenance in modules 2, 3 and 9."
+          },
+          {
+            "title": "Os Padrões Arcanos de Projeto",
+            "url": "https://kleberandrade.dev/books/grimorio",
+            "description": "Complement the discussion of patterns in module 9."
+          },
+          {
+            "title": "A Guerra das Arquiteturas",
+            "url": "https://kleberandrade.dev/books/cinco-codigos",
+            "description": "Discuss boundaries and decisions in module 9 and the final assignment."
+          },
+          {
+            "title": "O Grimório dos Padrões",
+            "url": "https://kleberandrade.dev/books/grimorio-dos-padroes",
+            "description": "Study the concepts, then justify a Dart adaptation in module 9."
+          },
+          {
+            "title": "O Grimório dos Padrões · study site",
+            "url": "https://o-grimorio-dos-padroes.vercel.app/",
+            "description": "The associated examples use TypeScript."
+          },
+          {
+            "title": "O Grimório dos Padrões · GitHub projects",
+            "url": "https://github.com/kleberandrade/o-grimorio-dos-padroes",
+            "description": "Consult the independent example projects."
+          },
+          {
+            "title": "Fantasia Técnica",
+            "url": "https://fantasia-tecnica.vercel.app/",
+            "description": "The official site of the series."
+          }
+        ]
+      },
+      {
+        "title": "Delivery, product and teamwork",
+        "paragraphs": [],
+        "links": [
+          {
+            "title": "O Mestre dos Magos da Agilidade",
+            "url": "https://kleberandrade.dev/books/mestre-magos",
+            "description": "Discuss planning and completing small deliveries in module 10."
+          },
+          {
+            "title": "A Ordem dos Product Owners Perdidos",
+            "url": "https://kleberandrade.dev/books/ordem-po",
+            "description": "Discuss priorities, scope and acceptance criteria in module 10."
+          },
+          {
+            "title": "O Último Sprint da Humanidade",
+            "url": "https://kleberandrade.dev/books/ultimo-sprint",
+            "description": "Discuss responsibility for validating code and using automation in modules 6 and 10."
+          },
+          {
+            "title": "Fantasia Ágil",
+            "url": "https://fantasia-agil.vercel.app/",
+            "description": "The official site bringing the series together."
+          }
+        ]
+      },
+      {
+        "title": "Debugging and discussing systems",
+        "paragraphs": [
+          "Use the reading as a starting point for discussing failure investigation and connections in modules 4, 5 and 9. Compare a reading situation with a reproducible failure in your case study without assuming that it maps to a specific API."
+        ],
+        "links": [
+          {
+            "title": "A Agência Holística de Depuração — Tudo está conectado",
+            "url": "https://kleberandrade.dev/books/agencia-vol-1",
+            "description": "A complementary reading for investigating failures and their connections."
+          }
+        ]
+      },
+      {
+        "title": "More books and attribution",
+        "paragraphs": [
+          "The official catalog lists the other works and their publication status. A title announced for the future should not be assumed to be required or already available.",
+          "Author: Kleber de Oliveira Andrade. These links point to official pages. This selection does not redistribute books, covers or paid content. The MIT license of the course index does not change the rights of external works."
+        ],
+        "links": [
+          {
+            "title": "Official book catalog",
+            "url": "https://kleberandrade.dev/#books",
+            "description": "Explore the author’s other works and official links."
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Current references",
+    "intro": "Use current official documentation to prepare your environment and verify APIs. Compare historical articles with the current case-study code. The 2019–2020 articles remain in the historical index. Some use shortened links, earlier versions or services that have changed. This reorganization does not modify or certify external content. Collections, patterns, SOLID, OCR/ML Kit, Twilio and sign-in methods without published URLs in the original index remain historical planning topics; add links when an actual published lesson is identified, without inventing destinations or available features.",
+    "sections": [
+      {
+        "title": "Dart and Flutter",
+        "links": [
+          {
+            "title": "Dart language",
+            "url": "https://dart.dev/language"
+          },
+          {
+            "title": "Effective Dart",
+            "url": "https://dart.dev/effective-dart"
+          },
+          {
+            "title": "DartPad",
+            "url": "https://dartpad.dev/"
+          },
+          {
+            "title": "Packages and supported platforms on pub.dev",
+            "url": "https://pub.dev/"
+          },
+          {
+            "title": "Install Flutter",
+            "url": "https://docs.flutter.dev/install"
+          },
+          {
+            "title": "Official learning pathway",
+            "url": "https://docs.flutter.dev/learn/pathway"
+          },
+          {
+            "title": "Tutorials, examples and activities",
+            "url": "https://docs.flutter.dev/reference/learning-resources"
+          },
+          {
+            "title": "Flutter API reference",
+            "url": "https://api.flutter.dev/"
+          },
+          {
+            "title": "Testing",
+            "url": "https://docs.flutter.dev/testing/overview"
+          },
+          {
+            "title": "DevTools",
+            "url": "https://docs.flutter.dev/tools/devtools"
+          },
+          {
+            "title": "Accessibility",
+            "url": "https://docs.flutter.dev/ui/accessibility-and-internationalization/accessibility"
+          },
+          {
+            "title": "Application architecture",
+            "url": "https://docs.flutter.dev/app-architecture"
+          }
+        ]
+      },
+      {
+        "title": "Integrations",
+        "links": [
+          {
+            "title": "Firebase for Flutter",
+            "url": "https://firebase.google.com/docs/flutter/setup"
+          },
+          {
+            "title": "Firebase Local Emulator Suite",
+            "url": "https://firebase.google.com/docs/emulator-suite"
+          },
+          {
+            "title": "HTTP package maintained by dart.dev",
+            "url": "https://pub.dev/packages/http"
+          },
+          {
+            "title": "MQTT specification · OASIS",
+            "url": "https://www.oasis-open.org/standard/mqtt-v5-0-os/"
+          },
+          {
+            "title": "Official Git book",
+            "url": "https://git-scm.com/book/pt-br/v2"
+          }
+        ]
+      }
+    ]
+  }
+}

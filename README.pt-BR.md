@@ -6,6 +6,8 @@
 
 [English overview](README.md) · [Como estudar](docs/study-guide.md) · [Livros e sites](docs/books.md) · [Estudos de caso atuais](docs/case-studies.md)
 
+**Site das aulas:** [Português](https://kleberandrade.github.io/aulas-mobile-flutter/) · [English](https://kleberandrade.github.io/aulas-mobile-flutter/en/)
+
 Material da disciplina ministrada pelo **Prof. Kleber de Oliveira Andrade**, no curso de **Análise e Desenvolvimento de Sistemas da Fatec Americana**. Os aplicativos ficam em repositórios próprios; aqui estão a sequência didática e as referências.
 
 ## Trilha de estudo
@@ -38,3 +40,7 @@ Os exercícios são propostas de aprendizagem, não funcionalidades garantidas n
 - [Como contribuir](CONTRIBUTING.md) e [histórico de alterações](CHANGELOG.md).
 
 O material mantém a [licença MIT](LICENSE) e os créditos originais. Recursos externos conservam suas próprias licenças e autoria.
+
+## Site e publicação
+
+O site oferece navegação pelos dez módulos, cinquenta exercícios, livros, Masmorra e projetos, em português e inglês. A troca de idioma preserva o módulo e a seção selecionada. Veja o [guia de manutenção do site](site/README.md) para atualizar o conteúdo e gerar as páginas.

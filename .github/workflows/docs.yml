@@ -8,6 +8,10 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: course-pages-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   documentation:
     runs-on: ubuntu-latest
@@ -18,3 +22,24 @@ jobs:
           python-version: '3.12'
       - name: Check course navigation and exercise structure
         run: python3 tools/check_docs.py
+      - name: Build and test the bilingual static site
+        run: python3 tools/test_site.py
+      - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/master'
+        with:
+          path: site/dist
+
+  deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/master'
+    needs: documentation
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish the verified static pages
+        id: deployment
+        uses: actions/deploy-pages@v4
