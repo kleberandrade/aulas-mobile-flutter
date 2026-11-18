@@ -1,0 +1,829 @@
+{
+  "checked_at_utc": "2026-11-18T03:03:20.209114+00:00",
+  "scope": "Public repository metadata, default-branch commits, manifest constraints and recent workflow results; not an application build certification.",
+  "repositories": [
+    {
+      "name": "calculadora-imc-aulas-flutter",
+      "url": "https://github.com/kleberandrade/calculadora-imc-aulas-flutter",
+      "default_branch": "master",
+      "head_sha": "1f085dbbd3a030fd854e686e28862a3301f0770c",
+      "head_date": "2026-11-17T18:50:29Z",
+      "head_subject": "Record verified Medium republication and repository metadata",
+      "dart_sdk_constraint": ">=3.14.0 <4.0.0",
+      "description": "Educational adult BMI calculator in Flutter: validated metric inputs, pure Dart domain, accessible responsive forms and automated tests.",
+      "recent_workflows": [
+        {
+          "name": "Flutter CI",
+          "sha": "1f085dbbd3a030fd854e686e28862a3301f0770c",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/calculadora-imc-aulas-flutter/actions/runs/44152170216"
+        },
+        {
+          "name": "Flutter CI",
+          "sha": "843d6d12cd50d7f088a1ac83ae085308f96c1f6a",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/calculadora-imc-aulas-flutter/actions/runs/44150751819"
+        }
+      ],
+      "article_links_from_current_readme": [
+        "https://medium.com/@kleberandrade/desenvolvendo-meu-primeiro-aplicativo-com-flutter-918a15e73a01"
+      ]
+    },
+    {
+      "name": "interest-calculator-flutter",
+      "url": "https://github.com/kleberandrade/interest-calculator-flutter",
+      "default_branch": "master",
+      "head_sha": "c7dd83888cab38de2dcd2600be6d2889a02c1f65",
+      "head_date": "2026-11-17T18:23:36Z",
+      "head_subject": "docs: record verified iOS builds and update teaching material",
+      "dart_sdk_constraint": ">=3.14.0 <4.0.0",
+      "description": "Educational Flutter calculator for overdue payment slips: exact compound interest, one-time fees, Brazilian inputs, and a responsive Web interface.",
+      "recent_workflows": [
+        {
+          "name": "Flutter CI",
+          "sha": "c7dd83888cab38de2dcd2600be6d2889a02c1f65",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/interest-calculator-flutter/actions/runs/44147342407"
+        },
+        {
+          "name": "Flutter CI",
+          "sha": "9da447eab43b0ef4ba9ffaa0eb71b284757cb3cf",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/interest-calculator-flutter/actions/runs/44143474964"
+        },
+        {
+          "name": "Flutter CI",
+          "sha": "bd6ddecbd0647a5153c8feec8e72a4ed41785229",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/interest-calculator-flutter/actions/runs/44139794893"
+        },
+        {
+          "name": "Flutter CI",
+          "sha": "a50fc2de9e0618c5b90546992f39aeb81f140f4f",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/interest-calculator-flutter/actions/runs/44139144278"
+        },
+        {
+          "name": "Flutter CI",
+          "sha": "fbc64bb41f28c3aea4cd58207d8ead983d47f12d",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/interest-calculator-flutter/actions/runs/44131331757"
+        }
+      ],
+      "article_links_from_current_readme": [
+        "https://medium.com/flutter-comunidade-br/desenvolvimento-de-uma-calculadora-de-juros-para-boletos-vencidos-44ab70fcf0cd"
+      ]
+    },
+    {
+      "name": "floor-calculator-flutter",
+      "url": "https://github.com/kleberandrade/floor-calculator-flutter",
+      "default_branch": "master",
+      "head_sha": "3a4b3ae7cf7ad661d2577533642fd8f2d17c3458",
+      "head_date": "2026-11-17T15:56:26Z",
+      "head_subject": "Record the verified Medium publication and synchronize final article source",
+      "dart_sdk_constraint": ">=3.14.0 <4.0.0",
+      "description": "Floor and wall-covering calculator built with Flutter, with rectangular layout estimates and classroom tutorials.",
+      "recent_workflows": [
+        {
+          "name": "Flutter checks",
+          "sha": "3a4b3ae7cf7ad661d2577533642fd8f2d17c3458",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/floor-calculator-flutter/actions/runs/44120070470"
+        },
+        {
+          "name": "Flutter checks",
+          "sha": "dfc7a38c093571ef35c03c4d481bf9a70261cf45",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/floor-calculator-flutter/actions/runs/44118856871"
+        },
+        {
+          "name": "Flutter checks",
+          "sha": "17c4634fa4db0add0b5110303284561e9624b018",
+          "status": "completed",
+          "conclusion": "failure",
+          "url": "https://github.com/kleberandrade/floor-calculator-flutter/actions/runs/44116650333"
+        },
+        {
+          "name": "Flutter checks",
+          "sha": "6d7055fac7ed8357ca04c5912dfa3dfbc8561535",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/floor-calculator-flutter/actions/runs/44084646545"
+        },
+        {
+          "name": "Flutter checks",
+          "sha": "670bf72332b2f11ae7ce6d84d354184595b2bf9d",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/floor-calculator-flutter/actions/runs/44084171765"
+        }
+      ],
+      "article_links_from_current_readme": [
+        "https://medium.com/@kleberandrade/criando-um-aplicativo-em-flutter-para-calcular-a-quantidade-de-pisos-por-m%C2%B2-dac30b5b5027"
+      ]
+    },
+    {
+      "name": "marcador-truco-aulas-flutter",
+      "url": "https://github.com/kleberandrade/marcador-truco-aulas-flutter",
+      "default_branch": "master",
+      "head_sha": "d9372581d225fd4db1c302e024558ddd001da869",
+      "head_date": "2026-11-17T14:28:52Z",
+      "head_subject": "fix: remove obsolete iOS workaround and publish aligned lesson",
+      "dart_sdk_constraint": ">=3.14.0 <4.0.0",
+      "description": "Offline Flutter Truco scoreboard with accessible team controls, local match recovery, validated scoring to 12 and classroom tests.",
+      "recent_workflows": [
+        {
+          "name": "Flutter",
+          "sha": "d9372581d225fd4db1c302e024558ddd001da869",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/marcador-truco-aulas-flutter/actions/runs/44103572123"
+        },
+        {
+          "name": "Flutter",
+          "sha": "e84bdff4e64a3cbd87a8aaa193e1974448fa4199",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/marcador-truco-aulas-flutter/actions/runs/44102616681"
+        },
+        {
+          "name": "Flutter",
+          "sha": "6ef83a664696202ba2ecc9e70348733ffd7dd349",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/marcador-truco-aulas-flutter/actions/runs/44087139720"
+        },
+        {
+          "name": "Flutter",
+          "sha": "a8473aaeab324ff58479fb77fa8b80efca372718",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/marcador-truco-aulas-flutter/actions/runs/44086567332"
+        },
+        {
+          "name": "Flutter",
+          "sha": "4f91b1b8f87f5c6fd829e701f682b653b7ee087e",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/marcador-truco-aulas-flutter/actions/runs/44083620013"
+        },
+        {
+          "name": "Flutter",
+          "sha": "689d04ada20b25ec6af671522961073994362963",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/marcador-truco-aulas-flutter/actions/runs/44083367197"
+        }
+      ],
+      "article_links_from_current_readme": [
+        "https://medium.com/flutter-comunidade-br/criando-um-marcador-de-truco-em-flutter-e50669f21f03"
+      ]
+    },
+    {
+      "name": "calculadora-flutter",
+      "url": "https://github.com/kleberandrade/calculadora-flutter",
+      "default_branch": "master",
+      "head_sha": "ece8cb482181f468df3f050c29d35b0d0a22785c",
+      "head_date": "2026-11-17T17:25:21Z",
+      "head_subject": "docs: verify the fully republished lesson and complete dependency audit",
+      "dart_sdk_constraint": ">=3.14.0 <4.0.0",
+      "description": "Sequential Flutter calculator with keyboard support, accessible Material 3 UI, recoverable arithmetic errors and tested Dart domain logic.",
+      "recent_workflows": [
+        {
+          "name": "Flutter",
+          "sha": "ece8cb482181f468df3f050c29d35b0d0a22785c",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/calculadora-flutter/actions/runs/44136811090"
+        },
+        {
+          "name": "Flutter",
+          "sha": "39458eebca24d940387cceeb4d9de91c58a37c71",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/calculadora-flutter/actions/runs/44135837949"
+        },
+        {
+          "name": "Flutter",
+          "sha": "01bb68e5f662630d571e2614f233429641978c73",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/calculadora-flutter/actions/runs/44131381039"
+        },
+        {
+          "name": "Flutter",
+          "sha": "c033c05284416346d00d76eee2082ad1f57e3538",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/calculadora-flutter/actions/runs/44131219043"
+        }
+      ],
+      "article_links_from_current_readme": [
+        "https://medium.com/flutter-comunidade-br/desenvolvimento-de-uma-calculadora-simples-com-flutter-56106baae51"
+      ]
+    },
+    {
+      "name": "tic-tac-toe-flutter",
+      "url": "https://github.com/kleberandrade/tic-tac-toe-flutter",
+      "default_branch": "master",
+      "head_sha": "6f3a5dbbac6c8c492aef6464ed71a80d427285aa",
+      "head_date": "2026-11-17T17:52:51Z",
+      "head_subject": "docs: confirm final Medium publication with current images",
+      "dart_sdk_constraint": ">=3.14.0 <4.0.0",
+      "description": "Accessible Flutter tic-tac-toe with local multiplayer, a casual computer opponent, tested Dart rules and a responsive Material 3 interface.",
+      "recent_workflows": [
+        {
+          "name": "Flutter checks",
+          "sha": "6f3a5dbbac6c8c492aef6464ed71a80d427285aa",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/tic-tac-toe-flutter/actions/runs/44141818059"
+        },
+        {
+          "name": "Flutter checks",
+          "sha": "8e91e84a5294995dae9b56bef745dba91d96a8f5",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/tic-tac-toe-flutter/actions/runs/44139200918"
+        },
+        {
+          "name": "Flutter checks",
+          "sha": "baea8936ba4918d000f0dc395dc668cbe327b2ff",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/tic-tac-toe-flutter/actions/runs/44139037241"
+        },
+        {
+          "name": "Flutter checks",
+          "sha": "0125988bdf5d5275a7c2f2b7a4d114c0bfd13d48",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/tic-tac-toe-flutter/actions/runs/44130989611"
+        }
+      ],
+      "article_links_from_current_readme": [
+        "https://medium.com/@kleberandrade/criando-um-jogo-da-velha-em-flutter-50347537c926"
+      ]
+    },
+    {
+      "name": "search-cep-aulas-flutter",
+      "url": "https://github.com/kleberandrade/search-cep-aulas-flutter",
+      "default_branch": "master",
+      "head_sha": "d0988d2467157a0082fee258cb56816ae7315a51",
+      "head_date": "2026-11-17T14:01:22Z",
+      "head_subject": "docs: record Android CI and published lesson evidence",
+      "dart_sdk_constraint": ">=3.14.0 <4.0.0",
+      "description": "Brazilian postal code lookup built with Flutter and ViaCEP, featuring validated searches, accessible address cards, resilient HTTP handling, and classroom examples.",
+      "recent_workflows": [
+        {
+          "name": "Flutter checks",
+          "sha": "d0988d2467157a0082fee258cb56816ae7315a51",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/search-cep-aulas-flutter/actions/runs/44098623288"
+        },
+        {
+          "name": "Flutter checks",
+          "sha": "76be21bbece9bd3cc6199ec7685971ccb45ab18b",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/search-cep-aulas-flutter/actions/runs/44097659142"
+        },
+        {
+          "name": "Flutter checks",
+          "sha": "7375215fcbdde9f2d7d93cd5adba40d12aed3d2e",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/search-cep-aulas-flutter/actions/runs/44090682208"
+        },
+        {
+          "name": "Flutter checks",
+          "sha": "d3d852ed7d83d21796328d9a6c7935475aa28668",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/search-cep-aulas-flutter/actions/runs/44090046938"
+        },
+        {
+          "name": "Flutter checks",
+          "sha": "f5fdc9cc381ceb24ffe030005f3b0a99db446d2e",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/search-cep-aulas-flutter/actions/runs/44088641892"
+        },
+        {
+          "name": "Flutter checks",
+          "sha": "fc77534a299d99f29eff08d68ef5cbf6d440a7b4",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/search-cep-aulas-flutter/actions/runs/44088077108"
+        }
+      ],
+      "article_links_from_current_readme": [
+        "https://medium.com/flutter-comunidade-br/consultando-ceps-com-flutter-a395b86ce34a"
+      ]
+    },
+    {
+      "name": "quiz-covid19-flutter",
+      "url": "https://github.com/kleberandrade/quiz-covid19-flutter",
+      "default_branch": "main",
+      "head_sha": "f79eee28f20669ef9639db9598e34c0dd375ac64",
+      "head_date": "2026-11-16T05:23:31Z",
+      "head_subject": "build: integrate the current Dependabot action update",
+      "dart_sdk_constraint": ">=3.14.0 <4.0.0",
+      "description": "Offline Flutter quiz about COVID-19 with sourced questions, accessible feedback, and educational explanations.",
+      "recent_workflows": [
+        {
+          "name": "CI",
+          "sha": "f79eee28f20669ef9639db9598e34c0dd375ac64",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/quiz-covid19-flutter/actions/runs/43809924310"
+        },
+        {
+          "name": "CI",
+          "sha": "c6fe6152c7601c474223bd800d547a0d8c936f9a",
+          "status": "completed",
+          "conclusion": "cancelled",
+          "url": "https://github.com/kleberandrade/quiz-covid19-flutter/actions/runs/43809234356"
+        }
+      ],
+      "article_links_from_current_readme": [
+        "https://medium.com/@kleberandrade/desenvolvendo-um-quiz-com-flutter-e-google-sheets-414656cb89a2"
+      ]
+    },
+    {
+      "name": "movies-flutter",
+      "url": "https://github.com/kleberandrade/movies-flutter",
+      "default_branch": "main",
+      "head_sha": "46fd904608a07aea0327e05e778b5b0b9af65fff",
+      "head_date": "2026-11-17T18:21:09Z",
+      "head_subject": "Refresh lesson and screenshots for bundled movie posters",
+      "dart_sdk_constraint": ">=3.14.0 <4.0.0",
+      "description": "Flutter movie explorer with TMDB integration, searchable catalog, accessible details, and an offline sample mode.",
+      "recent_workflows": [
+        {
+          "name": "Flutter",
+          "sha": "46fd904608a07aea0327e05e778b5b0b9af65fff",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/movies-flutter/actions/runs/44146904645"
+        },
+        {
+          "name": "Flutter",
+          "sha": "74bb55d8340d97a3f88d9868273b320f0509adf5",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/movies-flutter/actions/runs/44142978328"
+        },
+        {
+          "name": "Flutter",
+          "sha": "b046b8e0dcc1c21019333736a2d2bc9258361dc5",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/movies-flutter/actions/runs/44132592189"
+        }
+      ],
+      "article_links_from_current_readme": [
+        "https://kleberandrade.medium.com/criando-um-aplicativo-em-flutter-para-consumir-uma-api-de-filmes-tmdb-2b5a9982bfcd"
+      ]
+    },
+    {
+      "name": "todo-list-aulas-flutter",
+      "url": "https://github.com/kleberandrade/todo-list-aulas-flutter",
+      "default_branch": "master",
+      "head_sha": "a7709f02fd56af4a4f22b80c23e9c007828546a2",
+      "head_date": "2026-11-17T15:53:17Z",
+      "head_subject": "Update final SDK-pinned patches with validated local overrides",
+      "dart_sdk_constraint": ">=3.14.0 <4.0.0",
+      "description": "Offline Flutter task planner with SQLite persistence, priorities, search, accessible Material 3 UI, and tested legacy data migration.",
+      "recent_workflows": [
+        {
+          "name": "Flutter",
+          "sha": "a7709f02fd56af4a4f22b80c23e9c007828546a2",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/todo-list-aulas-flutter/actions/runs/44119478146"
+        },
+        {
+          "name": "Flutter",
+          "sha": "bc4f0e0973764a0a0f4b9d4219c439895995217e",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/todo-list-aulas-flutter/actions/runs/44116701654"
+        },
+        {
+          "name": "Flutter",
+          "sha": "2871b419e0a5ee16b7a39f0ff37acb5ec93280de",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/todo-list-aulas-flutter/actions/runs/44115285425"
+        },
+        {
+          "name": "Flutter",
+          "sha": "44ecc153bb13c38a86dd0b50732a876bce5fe8e4",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/todo-list-aulas-flutter/actions/runs/44085929789"
+        },
+        {
+          "name": "Flutter",
+          "sha": "2a74efe3f340cf667d77343ff7e6d0f253f21415",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/todo-list-aulas-flutter/actions/runs/44085434505"
+        }
+      ],
+      "article_links_from_current_readme": [
+        "https://medium.com/flutter-comunidade-br/criando-uma-lista-de-tarefas-com-flutter-fc81fa2bac6a"
+      ]
+    },
+    {
+      "name": "borrowed-stuff-flutter",
+      "url": "https://github.com/kleberandrade/borrowed-stuff-flutter",
+      "default_branch": "master",
+      "head_sha": "726bb9d8cb06711d10248363860fa129648fcfa6",
+      "head_date": "2026-11-17T15:28:55Z",
+      "head_subject": "Record verified illustrated Medium publication",
+      "dart_sdk_constraint": ">=3.14.0 <4.0.0",
+      "description": "Offline Flutter lending journal with local Sembast storage, photos, contact details and return tracking. Classroom project modernized for Dart 3 and Web.",
+      "recent_workflows": [
+        {
+          "name": "Flutter",
+          "sha": "726bb9d8cb06711d10248363860fa129648fcfa6",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/borrowed-stuff-flutter/actions/runs/44114837261"
+        },
+        {
+          "name": "Flutter",
+          "sha": "5edf4a1ee94585fab016088eee1e4fda1b61f467",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/borrowed-stuff-flutter/actions/runs/44113763990"
+        },
+        {
+          "name": "Flutter",
+          "sha": "20e183cf597c7bc0d7da2f75579483ef7ffc61e4",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/borrowed-stuff-flutter/actions/runs/44107970743"
+        },
+        {
+          "name": "Flutter",
+          "sha": "0b12409fe7fedc6538aa96d2dd17eea823005415",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/borrowed-stuff-flutter/actions/runs/44084762116"
+        }
+      ],
+      "article_links_from_current_readme": [
+        "https://medium.com/@kleberandrade/criando-um-aplicativo-para-lembrar-dos-objetos-emprestados-com-flutter-e-sembast-6dbf350a7a56"
+      ]
+    },
+    {
+      "name": "my-money-fluter",
+      "url": "https://github.com/kleberandrade/my-money-fluter",
+      "default_branch": "main",
+      "head_sha": "3468daef71152b0c4e2a5bca828375be0b47a329",
+      "head_date": "2026-11-17T12:39:44Z",
+      "head_subject": "Document verified setup, migration and real app previews",
+      "dart_sdk_constraint": ">=3.11.0 <4.0.0",
+      "description": "Offline Flutter finance app with exact money calculations, local Sembast storage, categories and monthly insights.",
+      "recent_workflows": [
+        {
+          "name": "Flutter",
+          "sha": "3468daef71152b0c4e2a5bca828375be0b47a329",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/my-money-fluter/actions/runs/44085546025"
+        }
+      ],
+      "article_links_from_current_readme": []
+    },
+    {
+      "name": "chatbot-aulas-flutter",
+      "url": "https://github.com/kleberandrade/chatbot-aulas-flutter",
+      "default_branch": "master",
+      "head_sha": "ff0023cdd2234a2cc73d2a77f65eaa75ceba2f4a",
+      "head_date": "2026-11-17T19:59:47Z",
+      "head_subject": "Record verified Medium republication and repository metadata",
+      "dart_sdk_constraint": "^3.14.0",
+      "description": "Flutter chatbot lab with local intent/entity rules, accessible conversation UI, deterministic tests, and a secure Dialogflow ES integration lesson.",
+      "recent_workflows": [
+        {
+          "name": "Flutter quality",
+          "sha": "ff0023cdd2234a2cc73d2a77f65eaa75ceba2f4a",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/chatbot-aulas-flutter/actions/runs/44164545541"
+        },
+        {
+          "name": "Flutter quality",
+          "sha": "eeb659d4b4301e79c127cec44bedf31f82d9c8bb",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/chatbot-aulas-flutter/actions/runs/44163735308"
+        }
+      ],
+      "article_links_from_current_readme": [
+        "https://medium.com/flutter-comunidade-br/criando-um-chatbot-com-flutter-e-dialogflow-f828e5301101"
+      ]
+    },
+    {
+      "name": "teachable-ml-flutter",
+      "url": "https://github.com/kleberandrade/teachable-ml-flutter",
+      "default_branch": "master",
+      "head_sha": "6d4eb6af0305cd2fad68a1c1da0e7a788d36e607",
+      "head_date": "2026-11-17T18:17:45Z",
+      "head_subject": "Include original and photograph licenses in the app bundle",
+      "dart_sdk_constraint": ">=3.14.0 <4.0.0",
+      "description": "Learn local cat and dog image classification with Flutter, TensorFlow Lite and Teachable Machine: validated preprocessing, responsive UI and native macOS inference.",
+      "recent_workflows": [
+        {
+          "name": "Flutter CI",
+          "sha": "6d4eb6af0305cd2fad68a1c1da0e7a788d36e607",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/teachable-ml-flutter/actions/runs/44146292774"
+        },
+        {
+          "name": "Flutter CI",
+          "sha": "19d42c03f7240492166e5bff55c545b0f90eac20",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/teachable-ml-flutter/actions/runs/44144581769"
+        },
+        {
+          "name": "Flutter CI",
+          "sha": "369a04e5c0315c5202edf8966624fbb218a99b52",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/teachable-ml-flutter/actions/runs/44143519458"
+        }
+      ],
+      "article_links_from_current_readme": [
+        "https://medium.com/@kleberandrade/criando-um-aplicativo-em-flutter-para-classificar-imagens-gato-e-cachorro-com-teachable-machine-be35c604c780"
+      ]
+    },
+    {
+      "name": "lost-and-found-flutter",
+      "url": "https://github.com/kleberandrade/lost-and-found-flutter",
+      "default_branch": "master",
+      "head_sha": "d11bbdf36d4b3e87ca3b2e28b9e1bbfa18cd8f99",
+      "head_date": "2026-11-18T02:19:31Z",
+      "head_subject": "docs: include mobile capture and record delivery boundary",
+      "dart_sdk_constraint": ">=3.11.0 <4.0.0",
+      "description": "Reencontra: a bilingual Flutter lost-and-found classroom app with persistent local demos, photos, search and simulated resolutions.",
+      "recent_workflows": [
+        {
+          "name": "Verify",
+          "sha": "d11bbdf36d4b3e87ca3b2e28b9e1bbfa18cd8f99",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/lost-and-found-flutter/actions/runs/44225165421"
+        }
+      ],
+      "article_links_from_current_readme": []
+    },
+    {
+      "name": "trampo-flutter",
+      "url": "https://github.com/kleberandrade/trampo-flutter",
+      "default_branch": "master",
+      "head_sha": "524ee6a99a688c494f111bc419a67c27f731e33e",
+      "head_date": "2026-11-18T02:30:30Z",
+      "head_subject": "fix: validate historical start times when restoring backups",
+      "dart_sdk_constraint": ">=3.14.0 <4.0.0",
+      "description": "Flutter workspace for small services: clients, precise BRL quotes, conflict-free scheduling and history. Persistent PT-BR/EN local demo; isolated Firebase adapter.",
+      "recent_workflows": [
+        {
+          "name": "Quality",
+          "sha": "524ee6a99a688c494f111bc419a67c27f731e33e",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/trampo-flutter/actions/runs/44223782591"
+        },
+        {
+          "name": "Quality",
+          "sha": "43e7891d6c87c506dd3dafda1e059fb11ec673f1",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/trampo-flutter/actions/runs/44223152584"
+        }
+      ],
+      "article_links_from_current_readme": []
+    },
+    {
+      "name": "adotai-flutter",
+      "url": "https://github.com/kleberandrade/adotai-flutter",
+      "default_branch": "main",
+      "head_sha": "ebae1a7321c26bd5bbbd3a60708dc5fb3ed15e67",
+      "head_date": "2026-11-18T02:21:11Z",
+      "head_subject": "Modernize Adotai with persistent local adoption workflows (#1)",
+      "dart_sdk_constraint": ">=3.14.0 <4.0.0",
+      "description": "Adotai — local-first Flutter pet adoption demo: bilingual catalog, filters, favorites and persistent adoption tracking. No credentials required.",
+      "recent_workflows": [
+        {
+          "name": "Flutter checks",
+          "sha": "ebae1a7321c26bd5bbbd3a60708dc5fb3ed15e67",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/adotai-flutter/actions/runs/44225245318"
+        }
+      ],
+      "article_links_from_current_readme": []
+    },
+    {
+      "name": "mqtt_aulas_flutter",
+      "url": "https://github.com/kleberandrade/mqtt_aulas_flutter",
+      "default_branch": "master",
+      "head_sha": "568a70de10809c29ed761ff8f1c07c01cf5dc8bc",
+      "head_date": "2026-11-17T03:31:39Z",
+      "head_subject": "ci: publish debug APK releases from version tags",
+      "dart_sdk_constraint": ">=3.11.0 <4.0.0",
+      "description": "Flutter MQTT learning lab for Android and Web with subscriptions, QoS 0–2 messaging, bounded reconnects, simulated telemetry, and a local Mosquitto broker.",
+      "recent_workflows": [
+        {
+          "name": "Release",
+          "sha": "568a70de10809c29ed761ff8f1c07c01cf5dc8bc",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/mqtt_aulas_flutter/actions/runs/44010896545"
+        },
+        {
+          "name": "CI",
+          "sha": "568a70de10809c29ed761ff8f1c07c01cf5dc8bc",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/mqtt_aulas_flutter/actions/runs/44010843891"
+        },
+        {
+          "name": "CI",
+          "sha": "f94cf9c9ebf83d834d90954e5f03efd342b2b78b",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/mqtt_aulas_flutter/actions/runs/44008052774"
+        },
+        {
+          "name": "CI",
+          "sha": "b5b00fed3d002b5d8ea82d470c5613f6a60fb8e0",
+          "status": "completed",
+          "conclusion": "cancelled",
+          "url": "https://github.com/kleberandrade/mqtt_aulas_flutter/actions/runs/44007926959"
+        }
+      ],
+      "article_links_from_current_readme": []
+    },
+    {
+      "name": "controlled-robot-arduino",
+      "url": "https://github.com/kleberandrade/controlled-robot-arduino",
+      "default_branch": "master",
+      "head_sha": "2241bb4559b8f8d292295a9a14b26da78e439586",
+      "head_date": "2026-11-16T04:15:45Z",
+      "head_subject": "Document demo reset and refresh the app screen capture",
+      "dart_sdk_constraint": null,
+      "description": "Arduino Uno robot with fail-safe Bluetooth Classic firmware and a Flutter Android controller for HC-05 and TB6612FNG.",
+      "recent_workflows": [
+        {
+          "name": "CI",
+          "sha": "2241bb4559b8f8d292295a9a14b26da78e439586",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/controlled-robot-arduino/actions/runs/43803028334"
+        },
+        {
+          "name": "CI",
+          "sha": "957b6f0f2a702e1666c670b2c93fcf397aa6b777",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/controlled-robot-arduino/actions/runs/43802066474"
+        },
+        {
+          "name": "CI",
+          "sha": "c613c1d8bc52434377146383553030b27c4757d1",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/controlled-robot-arduino/actions/runs/43800052225"
+        },
+        {
+          "name": "CI",
+          "sha": "185177e7273d1ec64ebae544f606b722822cca04",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/controlled-robot-arduino/actions/runs/43798721109"
+        },
+        {
+          "name": "CI",
+          "sha": "84f50f63878b1318061fdfeeed43a072b9e5c7c6",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/controlled-robot-arduino/actions/runs/43794351221"
+        }
+      ],
+      "article_links_from_current_readme": []
+    },
+    {
+      "name": "my-blood-flutter",
+      "url": "https://github.com/kleberandrade/my-blood-flutter",
+      "default_branch": "main",
+      "head_sha": "d163d584e96d422ee35a67454ee61c691877290e",
+      "head_date": "2026-11-18T02:17:02Z",
+      "head_subject": "docs: document verified demo workflows and publication limits",
+      "dart_sdk_constraint": ">=3.14.0 <4.0.0",
+      "description": "Community blood donation campaign demo built with Flutter. Synthetic data, persistent local campaigns, accessible PT-BR/EN UI. No clinical screening.",
+      "recent_workflows": [
+        {
+          "name": "Verify",
+          "sha": "d163d584e96d422ee35a67454ee61c691877290e",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/my-blood-flutter/actions/runs/44225326333"
+        }
+      ],
+      "article_links_from_current_readme": []
+    },
+    {
+      "name": "soap-factory-flutter",
+      "url": "https://github.com/kleberandrade/soap-factory-flutter",
+      "default_branch": "main",
+      "head_sha": "c66d5dffeab542a7610a5361e6263500a9ec9558",
+      "head_date": "2026-11-18T02:17:57Z",
+      "head_subject": "docs: record verified local delivery and pending push authorization",
+      "dart_sdk_constraint": ">=3.14.0 <4.0.0",
+      "description": "Local-first Flutter workspace for soap-making ingredients, products, formulas and verifiable batch costs. PT-BR/EN. Academic collaboration: FATEC-AM × DUT.",
+      "recent_workflows": [
+        {
+          "name": "Verify",
+          "sha": "c66d5dffeab542a7610a5361e6263500a9ec9558",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/soap-factory-flutter/actions/runs/44225297027"
+        }
+      ],
+      "article_links_from_current_readme": []
+    },
+    {
+      "name": "roguelike-dart",
+      "url": "https://github.com/kleberandrade/roguelike-dart",
+      "default_branch": "master",
+      "head_sha": "5d87b5d78b8bbbb29f8c42be6444e7fc7a34ffcb",
+      "head_date": "2026-11-16T02:40:02Z",
+      "head_subject": "docs: add Dart SDK, CI and license badges",
+      "dart_sdk_constraint": ">=3.14.0 <4.0.0",
+      "description": "An educational turn-based ASCII roguelike in pure Dart, with procedural dungeons and a terminal interface.",
+      "recent_workflows": [
+        {
+          "name": "Dart",
+          "sha": "5d87b5d78b8bbbb29f8c42be6444e7fc7a34ffcb",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/roguelike-dart/actions/runs/43793574503"
+        },
+        {
+          "name": "Dart",
+          "sha": "633bff61a6efa6c6fe6be864a73cde47dddd16e2",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/roguelike-dart/actions/runs/43789868610"
+        },
+        {
+          "name": "Dart",
+          "sha": "4420b8cca84091988db9f5648615db0be87a7a53",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/kleberandrade/roguelike-dart/actions/runs/43789734224"
+        },
+        {
+          "name": ".github/workflows/dart.yml",
+          "sha": "35715a40fad6818da6f7e26e260601c5f683cacb",
+          "status": "completed",
+          "conclusion": "failure",
+          "url": "https://github.com/kleberandrade/roguelike-dart/actions/runs/43789651374"
+        }
+      ],
+      "article_links_from_current_readme": [
+        "https://medium.com/@kleberandrade/orientação-a-objetos-em-dart-16542b792eb9"
+      ]
+    },
+    {
+      "name": "o-grimorio-dos-padroes",
+      "url": "https://github.com/kleberandrade/o-grimorio-dos-padroes",
+      "default_branch": "main",
+      "head_sha": "6896747bcaac37c9217e87d19449e3270ab5d684",
+      "head_date": "2026-11-17T06:31:41Z",
+      "head_subject": "docs: standardize project overview, setup and technology badges",
+      "dart_sdk_constraint": null,
+      "description": "Companion materials for O Grimório dos Padrões: 23 TypeScript design-pattern projects, exercises, tests and the book website.",
+      "recent_workflows": [],
+      "article_links_from_current_readme": []
+    }
+  ]
+}
