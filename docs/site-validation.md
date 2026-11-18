@@ -2,7 +2,7 @@
 
 ## Scope
 
-The website presents this course repository on GitHub Pages. It has thirty static pages: home, ten modules, books, projects, guide and resources in each language. All fifty exercises are available in Portuguese and English. It does not add an application backend or replace the case-study repositories.
+The website presents this course repository on GitHub Pages. It has thirty-two static pages: home, ten modules, laboratories, books, projects, guide and resources in each language. All fifty exercises are available in Portuguese and English. It does not add an application backend or replace the case-study repositories.
 
 ## Implementation and evidence
 
@@ -25,3 +25,11 @@ git diff --check
 The documentation workflow runs the Python checks before deploying the generated output from `master`. Browser inspection complements these checks; the static tests do not assert that external services or linked applications run.
 
 Portuguese lesson updates are reflected by the generator. English translations in `site/content/en.json` should be reviewed whenever the source lessons change.
+
+## Labs and blue/cyan navigation revision
+
+- Verified the seven package names, published versions and owning repository links against pub.dev before adding them to `site/content/labs.json`.
+- Added twenty-one English/Portuguese laboratory suggestions across all ten modules. Online exploration and proposed project integrations are labeled separately. The fifty exercises remain intact.
+- Expanded automated checks to eleven, including all seven package/lab destinations, per-module suggestions, removal of arrow glyphs, grouped footer and single current-flag disclosure.
+- Inspected desktop, 390px and 320px layouts in the browser. The module language switch retained `#labs`; the active in-page tab matched the section and the inspected pages had no horizontal overflow.
+- Verified the language disclosure opens with Enter, hides the inactive language when closed and closes with Escape while returning focus to its trigger. Inspected the grouped footer at 320px.

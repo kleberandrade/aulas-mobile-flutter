@@ -111,6 +111,54 @@ class SiteTests(unittest.TestCase):
         self.assertIn('flutter --version\ndart --version', result)
         self.assertIn('href="../../books/"', result)
 
+    def test_laboratory_catalog_links_all_seven_packages_and_live_labs(self):
+        packages = ['ml_engine', 'fuzzy_engine', 'neural_engine', 'genetic_engine',
+                    'reinforcement_engine', 'decision_engine', 'steering_engine']
+        for prefix in ['', 'en/']:
+            text = (OUTPUT / prefix / 'labs/index.html').read_text()
+            for package in packages:
+                self.assertIn('https://pub.dev/packages/' + package, text)
+                self.assertIn('https://kleberandrade.github.io/' + package.replace('_', '-') + '/', text)
+            self.assertEqual(text.count('class="lab-card"'), 7)
+
+    def test_each_module_has_contextual_lab_suggestions_before_its_five_exercises(self):
+        for prefix in ['', 'en/']:
+            for slug in SLUGS:
+                with self.subTest(locale=prefix, module=slug):
+                    text = (OUTPUT / prefix / 'modules' / slug / 'index.html').read_text()
+                    self.assertTrue('class="lab-suggestion"' in text, slug)
+                    self.assertTrue('id="labs"' in text, slug)
+                    self.assertLess(text.index('id="labs"'), text.index('id="exercises"'))
+                    self.assertEqual(Document(text).exercises, 5)
+
+    def test_decorative_arrows_are_removed_and_labs_are_in_the_main_navigation(self):
+        for path in OUTPUT.rglob('*.html'):
+            text = path.read_text()
+            for arrow in ['↗', '↘', '→', '←']:
+                self.assertTrue(arrow not in text, f'{path}: decorative arrow {arrow}')
+            self.assertRegex(text, r'<nav id="primary-nav"[^>]*>.*?labs/')
+
+    def test_header_shows_only_the_current_flag_until_language_picker_opens(self):
+        for prefix, flag in [('', 'br.svg'), ('en/', 'uk.svg')]:
+            text = (OUTPUT / prefix / 'index.html').read_text()
+            self.assertEqual(text.count('<summary '), 1)
+            summary = re.search(r'<summary [^>]*>(.*?)</summary>', text).group(1)
+            self.assertEqual(summary.count('<img '), 1)
+            self.assertIn(flag, summary)
+            self.assertIn('class="language-picker"', text)
+            self.assertNotIn('class="language-picker" open', text)
+            self.assertEqual(text.count('data-language-link='), 2)
+
+    def test_footer_navigation_is_grouped_for_learning_exploration_and_course_context(self):
+        for prefix in ['', 'en/']:
+            text = (OUTPUT / prefix / 'index.html').read_text()
+            footer = text.split('<footer class="site-footer">', 1)[1]
+            self.assertEqual(footer.count('class="footer-group"'), 3)
+            self.assertIn('labs/', footer)
+            self.assertIn('books/', footer)
+            self.assertIn('projects/', footer)
+            self.assertIn('LICENSE', footer)
+
 
 if __name__ == '__main__':
     unittest.main()

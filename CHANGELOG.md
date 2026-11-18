@@ -1,5 +1,15 @@
 # Changelog
 
+## Labs, packages and navigation refresh
+
+- Added seven verified live laboratories and published Dart packages, with twenty-one bilingual suggestions across all ten modules.
+- Added laboratory/package catalog pages and links back to the relevant module activities.
+- Refreshed the original identity and interface with blue/cyan colors, clearer typography and in-page module navigation.
+- Removed decorative arrow glyphs and made module search discover related packages.
+- Organized the footer into learning, exploration and course-context groups.
+- Replaced the two always-visible language flags with a single active flag and an accessible language disclosure.
+- Expanded site checks to cover all thirty-two pages and the new catalog/navigation requirements.
+
 ## Bilingual course website
 
 - Added thirty static pages in Portuguese and English, covering all modules, exercises, books, projects, study guide and official resources.

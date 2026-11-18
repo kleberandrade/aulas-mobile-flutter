@@ -1,32 +1,53 @@
 'use strict';
 const toggle = document.querySelector('.menu-toggle');
 const nav = document.querySelector('#primary-nav');
-toggle?.addEventListener('click', () => {
-  const expanded = toggle.getAttribute('aria-expanded') !== 'true';
-  toggle.setAttribute('aria-expanded', String(expanded));
-  toggle.setAttribute('aria-label', expanded ? toggle.dataset.closeLabel : toggle.dataset.openLabel);
-  nav.classList.toggle('is-open', expanded);
-});
-nav?.addEventListener('keydown', event => {
-  if (event.key === 'Escape') {
-    toggle.setAttribute('aria-expanded', 'false');
-    toggle.setAttribute('aria-label', toggle.dataset.openLabel);
-    nav.classList.remove('is-open');
+const languagePicker = document.querySelector('.language-picker');
+if (languagePicker) {
+  const trigger = languagePicker.querySelector('summary');
+  const syncExpanded = () => trigger.setAttribute('aria-expanded', String(languagePicker.open));
+  languagePicker.addEventListener('toggle', syncExpanded);
+  syncExpanded();
+}
+function setMenuOpen(open) {
+  if (!toggle || !nav) return;
+  toggle.setAttribute('aria-expanded', String(open));
+  toggle.setAttribute('aria-label', open ? toggle.dataset.closeLabel : toggle.dataset.openLabel);
+  nav.classList.toggle('is-open', open);
+}
+toggle?.addEventListener('click', () => setMenuOpen(toggle.getAttribute('aria-expanded') !== 'true'));
+document.addEventListener('keydown', event => {
+  if (event.key === 'Escape' && languagePicker?.open) {
+    languagePicker.open = false;
+    languagePicker.querySelector('summary').focus();
+    return;
+  }
+  if (event.key === 'Escape' && toggle?.getAttribute('aria-expanded') === 'true') {
+    setMenuOpen(false);
     toggle.focus();
   }
 });
-nav?.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
-  toggle.setAttribute('aria-expanded', 'false');
-  nav.classList.remove('is-open');
-}));
+nav?.querySelectorAll('a').forEach(link => link.addEventListener('click', () => setMenuOpen(false)));
+document.addEventListener('click', event => {
+  if (languagePicker?.open && !languagePicker.contains(event.target)) languagePicker.open = false;
+});
 document.querySelectorAll('[data-language-link]').forEach(link => {
-  // Hashes use language-independent ids, so an exercise remains selected.
+  // Section ids are shared across languages, including labs and exercises.
   link.addEventListener('click', () => {
     const url = new URL(link.href);
     url.hash = window.location.hash;
     link.href = url.href;
+    if (languagePicker) languagePicker.open = false;
   });
 });
+const tabs = document.querySelectorAll('.module-tabs a');
+function updateSection() {
+  tabs.forEach(tab => {
+    if (tab.hash === window.location.hash) tab.setAttribute('aria-current', 'location');
+    else tab.removeAttribute('aria-current');
+  });
+}
+window.addEventListener('hashchange', updateSection);
+updateSection();
 const search = document.querySelector('#module-search');
 const normalize = value => value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 search?.addEventListener('input', () => {

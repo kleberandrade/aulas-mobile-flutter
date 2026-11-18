@@ -6,6 +6,8 @@
 
 [English overview](README.md) · [Como estudar](docs/study-guide.md) · [Livros e sites](docs/books.md) · [Estudos de caso atuais](docs/case-studies.md)
 
+**[Sete laboratórios e pacotes Dart](https://kleberandrade.github.io/aulas-mobile-flutter/labs/)**, com atividades sugeridas nos dez módulos.
+
 **Site das aulas:** [Português](https://kleberandrade.github.io/aulas-mobile-flutter/) · [English](https://kleberandrade.github.io/aulas-mobile-flutter/en/)
 
 Material da disciplina ministrada pelo **Prof. Kleber de Oliveira Andrade**, no curso de **Análise e Desenvolvimento de Sistemas da Fatec Americana**. Os aplicativos ficam em repositórios próprios; aqui estão a sequência didática e as referências.

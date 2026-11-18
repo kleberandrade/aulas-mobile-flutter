@@ -1,0 +1,454 @@
+{
+  "labs": [
+    {
+      "id": "ml-engine",
+      "title": "ML Engine",
+      "package": "ml_engine",
+      "version": "0.6.1",
+      "repo": "https://github.com/kleberandrade/ml-engine",
+      "lab_url": "https://kleberandrade.github.io/ml-engine/",
+      "package_url": "https://pub.dev/packages/ml_engine",
+      "description": {
+        "pt": "Aprendizado de máquina clássico em Dart: regressão, classificação, agrupamento e pipelines de preparação e avaliação de dados.",
+        "en": "Classical machine learning in Dart: regression, classification, clustering and pipelines for data preparation and evaluation."
+      },
+      "topics": {
+        "pt": [
+          "Regressão e classificação",
+          "K-means",
+          "Pipelines e avaliação"
+        ],
+        "en": [
+          "Regression and classification",
+          "K-means",
+          "Pipelines and evaluation"
+        ]
+      }
+    },
+    {
+      "id": "fuzzy-engine",
+      "title": "Fuzzy Engine",
+      "package": "fuzzy_engine",
+      "version": "0.3.0",
+      "repo": "https://github.com/kleberandrade/fuzzy-engine",
+      "lab_url": "https://kleberandrade.github.io/fuzzy-engine/",
+      "package_url": "https://pub.dev/packages/fuzzy_engine",
+      "description": {
+        "pt": "Inferência fuzzy explicável com regras e modelos Mamdani, Sugeno e Tsukamoto. Explore como as entradas ativam regras e produzem uma decisão.",
+        "en": "Explainable fuzzy inference with rules and Mamdani, Sugeno and Tsukamoto models. Explore how inputs activate rules and produce a decision."
+      },
+      "topics": {
+        "pt": [
+          "Lógica fuzzy",
+          "Regras e pertinência",
+          "Decisões explicáveis"
+        ],
+        "en": [
+          "Fuzzy logic",
+          "Rules and membership",
+          "Explainable decisions"
+        ]
+      }
+    },
+    {
+      "id": "neural-engine",
+      "title": "Neural Engine",
+      "package": "neural_engine",
+      "version": "0.4.0",
+      "repo": "https://github.com/kleberandrade/neural-engine",
+      "lab_url": "https://kleberandrade.github.io/neural-engine/",
+      "package_url": "https://pub.dev/packages/neural_engine",
+      "description": {
+        "pt": "Redes neurais em Dart, com modelos MLP, CNN, SOM e recorrentes, treinamento e persistência de modelos para experiências educacionais.",
+        "en": "Neural networks in Dart, including MLP, CNN, SOM and recurrent models, training and model persistence for educational experiments."
+      },
+      "topics": {
+        "pt": [
+          "Redes neurais",
+          "Treinamento e métricas",
+          "Modelos e checkpoints"
+        ],
+        "en": [
+          "Neural networks",
+          "Training and metrics",
+          "Models and checkpoints"
+        ]
+      }
+    },
+    {
+      "id": "genetic-engine",
+      "title": "Genetic Engine",
+      "package": "genetic_engine",
+      "version": "0.4.0",
+      "repo": "https://github.com/kleberandrade/genetic-engine",
+      "lab_url": "https://kleberandrade.github.io/genetic-engine/",
+      "package_url": "https://pub.dev/packages/genetic_engine",
+      "description": {
+        "pt": "Algoritmos genéticos com genomas, seleção, cruzamento e mutação extensíveis. Compare estratégias de busca em problemas de otimização.",
+        "en": "Genetic algorithms with extensible genomes, selection, crossover and mutation. Compare search strategies on optimization problems."
+      },
+      "topics": {
+        "pt": [
+          "Otimização",
+          "Seleção e operadores",
+          "Estratégias de busca"
+        ],
+        "en": [
+          "Optimization",
+          "Selection and operators",
+          "Search strategies"
+        ]
+      }
+    },
+    {
+      "id": "reinforcement-engine",
+      "title": "Reinforcement Engine",
+      "package": "reinforcement_engine",
+      "version": "0.5.0",
+      "repo": "https://github.com/kleberandrade/reinforcement-engine",
+      "lab_url": "https://kleberandrade.github.io/reinforcement-engine/",
+      "package_url": "https://pub.dev/packages/reinforcement_engine",
+      "description": {
+        "pt": "Aprendizado por reforço tabular em Dart. Explore Q-Learning e SARSA, recompensas, políticas, avaliação e persistência do estado de aprendizado.",
+        "en": "Tabular reinforcement learning in Dart. Explore Q-Learning and SARSA, rewards, policies, evaluation and learning-state persistence."
+      },
+      "topics": {
+        "pt": [
+          "Q-Learning e SARSA",
+          "Políticas e recompensas",
+          "Avaliação e checkpoints"
+        ],
+        "en": [
+          "Q-Learning and SARSA",
+          "Policies and rewards",
+          "Evaluation and checkpoints"
+        ]
+      }
+    },
+    {
+      "id": "decision-engine",
+      "title": "Decision Engine",
+      "package": "decision_engine",
+      "version": "0.3.0",
+      "repo": "https://github.com/kleberandrade/decision-engine",
+      "lab_url": "https://kleberandrade.github.io/decision-engine/",
+      "package_url": "https://pub.dev/packages/decision_engine",
+      "description": {
+        "pt": "Decisões multicritério explicáveis com pesos AHP, soma ponderada, TOPSIS e análise de sensibilidade. Inspecione o caminho até o ranking.",
+        "en": "Explainable multicriteria decisions with AHP weights, weighted sum, TOPSIS and sensitivity analysis. Inspect how the ranking is calculated."
+      },
+      "topics": {
+        "pt": [
+          "Decisão multicritério",
+          "AHP e TOPSIS",
+          "Sensibilidade e rastreabilidade"
+        ],
+        "en": [
+          "Multicriteria decisions",
+          "AHP and TOPSIS",
+          "Sensitivity and traceability"
+        ]
+      }
+    },
+    {
+      "id": "steering-engine",
+      "title": "Steering Engine",
+      "package": "steering_engine",
+      "version": "0.2.1",
+      "repo": "https://github.com/kleberandrade/steering-engine",
+      "lab_url": "https://kleberandrade.github.io/steering-engine/",
+      "package_url": "https://pub.dev/packages/steering_engine",
+      "description": {
+        "pt": "Comportamentos de movimento 2D em Dart: busca de alvo, chegada, caminhos, desvio e movimento em grupo. Experimente forças e composição na simulação.",
+        "en": "2D movement behaviors in Dart: seeking, arriving, paths, avoidance and group movement. Experiment with forces and composition in the simulation."
+      },
+      "topics": {
+        "pt": [
+          "Vetores e movimento",
+          "Simulação 2D",
+          "Composição de comportamentos"
+        ],
+        "en": [
+          "Vectors and movement",
+          "2D simulation",
+          "Behavior composition"
+        ]
+      }
+    }
+  ],
+  "modules": {
+    "01-dart": [
+      {
+        "lab": "steering-engine",
+        "kind": "explore",
+        "activity": {
+          "pt": "Observe um agente no laboratório e identifique posição, velocidade e alvo como valores do domínio. Relacione-os a números e objetos tipados em Dart.",
+          "en": "Observe an agent in the lab and identify position, velocity and target as domain values. Relate them to numbers and typed objects in Dart."
+        },
+        "outcome": {
+          "pt": "Descreva os valores de um cenário e explique a diferença entre a posição atual e o alvo, sem depender de widgets.",
+          "en": "Describe the values in a scenario and explain the difference between the current position and the target without depending on widgets."
+        }
+      },
+      {
+        "lab": "decision-engine",
+        "kind": "explore",
+        "activity": {
+          "pt": "Monte um cenário pequeno com alternativas e critérios. Separe nomes, valores numéricos e pesos antes de discutir o método de ranking.",
+          "en": "Create a small scenario with alternatives and criteria. Separate names, numeric values and weights before discussing the ranking method."
+        },
+        "outcome": {
+          "pt": "Identifique quais dados seriam strings, números e coleções em uma representação Dart do cenário.",
+          "en": "Identify which data would be strings, numbers and collections in a Dart representation of the scenario."
+        }
+      }
+    ],
+    "02-forms": [
+      {
+        "lab": "fuzzy-engine",
+        "kind": "integrate",
+        "activity": {
+          "pt": "No seu aplicativo de estudo, crie um formulário para as entradas de um modelo fuzzy documentado. Valide conversão e domínio antes de chamar o pacote.",
+          "en": "In your study application, create a form for the inputs of a documented fuzzy model. Validate conversion and domain constraints before calling the package."
+        },
+        "outcome": {
+          "pt": "Demonstre uma entrada válida e outra rejeitada, com mensagem no campo e sem executar a inferência para dados inválidos.",
+          "en": "Demonstrate a valid input and a rejected one, with a field message and no inference run for invalid data."
+        }
+      },
+      {
+        "lab": "decision-engine",
+        "kind": "integrate",
+        "activity": {
+          "pt": "Adapte o formulário da aula para editar pesos e valores de critérios. Mantenha a validação e o cálculo de decisão separados da interface.",
+          "en": "Adapt the lesson form to edit weights and criterion values. Keep validation and decision calculation separate from the interface."
+        },
+        "outcome": {
+          "pt": "Teste a regra de validação sem widgets e mostre o ranking somente após uma submissão válida.",
+          "en": "Test the validation rule without widgets and show the ranking only after a valid submission."
+        }
+      }
+    ],
+    "03-layouts": [
+      {
+        "lab": "steering-engine",
+        "kind": "explore",
+        "activity": {
+          "pt": "Use os controles e a visualização de vetores para comparar a apresentação do mesmo cenário em tela ampla e estreita.",
+          "en": "Use the controls and vector visualization to compare the presentation of the same scenario on wide and narrow screens."
+        },
+        "outcome": {
+          "pt": "Liste as informações que precisam permanecer visíveis e demonstre navegação sem perder a simulação pausada.",
+          "en": "List the information that must remain visible and demonstrate navigation without losing the paused simulation."
+        }
+      },
+      {
+        "lab": "neural-engine",
+        "kind": "explore",
+        "activity": {
+          "pt": "Abra uma experiência disponível de rede neural e observe como configuração, treinamento e resultado são apresentados. Revise rótulos, contraste e leitura do gráfico.",
+          "en": "Open an available neural-network experiment and observe how configuration, training and results are presented. Review labels, contrast and chart readability."
+        },
+        "outcome": {
+          "pt": "Proponha uma melhoria de interface apoiada em uma dificuldade observada e explique como preservar o resultado treinado.",
+          "en": "Propose an interface improvement based on an observed difficulty and explain how to preserve the trained result."
+        }
+      }
+    ],
+    "04-apis": [
+      {
+        "lab": "ml-engine",
+        "kind": "integrate",
+        "activity": {
+          "pt": "No estudo de caso HTTP, transforme uma resposta JSON sintética em linhas numéricas validadas antes de entregá-las a um estimador do pacote.",
+          "en": "In the HTTP case study, transform a synthetic JSON response into validated numeric rows before passing them to a package estimator."
+        },
+        "outcome": {
+          "pt": "Teste resposta válida, campo ausente e valor não numérico com um cliente substituível; a falha deve aparecer antes do treinamento.",
+          "en": "Test a valid response, a missing field and a nonnumeric value with a replaceable client; failure must be reported before training."
+        }
+      },
+      {
+        "lab": "decision-engine",
+        "kind": "integrate",
+        "activity": {
+          "pt": "Use uma fonte HTTP de teste para carregar alternativas de um cenário. Converta os dados na fronteira e execute o ranking somente após o carregamento.",
+          "en": "Use a test HTTP source to load alternatives for a scenario. Convert data at the boundary and run the ranking only after loading."
+        },
+        "outcome": {
+          "pt": "Demonstre carregamento, erro e sucesso sem fazer a regra de decisão depender do cliente HTTP.",
+          "en": "Demonstrate loading, failure and success without making the decision rule depend on the HTTP client."
+        }
+      }
+    ],
+    "05-local-data": [
+      {
+        "lab": "neural-engine",
+        "kind": "integrate",
+        "activity": {
+          "pt": "Siga o exemplo de persistência do pacote para salvar um modelo em JSON e restaurá-lo no armazenamento local do aplicativo da aula.",
+          "en": "Follow the package persistence example to save a model as JSON and restore it through the lesson application’s local storage."
+        },
+        "outcome": {
+          "pt": "Compare previsões antes e depois da restauração nas mesmas entradas e trate um documento incompatível sem confirmação falsa de sucesso.",
+          "en": "Compare predictions before and after restoration on the same inputs and handle an incompatible document without falsely reporting success."
+        }
+      },
+      {
+        "lab": "reinforcement-engine",
+        "kind": "integrate",
+        "activity": {
+          "pt": "Salve e restaure o estado de aprendizado pelo formato de checkpoint documentado, mantendo o armazenamento fora do núcleo do agente.",
+          "en": "Save and restore learning state using the documented checkpoint format, keeping storage outside the agent core."
+        },
+        "outcome": {
+          "pt": "Verifique os valores ou a avaliação de uma política fixa após restaurar. Não presuma que a sequência aleatória do treinamento será idêntica.",
+          "en": "Check values or evaluation of a fixed policy after restoring. Do not assume the training random sequence will be identical."
+        }
+      }
+    ],
+    "06-services": [
+      {
+        "lab": "ml-engine",
+        "kind": "explore",
+        "activity": {
+          "pt": "Compare uma experiência de regressão, uma de classificação e uma de agrupamento no laboratório. Observe quais dados e saídas cada tarefa utiliza.",
+          "en": "Compare a regression, classification and clustering experiment in the lab. Observe the data and outputs used by each task."
+        },
+        "outcome": {
+          "pt": "Explique alvo numérico, classe e grupo sem tratar um índice de cluster como rótulo conhecido.",
+          "en": "Explain a numeric target, a class and a cluster without treating a cluster index as a known label."
+        }
+      },
+      {
+        "lab": "neural-engine",
+        "kind": "explore",
+        "activity": {
+          "pt": "Treine um preset disponível de MLP e observe a evolução da função de custo. Compare o efeito de uma mudança de configuração mantendo os mesmos dados.",
+          "en": "Train an available MLP preset and observe the loss curve. Compare the effect of one configuration change while keeping the same data."
+        },
+        "outcome": {
+          "pt": "Registre configuração, dados e resultado; diferencie diminuir o erro de treino de demonstrar generalização.",
+          "en": "Record configuration, data and result; distinguish decreasing training error from demonstrating generalization."
+        }
+      },
+      {
+        "lab": "reinforcement-engine",
+        "kind": "explore",
+        "activity": {
+          "pt": "Compare Q-Learning e SARSA no mesmo cenário e separe a etapa de exploração da avaliação da política aprendida.",
+          "en": "Compare Q-Learning and SARSA in the same scenario and separate exploration from evaluation of the learned policy."
+        },
+        "outcome": {
+          "pt": "Relate recompensas e episódios observados e explique por que recompensa não é uma probabilidade de acerto.",
+          "en": "Report observed rewards and episodes and explain why a reward is not a probability of correctness."
+        }
+      }
+    ],
+    "07-firebase": [
+      {
+        "lab": "decision-engine",
+        "kind": "integrate",
+        "activity": {
+          "pt": "No aplicativo da aula, persista um cenário de alternativas e pesos no emulador Firebase sob o usuário de teste autorizado. O laboratório de decisões não fornece autenticação nem Firebase embutido.",
+          "en": "In the lesson application, persist an alternatives-and-weights scenario in the Firebase emulator under the authorized test user. The decision lab itself does not provide authentication or embedded Firebase."
+        },
+        "outcome": {
+          "pt": "Teste que um segundo usuário não pode alterar o cenário e que o ranking usa somente os dados carregados após a autorização.",
+          "en": "Test that a second user cannot modify the scenario and that ranking uses only the data loaded after authorization."
+        }
+      }
+    ],
+    "08-iot": [
+      {
+        "lab": "fuzzy-engine",
+        "kind": "explore",
+        "activity": {
+          "pt": "Explore as entradas simuladas de um controlador fuzzy documentado e observe a ativação das regras antes de planejar uma integração com sensores.",
+          "en": "Explore the simulated inputs of a documented fuzzy controller and observe rule activation before planning a sensor integration."
+        },
+        "outcome": {
+          "pt": "Registre duas combinações de entrada e a decisão correspondente, identificando o experimento como simulação sem validar sensores reais.",
+          "en": "Record two input combinations and their corresponding decision, identifying the experiment as a simulation rather than validation of real sensors."
+        }
+      },
+      {
+        "lab": "steering-engine",
+        "kind": "explore",
+        "activity": {
+          "pt": "Compare movimentos de chegada e desvio na simulação 2D e descreva como um comando de alto nível difere de uma mensagem MQTT ou Bluetooth.",
+          "en": "Compare arriving and avoidance movement in the 2D simulation and describe how a high-level command differs from an MQTT or Bluetooth message."
+        },
+        "outcome": {
+          "pt": "Defina o limite entre comportamento e transporte e liste quais testes ainda exigiriam o robô e o rádio físicos.",
+          "en": "Define the boundary between behavior and transport and list the tests that would still require a physical robot and radio."
+        }
+      }
+    ],
+    "09-architecture": [
+      {
+        "lab": "genetic-engine",
+        "kind": "integrate",
+        "activity": {
+          "pt": "No seu repositório de estudo, implemente uma função de aptidão para um problema pequeno usando os contratos públicos do pacote. Separe o problema dos operadores de busca.",
+          "en": "In your study repository, implement a fitness function for a small problem using the package’s public contracts. Separate the problem from the search operators."
+        },
+        "outcome": {
+          "pt": "Teste a aptidão com resultados independentes e troque uma estratégia de seleção sem alterar a representação do problema.",
+          "en": "Test fitness against independent expected results and swap a selection strategy without changing the problem representation."
+        }
+      },
+      {
+        "lab": "steering-engine",
+        "kind": "integrate",
+        "activity": {
+          "pt": "Componha comportamentos existentes em um pequeno exemplo Dart, mantendo regras de movimento separadas da renderização Flutter.",
+          "en": "Compose existing behaviors in a small Dart example, keeping movement rules separate from Flutter rendering."
+        },
+        "outcome": {
+          "pt": "Execute um teste pela API pública sem widgets e explique o contrato entre o estado do agente e o comportamento.",
+          "en": "Run a public-API test without widgets and explain the contract between agent state and behavior."
+        }
+      }
+    ],
+    "10-final-project": [
+      {
+        "lab": "ml-engine",
+        "kind": "integrate",
+        "activity": {
+          "pt": "Inclua um modelo simples em uma jornada pequena do trabalho final. Defina os dados de entrada, a preparação e uma forma de avaliação antes de escolher o estimador.",
+          "en": "Include a simple model in a small final-assignment journey. Define input data, preprocessing and an evaluation method before choosing an estimator."
+        },
+        "outcome": {
+          "pt": "Entregue um exemplo reproduzível com dados sintéticos, resultados de avaliação e separação entre treino e teste.",
+          "en": "Deliver a reproducible example with synthetic data, evaluation results and separate training and test data."
+        }
+      },
+      {
+        "lab": "decision-engine",
+        "kind": "integrate",
+        "activity": {
+          "pt": "Acrescente uma escolha multicritério explicável ao domínio do trabalho final, com critérios e pesos apresentados ao usuário.",
+          "en": "Add an explainable multicriteria choice to the final-assignment domain, presenting criteria and weights to the user."
+        },
+        "outcome": {
+          "pt": "Demonstre uma decisão e sua justificativa, com teste da regra e validação dos dados de entrada.",
+          "en": "Demonstrate a decision and its rationale, with a rule test and input validation."
+        }
+      },
+      {
+        "lab": "genetic-engine",
+        "kind": "integrate",
+        "activity": {
+          "pt": "Escolha uma otimização pequena para o trabalho final e documente o genoma, a aptidão, as restrições e o orçamento da busca.",
+          "en": "Choose a small optimization problem for the final assignment and document its genome, fitness, constraints and search budget."
+        },
+        "outcome": {
+          "pt": "Reproduza uma execução com seed e parâmetros registrados e compare o resultado com uma solução de referência, sem prometer ótimo global.",
+          "en": "Reproduce a run with a recorded seed and parameters and compare the result with a reference solution without promising a global optimum."
+        }
+      }
+    ]
+  },
+  "checked_at_utc": "2026-11-18T03:35:12.628286+00:00"
+}

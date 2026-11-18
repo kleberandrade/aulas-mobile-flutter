@@ -7,6 +7,8 @@
 
 [Português brasileiro](README.pt-BR.md) · [Study guide](docs/study-guide.md) · [Books and learning sites](docs/books.md) · [Current case studies](docs/case-studies.md)
 
+**[Seven laboratories and Dart packages](https://kleberandrade.github.io/aulas-mobile-flutter/en/labs/)**, with suggested activities throughout the ten modules.
+
 **Course website:** [Português](https://kleberandrade.github.io/aulas-mobile-flutter/) · [English](https://kleberandrade.github.io/aulas-mobile-flutter/en/)
 
 Course hub for mobile development taught by **Prof. Kleber de Oliveira Andrade** at **Fatec Americana**, in the Systems Analysis and Development program. The course guides retain the original Portuguese teaching language; this page provides an English overview.
@@ -52,4 +54,4 @@ See [Contributing](CONTRIBUTING.md) and [Changelog](CHANGELOG.md). Course by **K
 
 ## Building the website
 
-The [static-site guide](site/README.md) explains the dependency-free build, content sources and GitHub Pages deployment. Run `python3 tools/test_site.py` to build and check all thirty pages. The site includes all fifty exercises in each language; Portuguese modules come directly from `lessons/`, with reviewed English content in `site/content/en.json`.
+The [static-site guide](site/README.md) explains the dependency-free build, content sources and GitHub Pages deployment. Run `python3 tools/test_site.py` to build and check all thirty-two pages. The site includes all fifty exercises in each language; Portuguese modules come directly from `lessons/`, with reviewed English content in `site/content/en.json`.
